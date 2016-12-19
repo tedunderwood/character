@@ -86,3 +86,6 @@ leaves out chicago,
 producing
 collated_hathi_summaries.csv
 
+December 16, 2016
+-----------------
+Rewrote combine_hathi_summaries to work with new metadata (manually corrected for authgender). This produced corrected_hathi_summaries.csv.
