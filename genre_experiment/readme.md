@@ -19,8 +19,10 @@ Since we're talking about less than 5% of the corpus before 1960, it's unlikely 
 
 ![Gender balance by genre](https://github.com/tedunderwood/character/blob/master/genre_experiment/gender_balance_by_genre.jpeg)
 
+The blue-green line there represents the fraction of characterization devoted to women in volumes *not* tagged with any of the genre categories we defined as "genre fiction." The orange line represents the gender balance in "genre fiction."
+
 The sparse data before 1960 makes it difficult to interpret details here. But we can say, generally, that genre fiction (as defined here, and drawn from university libraries) tends to be more biased toward male characters across the twentieth-century timeline we examined. However, the diachronic changes in genre fiction are not, at first glance, dramatically *different* from changes in the rest of the corpus.
 
 So, in short, the data is sparse, categories are hard to define, and our sample is not absolutely stable across time. But we can say at least that we *didn't* find any evidence that would force us to reject the null hypothesis here: which is that there's no particularly strong causal relationship between "the rise of genre fiction" and changes in the gender balance of 20c fiction.
 
-It remains quite possible that something subtler is happening. The masculinist tropes of suspense and adventure fiction might have pervaded the whole dataset -- through writers like Joseph Conrad and Ernest Hemingway — in a way that wouldn't become visible explicitly as "genre fiction."
+It remains quite possible that something subtler is happening. The masculinist tropes of suspense and adventure fiction might have pervaded the whole dataset — through writers like Joseph Conrad and Ernest Hemingway — in a way that wouldn't become visible explicitly as "genre fiction."
