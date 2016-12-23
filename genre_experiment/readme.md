@@ -16,7 +16,7 @@ That a work of genre fiction is any volume tagged by catalogers with one of the 
 
 ![Fraction of genre fiction](https://github.com/tedunderwood/character/blob/master/genre_experiment/fraction_of_genre_fiction.jpeg)
 
-Since we're talking about less than 5% of the corpus before 1960, it's unlikely that genre fiction by itself could be responsible for the declining prominence of women in fiction 1860-1970. (Unless a *whole* lot of volumes were mistakenly left untagged — and visual inspection suggests that the error, which large, isn't large enough to make this sort of difference.) 
+Since we're talking about less than 5% of the corpus before 1960, it's unlikely that genre fiction by itself could be responsible for the declining prominence of women in fiction 1860-1970. (Unless a *whole* lot of volumes were mistakenly left untagged — and visual inspection suggests that the error, while large, isn't large enough to make that sort of difference.) 
 
 But, for whatever it's worth, here's the gender balance in genre fiction compared to the rest of the collection.
 
