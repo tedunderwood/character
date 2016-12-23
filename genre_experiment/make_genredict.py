@@ -26,7 +26,7 @@ with open('../pre23hathi/pre23_character_data.csv', encoding = 'utf-8') as f:
 tocheck = ['/Volumes/TARDIS/work/fullmeta/newmeta/new_pd_google_1.tsv', '/Volumes/TARDIS/work/fullmeta/newmeta/new_pd_google_2.tsv', '/Volumes/TARDIS/work/fullmeta/newmeta/new_pd_google_3.tsv', '/Volumes/TARDIS/work/fullmeta/newmeta/new_oa.tsv', '/Volumes/TARDIS/work/fullmeta/newmeta/new_restricted.tsv',
     '/Volumes/TARDIS/work/fullmeta/ic_monographs.tsv']
 
-genrecats = ['suspense', 'adventure', 'western', 'mystery', 'detective', 'science fiction', 'fantasy']
+genrecats = ['suspense', 'adventure', 'western', 'mystery', 'detective', 'science fiction', 'fantasy', 'horror', 'gothic', 'romance', 'pulp']
 
 doublets = []
 
@@ -52,8 +52,6 @@ for afile in tocheck:
                     if cat in g:
                         genre = 'genre'
                         break
-                if genre == 'none' and 'romance' in g:
-                    genre = 'romance'
                 doublets.append((d, genre))
 
 with open('genredict.csv', mode = 'w', encoding = 'utf-8') as f:
