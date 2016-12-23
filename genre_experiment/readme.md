@@ -9,7 +9,8 @@ Also the concept of "genre fiction" is itself very unstable. Arguably, all forms
 
 That a work of genre fiction is any volume tagged by catalogers with one of the following terms:
 
-    genrecats = ['suspense', 'adventure', 'western', 'mystery', 'detective', 'science fiction', 'fantasy', 'horror', 'gothic', 'romance', 'pulp']
+    genrecats = ['suspense', 'adventure', 'western', 'mystery', 'detective', 
+    'science fiction', 'fantasy', 'horror', 'gothic', 'romance', 'pulp']
 
 Given that definition, there's not a whole lot in the HathiTrust collection before 1990:
 ![Fraction of genre fiction](https://github.com/tedunderwood/character/blob/master/genre_experiment/fraction_of_genre_fiction.jpeg)
