@@ -19,6 +19,6 @@ blogpost
 --------
 R scripts used for visualization in the blog post "The Gender Balance of Fiction, 1800-2007."
 
-vizadata
+vizdata
 --------
 Metadata and data used in an interactive visualization.
