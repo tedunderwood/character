@@ -1,7 +1,9 @@
 metadata for character research
 ===============================
 
-**merged_fiction_metadata** lists 110,041 volumes used in this project, stretching from 1800 to 2007.
+The metadata we're actively using is **filtered_fiction_metadata.csv**, which lists 95,150 volumes, stretching from 1800 to 2007.
+
+**merged_fiction_metadata** is an older version, containing more error.
 
 There is no authoritative master list of "all English-language fiction from 1700 to the present." So scholars who want to do research at scale have to construct their own list.
 
@@ -9,7 +11,11 @@ Doing that by hand might take several decades. University libraries have not rel
 
 We have adopted a probabilistic solution. Using the texts of volumes, as well as existing metadata, we made reasonably good guesses about genre, and assembled a list of works *likely to be* fiction.
 
-That means the list will contain errors: a certain number of volumes that are actually nonfiction.
+That means the list will contain errors: a certain number of volumes that are actually nonfiction, poetry, drama.
+
+Here's an assessment of the error rate, based on manual sampling. You'll notice that the timeline divides into three parts. That's not an accident! This dataset was created in three stages, and Underwood used slightly different filtering mechanisms or tolerances in each stage. The upshot is that the dataset may contain 5% more biographies and travelogues, etc., in the period 1900-1922 than either before or after. If you see a pattern that could be explained by this variation, be wary.
+
+![Error rate by 20-year periods]
 
 The list also includes works in translation. Volumes are dated by date of publication, which is not guaranteed to be the date of *first* publication. We have made an effort to remove duplicates, and books published long after the death of the author. But you will still find works like *The Thousand and One Nights* that were not composed in the period 1800-2007.
 
