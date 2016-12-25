@@ -13,7 +13,7 @@ We have adopted a probabilistic solution. Using the texts of volumes, as well as
 
 That means the list will contain errors: a certain number of volumes that are actually nonfiction, poetry, drama.
 
-Here's an assessment of the error rate, based on manual sampling. You'll notice that the timeline divides into three parts. That's not an accident! This dataset was created in three stages, and Underwood used slightly different filtering mechanisms or tolerances in each stage. The upshot is that the dataset may contain 5% more biographies and travelogues, etc., in the period 1900-1922 than either before or after. If you see a pattern that could be explained by this variation, be wary.
+Here's an assessment of the error rate, based on manual sampling (a random sample of titles were eyeballed, and things clearly not fiction were tagged — raw data in **checkingforerrors.csv**). You'll notice that the timeline divides into three parts. That's not an accident! This dataset was created in three stages, and Underwood used slightly different filtering mechanisms or tolerances in each stage. The upshot is that the dataset may contain 5% more biographies and travelogues, etc., in the period 1900-1922 than either before or after. If you see a pattern that could be explained by this variation, be wary.
 
 ![Error rate by 20-year periods](https://github.com/tedunderwood/character/blob/master/metadata/metadata_error.png)
 
