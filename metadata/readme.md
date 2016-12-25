@@ -15,7 +15,7 @@ That means the list will contain errors: a certain number of volumes that are ac
 
 Here's an assessment of the error rate, based on manual sampling. You'll notice that the timeline divides into three parts. That's not an accident! This dataset was created in three stages, and Underwood used slightly different filtering mechanisms or tolerances in each stage. The upshot is that the dataset may contain 5% more biographies and travelogues, etc., in the period 1900-1922 than either before or after. If you see a pattern that could be explained by this variation, be wary.
 
-![Error rate by 20-year periods]
+![Error rate by 20-year periods](https://github.com/tedunderwood/character/blob/master/metadata/metadata_error.png)
 
 The list also includes works in translation. Volumes are dated by date of publication, which is not guaranteed to be the date of *first* publication. We have made an effort to remove duplicates, and books published long after the death of the author. But you will still find works like *The Thousand and One Nights* that were not composed in the period 1800-2007.
 
