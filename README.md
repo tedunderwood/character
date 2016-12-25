@@ -17,4 +17,8 @@ Aggregated yearly word counts, broken out by author gender and character gender,
 
 blogpost
 --------
-R scripts used for visualization in the blog post "The Underrepresentation of Women in Fiction, 1800-2007."
+R scripts used for visualization in the blog post "The Gender Balance of Fiction, 1800-2007."
+
+vizadata
+--------
+Metadata and data used in an interactive visualization.
