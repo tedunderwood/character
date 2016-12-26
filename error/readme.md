@@ -15,10 +15,10 @@ We don't feel that those variations are likely to explain away the patterns we h
 
 ![Precision and recall for BookNLP](https://github.com/tedunderwood/character/blob/master/error/pronouncheck.jpeg)
 
-The correlation of those two curves is very reassuring.
+The correlation of those two curves is reassuring. (It's not clear why the pronoun ratio is higher; it's possible that women are mentioned in dialogue more than in narration, but there are also lots of other factors that could make the pronoun count misleading.) 
 
-It is also true that BookNLP will not usually see the gender of first-person narrators; if women writers in the 1950s and 60s had been particularly likely to write first-person narrators, who tended to be women, that might explain why fictional women seem to be missing in the period. But in fact, first-person narrators are a pretty small fraction of fictional characters. Moreover, we checked the distribution of first-person pronouns across author gender and date, and find no suspicious signal there.
+Our methods have other blind spots as well. For instance, BookNLP will not usually see the gender of first-person narrators. If women writers in the 1950s and 60s had been particularly likely to write first-person narrators, who tended to be women, that might explain why fictional women seem to be missing in the period. But in fact, first-person narrators are a pretty small fraction of fictional characters. Moreover, we checked the distribution of first-person pronouns across author gender and date, and find no suspicious signal there.
 
-We also considered [sources of error in our metadata, detailed in another folder of the repo.](https://github.com/tedunderwood/character/tree/master/metadata).
+We also considered [sources of error in our metadata, detailed in another folder of the repo.](https://github.com/tedunderwood/character/tree/master/metadata)
 
 In short, there are lots of sources of error in the project, but we don't think they can collectively explain why women lose a fourth of the space on the page they had possessed in the nineteenth century.
