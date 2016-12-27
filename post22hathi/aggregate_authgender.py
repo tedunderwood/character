@@ -1,0 +1,120 @@
+# aggregate_by_authgender.py
+
+import json, csv, os, sys
+
+from collections import Counter
+
+# import utils
+currentdir = os.path.dirname(__file__)
+libpath = os.path.join(currentdir, '../../lib')
+sys.path.append(libpath)
+
+import SonicScrewdriver as utils
+
+volgender = dict()
+voldate = dict()
+volbirth = dict()
+
+with open('post22_corrected_metadata.csv', encoding = 'utf-8') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        volgender[row['docid']] = row['authgender']
+        voldate[row['docid']] = int(row['inferreddate'])
+        volbirth[row['docid']] = int(row['birthdate'])
+
+# Aggregate novels by year.
+
+# characters are going to be divided both by character gender
+# and by author gender, and each of those divisions
+# will count up characters of a particular gender (or words spoken
+# by those characters) for a particular date.
+
+
+# words is further subdivided by the grammatical role of the word,
+# plus a "total" category that aggregates counts for all four roles.
+
+allgenders = ['u', 'f', 'm']
+
+characters = dict()
+words = dict()
+speech = dict()
+
+rolesplustotal = ['agent', 'mod', 'patient', 'poss', 'total']
+
+# of these categories will be divided by (chargender, authgender)
+
+for g1 in allgenders:
+    for g2 in allgenders:
+        characters[(g1, g2)] = Counter()
+        speech[(g1, g2)] = Counter()
+        words[(g1, g2)] = dict()
+        for role in rolesplustotal:
+            words[(g1, g2)][role] = Counter()
+
+print()
+print('Aggregating results by year.')
+
+# Print results while aggregating for the next level.
+
+skipped = 0
+errors = 0
+
+with open('post22_character_data.csv', encoding = 'utf-8') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        docid = row['docid']
+
+        if docid in voldate:
+            date = voldate[docid]
+        else:
+            date = int(row['date'])
+
+        # if docid in volbirth:
+        #     birth = volbirth[docid]
+        # else:
+        #     birth = date - 40
+
+        # if int(date) - 99 > int(birth):
+        #     skipped += 1
+        #     continue
+        #     # this is a reprint of an old book
+
+        if docid in volgender:
+            authgender = volgender[docid]
+        else:
+            authgender = 'u'
+            errors += 1
+
+        role = row['role']
+        count = int(row['count'])
+        chargender = row['gender']
+
+        if role == 'speaking':
+            speech[(chargender, authgender)][date] += count
+        elif role == 'characters':
+            characters[(chargender, authgender)][date] += count
+        else:
+            words[(chargender, authgender)][role][date] += count
+            words[(chargender, authgender)]['total'][date] += count
+            # Each category also gets added to the 'total' category.
+
+
+fields = ['chargender', 'authgender', 'date', 'characters', 'speaking', 'agent', 'mod', 'patient', 'poss', 'total']
+with open('corrected_post22_summary.csv', mode = 'w', encoding = 'utf-8') as f:
+    writer = csv.DictWriter(f, fieldnames = fields)
+    writer.writeheader()
+
+    for chargender in allgenders:
+        for authgender in allgenders:
+            for date in range(1922, 2015):
+                outrow = dict()
+                outrow['chargender'] = chargender
+                outrow['authgender'] = authgender
+                outrow['date'] = date
+                outrow['characters'] = characters[(chargender, authgender)][date]
+                outrow['speaking'] = speech[(chargender, authgender)][date]
+                for role in rolesplustotal:
+                    outrow[role] = words[(chargender, authgender)][role][date]
+                writer.writerow(outrow)
+
+print(skipped)
