@@ -7,9 +7,9 @@ The original texts of many volumes are under copyright, and couldn't be shared e
 
 Right now all the data provided in this repo is aggregated by year; we have not yet made available word counts broken out by volume or by character name,
 
-blogpost
+plot_data
 --------
-R scripts used for visualization in the blog post "The Gender Balance of Fiction, 1800-2007."
+Scripts used to calculate confidence intervals and plot visualizations in the blog post "The Gender Balance of Fiction, 1800-2007."
 
 error
 -----
