@@ -4,7 +4,7 @@
 
 data=read.table("/Users/dbamman/Documents/git/character/blogpost/plot_data/fig1_ci.txt", sep="\t")
 gdf=as.data.frame(data)
-ggplot(gdf, (aes(x=gdf$V1, y=gdf$V3))) + geom_point(size=1) + geom_ribbon(data=gdf, aes(ymin=gdf$V2, ymax=gdf$V4), fill="black", col="blue", alpha=0.2) + xlab("") + ylab("") + ggtitle("Description of women, as a percentage of characterization in fiction") + scale_y_continuous(labels = scales::percent, limits=c(0,.74)) + theme(text = element_text(size = 16))
+ggplot(gdf, (aes(x=gdf$V1, y=gdf$V3))) + geom_point(size=1) + geom_ribbon(data=gdf, aes(ymin=gdf$V2, ymax=gdf$V4), fill="black", col="blue", alpha=0.2) + xlab("") + ylab("") + ggtitle("Description of women, as a percentage of characterization in fiction") + scale_y_continuous(labels = scales::percent, limits=c(0,.7)) + theme(text = element_text(size = 16))
 
 ##
 # FIG 1 + chicago
@@ -13,7 +13,7 @@ chicagodata=read.table("/Users/dbamman/Documents/git/character/blogpost/plot_dat
 chicagodatagdf=as.data.frame(chicagodata)
 data=read.table("/Users/dbamman/Documents/git/character/blogpost/plot_data/fig1_ci.txt", sep="\t")
 gdf=as.data.frame(data)
-ggplot(gdf, (aes(x=gdf$V1))) + geom_point(data=gdf, aes(x=gdf$V1, y=gdf$V3, colour="Hathi"), size=1) + geom_point(data=chicagodatagdf, aes(x=chicagodatagdf$V1, y=chicagodatagdf$V2, colour="Chicago"), size=1)  + xlab("") + ylab("") + ggtitle("Description of women, as a percentage of characterization in fiction") + scale_y_continuous(labels = scales::percent, limits=c(0,.74))  + scale_colour_manual(name="Source", values=c("Hathi"="black","Chicago"="red")) +   theme(text = element_text(size = 16))
+ggplot(gdf, (aes(x=gdf$V1))) + geom_point(data=gdf, aes(x=gdf$V1, y=gdf$V3, colour="Hathi"), size=1) + geom_point(data=chicagodatagdf, aes(x=chicagodatagdf$V1, y=chicagodatagdf$V2, colour="Chicago"), size=1)  + xlab("") + ylab("") + ggtitle("Description of women, as a percentage of characterization in fiction") + scale_y_continuous(labels = scales::percent, limits=c(0,.7))  + scale_colour_manual(name="Source", values=c("Hathi"="black","Chicago"="red")) +   theme(text = element_text(size = 16))
 
 ##
 # Author
@@ -21,7 +21,7 @@ ggplot(gdf, (aes(x=gdf$V1))) + geom_point(data=gdf, aes(x=gdf$V1, y=gdf$V3, colo
 
 data=read.table("/Users/dbamman/Documents/git/character/blogpost/plot_data/author_ci.txt", sep="\t")
 gdf=as.data.frame(data)
-ggplot(gdf, (aes(x=gdf$V1, y=gdf$V3))) + geom_point(size=1) + geom_ribbon(data=gdf, aes(ymin=gdf$V2, ymax=gdf$V4), fill="black", col="blue", alpha=0.2) + xlab("") + ylab("") + ggtitle("Fraction of fiction books written by women") + scale_y_continuous(labels = scales::percent, limits=c(0,.74)) + theme(text = element_text(size = 16))
+ggplot(gdf, (aes(x=gdf$V1, y=gdf$V3))) + geom_point(size=1) + geom_ribbon(data=gdf, aes(ymin=gdf$V2, ymax=gdf$V4), fill="black", col="blue", alpha=0.2) + xlab("") + ylab("") + ggtitle("Fraction of fiction books written by women") + scale_y_continuous(labels = scales::percent, limits=c(0,1)) + theme(text = element_text(size = 16))
 
 
 
