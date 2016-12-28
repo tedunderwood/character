@@ -2477,9 +2477,9 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 14925,uiuo.ark+=13960=t74t6z08z,,"Thomas, Annie,",,1894,,f,v.1,"No hero, but a man"
 14925,uiuo.ark+=13960=t2891j92x,,"Thomas, Annie,",,1894,,f,v.2,"No hero, but a man"
 14925,uiuo.ark+=13960=t81j9rb38,,"Thomas, Annie,",,1894,,f,v.3,"No hero, but a man"
-2475,njp.32101066105519,,"O'Donoghue, Power,",,1868,,u,v. 1,The knave of clubs
-2475,njp.32101066105501,,"O'Donoghue, Power,",,1868,,u,v. 2,The knave of clubs
-9061,mdp.39015063947009,,"O'Donoghue, Power,",,1886,,u,<blank>,Unfairly won
+2475,njp.32101066105519,,"O'Donoghue, Power,",,1868,,f,v. 1,The knave of clubs
+2475,njp.32101066105501,,"O'Donoghue, Power,",,1868,,f,v. 2,The knave of clubs
+9061,mdp.39015063947009,,"O'Donoghue, Power,",,1886,,f,<blank>,Unfairly won
 155,njp.32101036894374,,"Wollstonecraft, Mary,",,1798,,f,<blank>,Memoirs and posthumous works of Mary Wollstonecraft Godwin
 3655,mdp.39015009232102,,"Wollstonecraft, Mary,",,1796,,f,<blank>,Original stories from real life;
 817,uiuo.ark+=13960=t0xp7kn27,,"Pardoe,",,1859,,f,v.1,A life-struggle
@@ -2786,10 +2786,10 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 13540,nyp.33433074916457,,"Bennett,",,1789,,u,v. 2,Agnes de-Courci
 13540,nyp.33433074916440,,"Bennett,",,1789,,u,v. 3,Agnes de-Courci
 13540,nyp.33433074916432,,"Bennett,",,1789,,u,v. 4,Agnes de-Courci
-14419,uiuo.ark+=13960=t14m9ft6z,,"Bennett,",,1806,,u,v.1,Vicissitudes abroad;
-14419,uiuo.ark+=13960=t2697dh52,,"Bennett,",,1806,,u,v.2,Vicissitudes abroad;
-14419,uiuo.ark+=13960=t6pz5gf0t,,"Bennett,",,1806,,u,v.3,Vicissitudes abroad;
-14419,uiuo.ark+=13960=t09w0qc81,,"Bennett,",,1806,,u,v.4,Vicissitudes abroad;
+14419,uiuo.ark+=13960=t14m9ft6z,,"Bennett,",,1806,,f,v.1,Vicissitudes abroad;
+14419,uiuo.ark+=13960=t2697dh52,,"Bennett,",,1806,,f,v.2,Vicissitudes abroad;
+14419,uiuo.ark+=13960=t6pz5gf0t,,"Bennett,",,1806,,f,v.3,Vicissitudes abroad;
+14419,uiuo.ark+=13960=t09w0qc81,,"Bennett,",,1806,,f,v.4,Vicissitudes abroad;
 696,uc1.b3327587,,"Ponsonby, Emily,",,1854,,f,v.1,Edward Willoughby
 696,uc1.b3327588,,"Ponsonby, Emily,",,1854,,f,v.2,Edward Willoughby
 5930,uiuo.ark+=13960=t3nw02p9m,,"Ponsonby, Emily,",,1856,,f,v.1,The young Lord
@@ -7329,15 +7329,15 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 6706,njp.32101068970910,,"Keeler, Ralph,",,1869,,m,<blank>,Gloverson and his silent partners
 10051,uc1.b288541,,"Keeler, Ralph,",,1870,,m,<blank>,Vagabond adventures
 3847,uc2.ark+=13960=t5p845v8s,,"Constant,",,1895,,u,v.002,Recollections of the private life of Napoleon
-13625,uiuo.ark+=13960=t15m6vx5z,,"Spender, John Kent,",,1884,,m,v.1,Mr. Nobody
-13625,uiuo.ark+=13960=t4rj53p7q,,"Spender, John Kent,",,1884,,m,v.2,Mr. Nobody
-13625,uiuo.ark+=13960=t1mg88j00,,"Spender, John Kent,",,1884,,m,v.3,Mr. Nobody
+13625,uiuo.ark+=13960=t15m6vx5z,,"Spender, John Kent,",,1884,,f,v.1,Mr. Nobody
+13625,uiuo.ark+=13960=t4rj53p7q,,"Spender, John Kent,",,1884,,f,v.2,Mr. Nobody
+13625,uiuo.ark+=13960=t1mg88j00,,"Spender, John Kent,",,1884,,f,v.3,Mr. Nobody
 14841,uiuo.ark+=13960=t5m90w22g,,"Spender, John Kent",,1893,,f,v.1,A strange temptation
 14841,uiuo.ark+=13960=t46q2mf4z,,"Spender, John Kent",,1893,,f,v.2,A strange temptation
 14841,uiuo.ark+=13960=t2p56777z,,"Spender, John Kent",,1893,,f,v.3,A strange temptation
-14999,uiuo.ark+=13960=t6ww81j60,,"Spender, John Kent,",,1894,,m,v.1,A modern Quixote
-14999,uiuo.ark+=13960=t96693c56,,"Spender, John Kent,",,1894,,m,v.2,A modern Quixote
-14999,uiuo.ark+=13960=t9p27hw6k,,"Spender, John Kent,",,1894,,m,v.3,A modern Quixote
+14999,uiuo.ark+=13960=t6ww81j60,,"Spender, John Kent,",,1894,,f,v.1,A modern Quixote
+14999,uiuo.ark+=13960=t96693c56,,"Spender, John Kent,",,1894,,f,v.2,A modern Quixote
+14999,uiuo.ark+=13960=t9p27hw6k,,"Spender, John Kent,",,1894,,f,v.3,A modern Quixote
 4650,nyp.33433074911169,,"Murray, Hamilton.",,1860,,m,<blank>,Falkenburg
 13393,uiuo.ark+=13960=t4th92p92,,"Murray, Hamilton.",,1849,,m,v.1,Léonie Vermont
 13393,uiuo.ark+=13960=t39z9qd9w,,"Murray, Hamilton.",,1849,,m,v.2,Léonie Vermont
@@ -7346,7 +7346,7 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 14907,uiuo.ark+=13960=t8kd2g57k,,"Murray, Hamilton.",,1848,,m,v.2,Mildred Vernon;
 14907,uiuo.ark+=13960=t8gf1cd7h,,"Murray, Hamilton.",,1848,,m,v.3,Mildred Vernon;
 6596,nyp.33433084129067,,"Beecher, Henry Ward,",,1875,,m,<blank>,"Norwood, or, Village life in New England"
-9404,njp.32101067707693,,"Beecher, Henry Ward,",,1859,,m,<blank>,From dawn to daylight;
+9404,njp.32101067707693,,"Beecher, Henry Ward,",,1859,,f,<blank>,From dawn to daylight;
 317,njp.32101032249359,,"Prentiss, E.",,1863,,f,<blank>,Little threads;
 460,njp.32101032249342,,"Prentiss, E.",,1874,,f,<blank>,Urbané and his friends
 1556,nnc1.cr00261157,,"Prentiss, E.",,1869,,f,v.1,Little Susy's little servants
@@ -8458,11 +8458,11 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 10142,hvd.32044086801834,,"Tayler, Charles B.",,1828,,m,<blank>,"A fireside book, or, The account of a Christmas spent at Old Court"
 12498,nyp.33433075763734,,"Tayler, Charles B.",,1848,,m,<blank>,"Thankfulness, a narrative"
 13052,nyp.33433075769004,,"Tayler, Charles B.",,1822,,m,<blank>,May you like it
-2256,uc2.ark+=13960=t6c24sm33,,"Mackarness, Henry S.,",,1877,,m,<blank>,Sweet flowers
-2766,nyp.33433074876206,,"Mackarness, Henry S.,",,1853,,m,<blank>,The cloud with the silver lining
-4248,nyp.33433074875810,,"Mackarness, Henry S.,",,1867,,m,<blank>,A ray of light
-7563,nyp.33433074875794,,"Mackarness, Henry S.,",,1856,,m,<blank>,Sibert's wold
-11155,nyp.33433074875828,,"Mackarness, Henry S.,",,1853,,m,<blank>,Influence
+2256,uc2.ark+=13960=t6c24sm33,,"Mackarness, Henry S.,",,1877,,f,<blank>,Sweet flowers
+2766,nyp.33433074876206,,"Mackarness, Henry S.,",,1853,,f,<blank>,The cloud with the silver lining
+4248,nyp.33433074875810,,"Mackarness, Henry S.,",,1867,,f,<blank>,A ray of light
+7563,nyp.33433074875794,,"Mackarness, Henry S.,",,1856,,f,<blank>,Sibert's wold
+11155,nyp.33433074875828,,"Mackarness, Henry S.,",,1853,,f,<blank>,Influence
 11821,wu.89098017668,,P. H. C.,,1890,,f,<blank>,Aimée's marriage
 4299,nyp.33433074859525,,"Griffin, Gerald,",,1836,,m,v. 1-2,Tales of my neighborhood
 7889,hvd.32044086798329,,"Griffin, Gerald,",,1830,,m,v.1,The rivals
@@ -10830,18 +10830,18 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 5605,mdp.39015065444245,,"Madden, Richard Robert,",,1830,,m,v.1,The Mussulman
 5605,mdp.39015065444237,,"Madden, Richard Robert,",,1830,,m,v.2,The Mussulman
 7991,uc2.ark+=13960=t22b9145f,,"Madden, Richard Robert,",,1830,,m,v.3,The Mussulman
-2135,uc2.ark+=13960=t1mg7fz8x,,"Harrison, Burton,",,1890,,m,<blank>,The anglomaniacs
-4223,uc1.b3328891,,"Harrison, Burton,",,1893,,m,<blank>,Sweet bells out of tune
+2135,uc2.ark+=13960=t1mg7fz8x,,"Harrison, Burton,",,1890,,f,<blank>,The anglomaniacs
+4223,uc1.b3328891,,"Harrison, Burton,",,1893,,f,<blank>,Sweet bells out of tune
 5293,nyp.33433068188329,,"Harrison, Burton,",,1887,,f,<blank>,The old-fashioned fairy book
-5530,nc01.ark+=13960=t9z03xf22,,"Harrison, Burton,",,1892,,m,<blank>,Belhaven tales;
-5565,njp.32101072040148,,"Harrison, Burton,",,1899,,m,<blank>,A triple entanglement
-5756,mdp.39015063919313,,"Harrison, Burton,",,1899,,m,<blank>,The circle of a century
-6141,uc2.ark+=13960=t5n874r1g,,"Harrison, Burton,",,1895,,m,<blank>,An errant wooing
-7161,nyp.33433076088016,,"Harrison, Burton,",,1887,,m,<blank>,Bar Harbor days
-7797,nyp.33433076088420,,"Harrison, Burton,",,1894,,m,<blank>,A bachelor maid
-7799,nyp.33433076088115,,"Harrison, Burton,",,1892,,m,<blank>,A daughter of the South
-8858,mdp.39015028746124,,"Harrison, Burton,",,1890,,m,<blank>,Flower de Hundred;
-10896,njp.32101068179223,,"Harrison, Burton,",,1899,,m,<blank>,The Carcellini emerald
+5530,nc01.ark+=13960=t9z03xf22,,"Harrison, Burton,",,1892,,f,<blank>,Belhaven tales;
+5565,njp.32101072040148,,"Harrison, Burton,",,1899,,f,<blank>,A triple entanglement
+5756,mdp.39015063919313,,"Harrison, Burton,",,1899,,f,<blank>,The circle of a century
+6141,uc2.ark+=13960=t5n874r1g,,"Harrison, Burton,",,1895,,f,<blank>,An errant wooing
+7161,nyp.33433076088016,,"Harrison, Burton,",,1887,,f,<blank>,Bar Harbor days
+7797,nyp.33433076088420,,"Harrison, Burton,",,1894,,f,<blank>,A bachelor maid
+7799,nyp.33433076088115,,"Harrison, Burton,",,1892,,f,<blank>,A daughter of the South
+8858,mdp.39015028746124,,"Harrison, Burton,",,1890,,f,<blank>,Flower de Hundred;
+10896,njp.32101068179223,,"Harrison, Burton,",,1899,,f,<blank>,The Carcellini emerald
 116,nyp.33433044608457,,"Wills, W. G.",,1864,,m,<blank>,The wife's evidence
 13544,uiuo.ark+=13960=t8hd8h940,,"Wills, W. G.",,1861,,m,v.1,Notice to quit
 13544,uiuo.ark+=13960=t12n5sm4n,,"Wills, W. G.",,1861,,m,v.2,Notice to quit
@@ -12855,8 +12855,8 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 14570,nyp.33433074876685,,"Keon, Miles Gerald,",,1879,,m,v. 3,Harding the money-spinner
 2538,wu.89098866338,,"Bäärnhielm, E. W.,",,1869,,f,<blank>,Archibald Hamilton
 6763,mdp.39015014674348,,"Meinhold, Wilhelm,",,1844,,m,<blank>,The amber witch;
-137,nyp.33433074854146,,"Fraser, Hugh,",,1898,,u,<blank>,The looms of time
-8827,nyp.33433074854088,,"Fraser, Hugh,",,1899,,u,<blank>,The custom of the country;
+137,nyp.33433074854146,,"Fraser, Hugh,",,1898,,f,<blank>,The looms of time
+8827,nyp.33433074854088,,"Fraser, Hugh,",,1899,,f,<blank>,The custom of the country;
 5364,nyp.33433076092265,,"Sheldon, Charles Monroe,",,1898,,m,<blank>,Malcom Kirk
 6723,mdp.39015059435795,,"Sheldon, Charles Monroe,",,1899,,m,<blank>,For Christ and the church
 8368,mdp.39015063952660,,"Sheldon, Charles Monroe,",,1898,,m,<blank>,Richard Bruce;
@@ -13689,7 +13689,7 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 8373,hvd.32044080917347,,"M'Henry, James,",,1824,,m,<blank>,"O'Halloran, or The insurgent chief"
 8374,hvd.hnqjxl,,"M'Henry, James,",,1830,,m,<blank>,The betrothed of Wyoming
 11631,wu.89038372280,,"M'Henry, James,",,1823,,m,1-2,"The spectre of the forest, or Annals of the Housatonic"
-11719,mdp.39015031474979,,"Carey, Martha (Ward),",,1887,,u,<blank>,Fairy legends of the French provinces
+11719,mdp.39015031474979,,"Carey, Martha (Ward),",,1887,,f,<blank>,Fairy legends of the French provinces
 2131,hvd.hx4xas,,"Mayo, Sarah C. Edgarton",,1838,,f,<blank>,The palfreys
 3038,uc2.ark+=13960=t87h1f904,,"Garland, Hamlin,",,1897,,m,<blank>,A spoil of office
 6837,mdp.39015003681999,,"Garland, Hamlin,",,1892,,m,<blank>,"A little Norsk; or, Ol' pap's Flaxen"
@@ -14794,7 +14794,7 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 9361,uc2.ark+=13960=t21c1w754,,"Paston, George,",,1897,,m,<blank>,The career of Candida
 1415,njp.32101067707545,,"Blake, M. M.",,1895,,u,<blank>,Courtship by command
 3271,uc1.b112587,,"Blake, M. M.",,1893,,u,<blank>,The siege of Norwich Castle
-1435,mdp.39015063938669,,"Humphrey, Frank Pope.",,1892,,m,<blank>,A New England cactus
+1435,mdp.39015063938669,,"Humphrey, Frank Pope.",,1892,,f,<blank>,A New England cactus
 5574,nyp.33433076084411,,"Humphrey, Frank Pope,",,1898,,f,<blank>,Phoebe Tilson
 302,nyp.33433074968243,,"Dougall, L.",,1895,,u,<blank>,A question of faith
 831,mdp.39015063512332,,"Dougall, L.",,1893,,u,<blank>,Beggars all
@@ -16982,7 +16982,7 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 5500,mdp.39015034797020,,"Campbell, John,",,1862,,m,<blank>,Lost among the Affghans
 12838,uc2.ark+=13960=t6348j533,,"Morgan, Nathan Denison,",,1866,,m,<blank>,George Cardwell
 3512,nyp.33433074800826,,"Alien,",,1897,,u,<blank>,In golden shackles
-3779,nyp.33433074800800,,"Alien,",,1899,,u,<blank>,The untold half
+3779,nyp.33433074800800,,"Alien,",,1899,,f,<blank>,The untold half
 5995,nyp.33433075756753,,"Stearns, J. N.",,1860,,u,<blank>,Merry's book of travel and adventure
 8526,nyp.33433082444211,,"Hare, Francis Augustus.",,1895,,m,<blank>,The last of the bushrangers
 12517,njp.32101068972510,,"Lancaster, Albert Edmund.",,1889,,m,<blank>, All's dross but love.
@@ -17421,7 +17421,7 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 4460,loc.ark+=13960=t9c544012,,"Field, George Washington. [old catalog heading]",,1878,,m,<blank>,The camp ground;
 954,nc01.ark+=13960=t24b3w40q,,"Shelton, W. H.",,1895,,m,<blank>,A man without a memory
 5376,uc2.ark+=13960=t4th8c389,,"Shelton, W. H.",,1897,,m,<blank>,The last three soldiers
-11089,hvd.hn6gu9,,"Turner,",,1807,,u,<blank>,The daisy
+11089,hvd.hn6gu9,,"Turner,",,1807,,f,<blank>,The daisy
 3264,nyp.33433074970652,,"Chatelain, Clara de,",,1870,,f,<blank>,Truly noble
 10177,nc01.ark+=13960=t0ft95w26,,"Louisiana,",,1885,,m,<blank>, Blue and gray ;
 6380,mdp.39015059413222,,"James, Samuel Humphreys,",,1889,,m,<blank>,A woman of New Orleans
@@ -18081,7 +18081,7 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 9864,uc2.ark+=13960=t3513vb6c,,"Wilson, Anna May.",,1897,,f,<blank>,The days of Mohammed
 93,nyp.33433074791108,,"Fidfaddy, Frederick Augustus.",,1816,,m,<blank>,The adventures of Uncle Sam
 11199,nyp.33433082525944,,"Gouraud, Julie,",,1869,,f,<blank>,A little boy's story
-527,wu.89098854359,,"Munroe, N. T.,",,1847,,u,<blank>,"Is it a small thing?, or, Individual reform"
+527,wu.89098854359,,"Munroe, N. T.,",,1847,,f,<blank>,"Is it a small thing?, or, Individual reform"
 6602,nyp.33433075868699,,"Aho, Juhani,",,1893,,m,<blank>,Squire Hellman and other stories. [Translated from the Finnish by R. Nisbet Bain]
 10739,nyp.33433074936299,,"Barnard, Frederick,",,1883,,m,<blank>,Behind a brass knocker;
 6089,mdp.39015063551496,,"Ellwanger, George H.",,1892,,m,<blank>,In gold and silver
@@ -18398,7 +18398,7 @@ docid,volid,recordid,author,firstname,inferreddate,birthdate,authgender,enumcron
 41,mdp.39015065928726,,"Kovalevskai︠a︡, S. V.",,1895,,f,<blank>,Sonya Kovalevsky
 10747,inu.30000047594043,,"Davis, Lucius Daniel,",,1857,,m,<blank>,The itinerant side;
 12416,uc2.ark+=13960=t22b8vn9n,,"Moore, M. A.",,1861,,u,<blank>,Dinah
-6838,nyp.33433074962691,,"Turnbull, Francese Hubbard Litchfield,",,1893,,m,<blank>,Val-Maria
+6838,nyp.33433074962691,,"Turnbull, Francese Hubbard Litchfield,",,1893,,f,<blank>,Val-Maria
 12268,yale.39002018496662,,"Cisneros, Evangelina.",,1898,,f,<blank>,The story of Evangelina Cisneros
 352,nnc1.cu58360115,,"Sturgis, Rebecca Forbes.",,1881,,f,<blank>,The price of life
 1184,uc1.b3327609,,"Preston, Margaret Junkin,",,1856,,f,<blank>,Silverwood
@@ -20018,7 +20018,7 @@ uc2.ark+=13960=t06w97p97,uc2.ark+=13960=t06w97p97,007670106,"Pennell, Alice M.",
 pst.000005331765,pst.000005331765,009420641,"Thackeray, William Makepeace,",William Makepeace,1900,,m,<blank>,"The Hoggarty diamonds, etc"
 uc2.ark+=13960=t9474gs0j,uc2.ark+=13960=t9474gs0j,007922915,"Spofford, Harriet Elizabeth Prescott,",Harriet Elizabeth Prescott,1900,,f,<blank>,"Old Madame, & other tragedies"
 nyp.33433076050420,nyp.33433076050420,008661546,"Muir, Olive Beatrice.",Olive Beatrice,1900,,f,<blank>,With malice toward none
-uc2.ark+=13960=t4xg9fs63,uc2.ark+=13960=t4xg9fs63,007675153,"Turnbull, Francese Hubbard Litchfield.",Francese Hubbard Litchfield,1900,,m,<blank>,The golden book of Venice;
+uc2.ark+=13960=t4xg9fs63,uc2.ark+=13960=t4xg9fs63,007675153,"Turnbull, Francese Hubbard Litchfield.",Francese Hubbard Litchfield,1900,,f,<blank>,The golden book of Venice;
 uc1.b3324262,uc1.b3324262,006130867,"Edwards, Harry Stillwell,",Harry Stillwell,1900,,m,<blank>,"Two runaways, and other stories;"
 nnc1.1000014257,nnc1.1000014257,008402805,"How, Louis,",Louis,1900,,m,<blank>,The penitentes of San Rafael
 nyp.33433074847876,nyp.33433074847876,008657665,"Ewell, A. M.",A. M,1900,,u,<blank>,A white guard to Satan;
@@ -20535,7 +20535,7 @@ mdp.39015063925583,mdp.39015063925583,000209186,"Richards, Laura Elizabeth Howe,
 nyp.33433076048267,nyp.33433076048267,000209296,"Richards, Laura Elizabeth Howe,",Laura Elizabeth Howe,1908,,f,<blank>,The wooing of Calvin Parks
 uc2.ark+=13960=t6vx0884b,uc2.ark+=13960=t6vx0884b,000209321,"Kraft, Irma.",Irma,1915,,f,<blank>,The power of Purim
 mdp.39015030760980,mdp.39015030760980,000229861,"MacGrath, Harold,",Harold,1919,,m,<blank>,The Yellow Typhoon
-bc.ark+=13960=t6tx3tq53,bc.ark+=13960=t6tx3tq53,000234618,"O'Connor, T. P.,",T. P,1918,,m,<blank>,Herself--Ireland
+bc.ark+=13960=t6tx3tq53,bc.ark+=13960=t6tx3tq53,000234618,"O'Connor, T. P.,",T. P,1918,,f,<blank>,Herself--Ireland
 uc2.ark+=13960=t7kp7zf2x,uc2.ark+=13960=t7kp7zf2x,000235270,"Hale, Louise Closser,",Louise Closser,1920,,f,<blank>,An American's London
 uc2.ark+=13960=t8mc8tg9z,uc2.ark+=13960=t8mc8tg9z,000235391,"Pennell, Elizabeth Robins,",Elizabeth Robins,1910,,f,<blank>,Our house and the people in it
 uc1.$b753574,uc1.$b753574,000235636,"[Menzies, Amy Charlotte (Bewicke)",Amy Charlotte Bewicke,1918,,f,<blank>,Further indiscretions
@@ -20544,7 +20544,7 @@ nyp.33433082172010,nyp.33433082172010,000236095,"Abbott, Avery.",Avery,1912,,m,<
 mdp.39015073494380,mdp.39015073494380,000236584,"Todd, Marion Marsh.",Marion Marsh,1902,,u,<blank>,Claudia
 uc2.ark+=13960=t0dv1fk8c,uc2.ark+=13960=t0dv1fk8c,000237209,"Ryus, William Henry,",William Henry,1913,,m,<blank>,The second William Penn
 uc2.ark+=13960=t1ng4jp2v,uc2.ark+=13960=t1ng4jp2v,000239938,"Cobb, Irvin S.",Irvin S,1914,,m,<blank>,Roughing it de luxe
-mdp.39015008425590,mdp.39015008425590,000240128,"Lowenberg, I.,",I,1920,,u,<blank>,The voices
+mdp.39015008425590,mdp.39015008425590,000240128,"Lowenberg, I.,",I,1920,,f,<blank>,The voices
 mdp.39015012355502,mdp.39015012355502,000240293,"Lowndes, Marie Belloc,",Marie Belloc,1917,,f,<blank>,Love and hatred
 nyp.33433074878954,nyp.33433074878954,000240312,"Lucas, St. John,",St. John,1917,,m,<blank>,April folly
 mdp.39015063942349,mdp.39015063942349,000240316,"Lucas, St. John,",St. John,1921,,m,<blank>,The plunge
@@ -20788,10 +20788,10 @@ mdp.39015063543527,mdp.39015063543527,000281796,"Brown, William Garrott,",Willia
 mdp.39015063516960,mdp.39015063516960,000281825,"Brokaw, Estella (Bachman)",Estella Bachman,1909,,f,<blank>,The soul of the world
 mdp.39015063602612,mdp.39015063602612,000281961,"Baker, Ray Stannard,",Ray Stannard,1920,,m,<blank>,Great possessions
 nyp.33433074790258,nyp.33433074790258,000282130,"Baker, Ray Stannard,",Ray Stannard,1913,,m,<blank>,The friendly road;
-nyp.33433074835707,nyp.33433074835707,000282235,"Bartley, Nalbro Isadorah,",Nalbro Isadorah,1920,,u,<blank>,The gray angels
+nyp.33433074835707,nyp.33433074835707,000282235,"Bartley, Nalbro Isadorah,",Nalbro Isadorah,1920,,f,<blank>,The gray angels
 njp.32101064786856,njp.32101064786856,000282238,"Barber, Margaret Fairless,",Margaret Fairless,1905,,u,<blank>,The grey brethren and other fragments in prose and verse
-nyp.33433074936836,nyp.33433074936836,000282239,"Bartley, Nalbro Isadorah,",Nalbro Isadorah,1917,,u,<blank>,Paradise auction
-nyp.33433074828132,nyp.33433074828132,000282245,"Bartley, Nalbro Isadorah,",Nalbro Isadorah,1919,,u,<blank>,A woman's woman
+nyp.33433074936836,nyp.33433074936836,000282239,"Bartley, Nalbro Isadorah,",Nalbro Isadorah,1917,,f,<blank>,Paradise auction
+nyp.33433074828132,nyp.33433074828132,000282245,"Bartley, Nalbro Isadorah,",Nalbro Isadorah,1919,,f,<blank>,A woman's woman
 mdp.39015063915667,mdp.39015063915667,000282247,"Barton, George,",George,1918,,m,<blank>,The mystery of the red flame
 mdp.39015063915626,mdp.39015063915626,000282372,"[Bartlett, Frederick Orin]",Frederick Orin],1911,,m,<blank>,One way out;
 mdp.39015063542032,mdp.39015063542032,000282418,"Beckett, Arthur,",Arthur,1907,,m,<blank>,Emancipation
@@ -21074,7 +21074,7 @@ uc2.ark+=13960=t26977j6x,uc2.ark+=13960=t26977j6x,000369284,"Smith, Frank Berkel
 uc1.32106001464517,uc1.32106001464517,000369662,"Simmons, Edward,",Edward,1922,,m,<blank>,From seven to seventy;
 mdp.39015001790107,mdp.39015001790107,000370613,"Dos Passos, John,",John,1920,,m,<blank>,One man's initiation--1917
 loc.ark+=13960=t7np2xm6d,loc.ark+=13960=t7np2xm6d,000376640,"Cipriani, Lisi Cecilia.",Lisi Cecilia,1907,,f,<blank>,A Tuscan childhood
-mdp.39015066992135,mdp.39015066992135,000377190,"Grant, Colquhoun,",Colquhoun,1912,,u,<blank>,Through Dante's land;
+mdp.39015066992135,mdp.39015066992135,000377190,"Grant, Colquhoun,",Colquhoun,1912,,f,<blank>,Through Dante's land;
 mdp.39015005213262,mdp.39015005213262,000377952,"Steegmann, Mary G.",Mary G,1913,,f,<blank>,Bianca Cappello
 inu.30000054472703,inu.30000054472703,000378388,"Turgenev, Ivan Sergeevich,",Ivan Sergeevich,1903,,m,<blank>,The novels and stories of Iván Turgénieff
 mdp.39015008594338,mdp.39015008594338,000379127,"Lawrence, D. H.",D. H,1921,,m,<blank>,Sea and Sardinia
@@ -21262,7 +21262,7 @@ nyp.33433074870639,nyp.33433074870639,000449618,"[Higginbotham, John C.]",John C
 mdp.39015012337849,mdp.39015012337849,000449653,"Haskell, Helen Eggleston.",Helen Eggleston,1915,,f,<blank>,Katrinka;
 mdp.39015063931870,mdp.39015063931870,000449710,"Hobart, George V.",George V,1904,,m,<blank>,I need the money
 mdp.39015063931730,mdp.39015063931730,000449712,"Hobart, George V.",George V,1905,,m,<blank>,You can search me
-nyp.33433076076318,nyp.33433076076318,000449714,"Haskell, Oreola (Williams),",Oreola Williams,1920,,m,<blank>,Banner bearers;
+nyp.33433076076318,nyp.33433076076318,000449714,"Haskell, Oreola (Williams),",Oreola Williams,1920,,f,<blank>,Banner bearers;
 mdp.39015063931888,mdp.39015063931888,000449715,"Hobson, Coralie,",Coralie,1919,,f,<blank>,The revolt of youth
 mdp.39015021100931,mdp.39015021100931,000449728,"Hodder, Alfred,",Alfred,1901,,u,<blank>,The new Americans
 mdp.39015063923307,mdp.39015063923307,000449730,"Hayes, Hiram Wallace,",Hiram Wallace,1908,,m,<blank>,"Paul Anthony, Christian"
@@ -21395,7 +21395,7 @@ mdp.39015010695024,mdp.39015010695024,000539413,"Delafield, E. M.,",E. M,1919,,f
 mdp.39015031231601,mdp.39015031231601,000539437,"Delafield, E. M.,",E. M,1921,,f,<blank>,The heel of Achilles
 nyp.33433074904768,nyp.33433074904768,000555998,"Montgomery, L. M.",L. M,1921,,f,<blank>,Rilla of Ingleside
 mdp.39015031231585,mdp.39015031231585,000557494,"Delafield, E. M.,",E. M,1922,,f,<blank>,Humbug
-mdp.39015031231544,mdp.39015031231544,000557585,"De La Pasture, Henry,",Henry,1911,,m,<blank>,Master Christopher
+mdp.39015031231544,mdp.39015031231544,000557585,"De La Pasture, Henry,",Henry,1911,,f,<blank>,Master Christopher
 nyp.33433022846897,nyp.33433022846897,000559069,"Rasmussen, Knud,",Knud,1921,,u,<blank>,Eskimo folk-tales
 yale.39002002319573,yale.39002002319573,000559072,"McLaughlin, Marie L.,",Marie L,1916,,f,<blank>,Myths and legends of the Sioux
 loc.ark+=13960=t8hd7zb6d,loc.ark+=13960=t8hd7zb6d,000559249,"Schultz, James Willard,",James Willard,1916,,m,<blank>,Blackfeet tales of Glacier national park
@@ -21699,9 +21699,9 @@ mdp.39015048889813,mdp.39015048889813,000927410,"Louthan, Hattie Horner,",Hattie
 uc2.ark+=13960=t4sj1fg8f,uc2.ark+=13960=t4sj1fg8f,000930462,"Bashford, H. H.",H. H,1914,,m,<blank>,Vagabonds in Périgord
 mdp.39015069768854,mdp.39015069768854,000942428,"O'Brien, Nora Connolly.",Nora Connolly,1918,,f,<blank>,The unbroken tradition
 mdp.39015063524923,mdp.39015063524923,000950190,"Castle, Agnes,",Agnes,1903,,f,<blank>,The star dreamer
-uc2.ark+=13960=t1rf5p772,uc2.ark+=13960=t1rf5p772,000953044,"Van Vorst, John,",John,1903,,m,<blank>,The woman who toils
+uc2.ark+=13960=t1rf5p772,uc2.ark+=13960=t1rf5p772,000953044,"Van Vorst, John,",John,1903,,f,<blank>,The woman who toils
 uiuo.ark+=13960=t0js9tn6f,uiuo.ark+=13960=t0js9tn6f,000953059,"Donovan, Frances R.,",Frances R,1920,,f,<blank>,The woman who waits
-nyp.33433075936892,nyp.33433075936892,000955419,"Bacon, Albion Fellows,",Albion Fellows,1914,,m,<blank>,Beauty for ashes
+nyp.33433075936892,nyp.33433075936892,000955419,"Bacon, Albion Fellows,",Albion Fellows,1914,,f,<blank>,Beauty for ashes
 uc2.ark+=13960=t9s17w588,uc2.ark+=13960=t9s17w588,000956086,"Walker, Charles R.",Charles R,1922,,m,<blank>,Steel; the diary of a furnace worker
 uc2.ark+=13960=t90865v2j,uc2.ark+=13960=t90865v2j,000956433,"Williams, Whiting,",Whiting,1920,,u,<blank>,What's on the worker's mind
 uc2.ark+=13960=t3rv0k37t,uc2.ark+=13960=t3rv0k37t,000966012,"Chekhov, Anton Pavlovich,",Anton Pavlovich,1917,,m,<blank>,"The lady with the dog, and other stories"
@@ -21738,7 +21738,7 @@ uva.x000360194,uva.x000360194,001014870,"Gueullette, Thomas-Simon,",Thomas-Simon
 uc1.$b717533,uc1.$b717533,001015561,"Rolland, Romain,",Romain,1919,,m,<blank>,Colas Breugnon
 mdp.39015067208515,mdp.39015067208515,001015976,"Cervantes Saavedra, Miguel de,",Miguel de,1909,,m,<blank>,The first part of the delightful history of the most ingenious knight Don Quixote of the Mancha
 nyp.33433075866735,nyp.33433075866735,001016143,"Rizal, José,",José,1912,,m,<blank>,The social cancer;
-nyp.33433074914205,nyp.33433074914205,001018086,"Britton, Fay Adams,",Fay Adams,1907,,u,<blank>,Shakespearian fairy tales
+nyp.33433074914205,nyp.33433074914205,001018086,"Britton, Fay Adams,",Fay Adams,1907,,f,<blank>,Shakespearian fairy tales
 uc2.ark+=13960=t06w97f4p,uc2.ark+=13960=t06w97f4p,001018492,"Sterling, Sara Hawks.",Sara Hawks,1905,,u,<blank>,Shake-speares sweetheart
 mdp.39015049767489,mdp.39015049767489,001020045,"Montague, C. E.",C. E,1913,,u,<blank>,The morning's war;
 uc2.ark+=13960=t0tq5ww18,uc2.ark+=13960=t0tq5ww18,001020328,"Galsworthy, John,",John,1913,,m,<blank>,The dark flower
@@ -22024,7 +22024,7 @@ uc2.ark+=13960=t2g739366,uc2.ark+=13960=t2g739366,001257566,"Cooper, Elizabeth,"
 mdp.39015027069171,mdp.39015027069171,001258798,"Landor, Arnold Henry Savage,",Arnold Henry Savage,1910,,m,<blank>,An explorer's adventures in Tibet
 mdp.39015012334531,mdp.39015012334531,001259594,"Weeks, John H.",John H,1911,,m,<blank>,Congo life and folklore
 uc2.ark+=13960=t26972z29,uc2.ark+=13960=t26972z29,001262695,"Hueffer, Oliver Madox,",Oliver Madox,1913,,m,<blank>,A vagabond in New York
-uc2.ark+=13960=t2t43n16h,uc2.ark+=13960=t2t43n16h,001263353,"O'Connor, T. P.,",T. P,1913,,m,<blank>,My beloved South
+uc2.ark+=13960=t2t43n16h,uc2.ark+=13960=t2t43n16h,001263353,"O'Connor, T. P.,",T. P,1913,,f,<blank>,My beloved South
 uva.x000531120,uva.x000531120,001264328,"Ripley, Eliza,",Eliza,1912,,f,<blank>,"Social life in old New Orleans, being recollections of my girlhood"
 loc.ark+=13960=t1vd74m1t,loc.ark+=13960=t1vd74m1t,001264899,"Reed, Earl H.",Earl H,1920,,m,<blank>,Tales of a vanishing river
 mdp.39015021559482,mdp.39015021559482,001264995,"McIlvaine, Mabel.",Mabel,1915,,f,<blank>,Reminiscences of Chicago during the great fire
@@ -22052,7 +22052,7 @@ inu.39000005875666,inu.39000005875666,001276865,"Bompas, Cecil Henry",Cecil Henr
 uc2.ark+=13960=t4wh2h41c,uc2.ark+=13960=t4wh2h41c,001276868,"Dahlke, Paul,",Paul,1913,,m,<blank>,Buddhist stories
 wu.89057385544,wu.89057385544,001276871,"Dracott, Alice Elizabeth,",Alice Elizabeth,1906,,f,<blank>,Simla village tales;
 mdp.39015058385496,mdp.39015058385496,001276888,"Jethabhai, Ganeshji.",Ganeshji,1903,,u,<blank>,Indian folklore (being a collection of tales illustrating the customs and manners of the Indian people.)
-inu.30000118322431,inu.30000118322431,001276901,"Rafy, K U .",K U,1920,,u,<blank>,Folk-tales of the Khasis
+inu.30000118322431,inu.30000118322431,001276901,"Rafy, K U .",K U,1920,,f,<blank>,Folk-tales of the Khasis
 uc2.ark+=13960=t13n23b6x,uc2.ark+=13960=t13n23b6x,001277003,"Cole, Mabel Cook,",Mabel Cook,1916,,f,<blank>,Philippine folk tales
 uc2.ark+=13960=t52f7x33w,uc2.ark+=13960=t52f7x33w,001277009,"Brown, B. H.",B. H,1922,,u,<blank>,Chinese nights entertainments;
 inu.30000070191683,inu.30000070191683,001277011,"Macgowan, J.",J,1910,,u,<blank>,Chinese folk-lore tales
@@ -22597,7 +22597,7 @@ uc2.ark+=13960=t7kp7wg4h,uc2.ark+=13960=t7kp7wg4h,002973853,"Kelley, Ethel May,"
 mdp.39076005050021,mdp.39076005050021,002975489,"Ellett, Frank Gates,",Frank Gates,1912,,m,<blank>,A modern Hamilton
 mdp.39015034032949,mdp.39015034032949,002976797,"Marx, Magdeleine.",Magdeleine,1921,,u,<blank>,You
 inu.32000011255025,inu.32000011255025,002979957,"Loliée, Frédéric,",Frédéric,1910,,u,<blank>,The gilded beauties of the second empire
-inu.32000011048974,inu.32000011048974,003014286,"Older, Fremont,",Fremont,1903,,m,<blank>,The socialist and the prince
+inu.32000011048974,inu.32000011048974,003014286,"Older, Fremont,",Fremont,1903,,f,<blank>,The socialist and the prince
 nyp.33433076039753,nyp.33433076039753,003025371,"Sinclair, Upton,",Upton,1906,,m,<blank>,A captain of industry
 uc2.ark+=13960=t2599z73k,uc2.ark+=13960=t2599z73k,003025454,"London, Jack,",Jack,1908,,m,<blank>,The iron heel
 loc.ark+=13960=t28923d85,loc.ark+=13960=t28923d85,003035635,"Gregory,",Gregory,1922,,m,<blank>,The image and other plays
@@ -22639,7 +22639,7 @@ mdp.39015071622653,mdp.39015071622653,003151004,"Tateum, William Aldrich.",Willi
 nyp.33433076039639,nyp.33433076039639,003151046,"Skinner, Henrietta Channing Dana,",Henrietta Channing Dana,1901,,f,<blank>,Heart and soul;
 mdp.39015071164878,mdp.39015071164878,003152879,"Abrey, Daniel.",Daniel,1903,,m,<blank>,Reminiscences
 uiuo.ark+=13960=t6445kq7s,uiuo.ark+=13960=t6445kq7s,003154728,"Ludlow, Will Cumback,",Will Cumback,1911,,m,<blank>,Onawago ;
-uc2.ark+=13960=t53f4m27t,uc2.ark+=13960=t53f4m27t,003161013,"Older, Fremont,",Fremont,1911,,m,<blank>,Esther Damon
+uc2.ark+=13960=t53f4m27t,uc2.ark+=13960=t53f4m27t,003161013,"Older, Fremont,",Fremont,1911,,f,<blank>,Esther Damon
 uc2.ark+=13960=t5p845s5f,uc2.ark+=13960=t5p845s5f,003161029,"Post, Emily,",Emily,1909,,f,<blank>,The title market
 mdp.39015041025696,mdp.39015041025696,003161115,"Surbridge, Agnes.",Agnes,1904,,u,<blank>,The confessions of a club woman
 mdp.39015041025894,mdp.39015041025894,003161116,"Phelps, Guy Fitch,",Guy Fitch,1910,,m,<blank>,Ethel Vale
@@ -22808,7 +22808,7 @@ wu.89094608734,wu.89094608734,005783666,"Zimmern, Alice,",Alice,1906,,f,<blank>,
 wu.89094611258,wu.89094611258,005783804,"Levinger, Elma Ehrlich,",Elma Ehrlich,1920,,f,<blank>,Playmates in Egypt
 loc.ark+=13960=t83j3vt91,loc.ark+=13960=t83j3vt91,005789480,"Washington, Amanda Alcenia Strickland,",Amanda Alcenia Strickland,1907,,f,<blank>,How Beauty was saved
 loc.ark+=13960=t34173c20,loc.ark+=13960=t34173c20,005789517,"Monckton, Elizabeth,",Elizabeth,1904,,f,<blank>,The white canoe
-wu.89098878143,wu.89098878143,005789573,"De Saussure, N. B.",N. B,1909,,u,<blank>,Old plantation days;
+wu.89098878143,wu.89098878143,005789573,"De Saussure, N. B.",N. B,1909,,f,<blank>,Old plantation days;
 wu.89098880008,wu.89098880008,005789602,"Epley, Anna P.,",Anna P,1900,,f,<blank>,A modern Herculaneum
 wu.89098878200,wu.89098878200,005789611,"Hill, Emma Shepard.",Emma Shepard,1914,,f,<blank>,A dangerous crossing and what happened on the other side
 nyp.33433067352165,nyp.33433067352165,005789618,"Percival, Olive,",Olive,1901,,u,<blank>,Mexico City
@@ -23231,7 +23231,7 @@ uc2.ark+=13960=fk3319s85n,uc2.ark+=13960=fk3319s85n,006155824,"Stockton, Frank R
 uc2.ark+=13960=fk8gf0nc60,uc2.ark+=13960=fk8gf0nc60,006155825,"Stockton, Frank R.,",Frank R,1903,,m,<blank>,A chosen few;
 uc1.b4104349,uc1.b4104349,006155829,"Rolfe, Frederick,",Frederick,1901,,m,<blank>,In his own image
 uc1.b4104446,uc1.b4104446,006155873,"Darrow, Clarence,",Clarence,1904,,m,<blank>,Farmington
-uc1.b4104559,uc1.b4104559,006155927,"Collins, E. Burke,",E. Burke,1902,,u,<blank>,"No mother to guide her; or, A fatal step"
+uc1.b4104559,uc1.b4104559,006155927,"Collins, E. Burke,",E. Burke,1902,,f,<blank>,"No mother to guide her; or, A fatal step"
 uc2.ark+=13960=fk8nc5sv2h,uc2.ark+=13960=fk8nc5sv2h,006155940,"Sheldon, Lurana W.",Lurana W,1908,,u,<blank>,For love or gold?
 uc1.b4104710,uc1.b4104710,006156000,"Brady, John,",John,1908,,m,<blank>,Mrs. Featherweight's musical moments
 uc1.b4105158,uc1.b4105158,006156200,"Southworth, Emma Dorothy Eliza Nevitte,",Emma Dorothy Eliza Nevitte,1905,,f,<blank>,Gloria;
@@ -23512,7 +23512,7 @@ uc2.ark+=13960=t3hx16b6t,uc2.ark+=13960=t3hx16b6t,006503576,"Ford, Mary Hanford 
 uc2.ark+=13960=t6057gp7z,uc2.ark+=13960=t6057gp7z,006503582,"Loomis, Laura Hibbard,",Laura Hibbard,1911,,f,<blank>,"Three Middle English romances: King Horn, Havelok, Beves of Hampton"
 uc2.ark+=13960=t0pr7q82g,uc2.ark+=13960=t0pr7q82g,006503682,"St. Clair, William.",William,1901,,m,<blank>,Prince Baber and his wives
 uc2.ark+=13960=t9h41mc6z,uc2.ark+=13960=t9h41mc6z,006503716,"Tormay, Cécile,",Cécile,1922,,u,<blank>,The old house;
-uc2.ark+=13960=t56d5s538,uc2.ark+=13960=t56d5s538,006503726,"Brooke, William Augustus,",William Augustus,1908,,m,<blank>,The key of the hearts of beginners
+uc2.ark+=13960=t56d5s538,uc2.ark+=13960=t56d5s538,006503726,"Brooke, William Augustus,",William Augustus,1908,,f,<blank>,The key of the hearts of beginners
 uc2.ark+=13960=t14m93v7r,uc2.ark+=13960=t14m93v7r,006503873,"Spenser, Edmund,",Edmund,1909,,m,<blank>,Faery queen and her knights;
 uc2.ark+=13960=t1ng4t698,uc2.ark+=13960=t1ng4t698,006503964,"Morris, Clara,",Clara,1906,,f,<blank>,The life of a star
 nc01.ark+=13960=t1rf6t28b,nc01.ark+=13960=t1rf6t28b,006504993,"Hall, Jennie,",Jennie,1902,,f,<blank>,Viking tales
@@ -23552,7 +23552,7 @@ uc2.ark+=13960=t3513xr6k,uc2.ark+=13960=t3513xr6k,006513500,"Wallace, Frederick 
 uiuo.ark+=13960=t8cf9kq93,uiuo.ark+=13960=t8cf9kq93,006513974,"Dwyer, James Francis,",James Francis,1912,,m,<blank>,The bust of Lincoln
 uc2.ark+=13960=t7pn91j9t,uc2.ark+=13960=t7pn91j9t,006514084,"Loane, M.",M,1908,,u,<blank>,The next street but one;
 uc2.ark+=13960=t7qn62f54,uc2.ark+=13960=t7qn62f54,006514114,"Werner, Carl Avery,",Carl Avery,1913,,m,<blank>,Bringing up the boy;
-uc2.ark+=13960=t4rj4gt3r,uc2.ark+=13960=t4rj4gt3r,006514144,"Mills, Jane Dearborn,",Jane Dearborn,1904,,u,<blank>,The mother-artist
+uc2.ark+=13960=t4rj4gt3r,uc2.ark+=13960=t4rj4gt3r,006514144,"Mills, Jane Dearborn,",Jane Dearborn,1904,,f,<blank>,The mother-artist
 nyp.33433075925192,nyp.33433075925192,006514146,"Brown, Edwin A.,",Edwin A,1913,,m,<blank>,"""Broke,"" the man without the dime"
 uc2.ark+=13960=t2h70bj92,uc2.ark+=13960=t2h70bj92,006515290,"Blunden, Edmund,",Edmund,1922,,m,<blank>,The Bonadventure;
 uc2.ark+=13960=t6542nd7r,uc2.ark+=13960=t6542nd7r,006515957,"Cunningham, Albert Benjamin,",Albert Benjamin,1922,,m,<blank>,Old Black bass
@@ -23774,7 +23774,7 @@ uc2.ark+=13960=t9d50j30p,uc2.ark+=13960=t9d50j30p,006533863,"Hankins, Arthur Pre
 uc2.ark+=13960=t10p0xs0f,uc2.ark+=13960=t10p0xs0f,006533865,"Harding, Ellison.",Ellison,1908,,m,<blank>,The woman who vowed
 uc2.ark+=13960=t5fb5184g,uc2.ark+=13960=t5fb5184g,006533867,"Harris, Garrard,",Garrard,1913,,u,<blank>,"Joe, the book farmer"
 nyp.33433076088099,nyp.33433076088099,006533870,"Harrison, Edith Ogden.",Edith Ogden,1915,,f,<blank>,Clemencia's crisis
-uc2.ark+=13960=t6tx38s2x,uc2.ark+=13960=t6tx38s2x,006533962,"Partridge, Emelyn Newcomb,",Emelyn Newcomb,1912,,u,<blank>,Story-telling in school and home;
+uc2.ark+=13960=t6tx38s2x,uc2.ark+=13960=t6tx38s2x,006533962,"Partridge, Emelyn Newcomb,",Emelyn Newcomb,1912,,f,<blank>,Story-telling in school and home;
 uc2.ark+=13960=t84j0cd91,uc2.ark+=13960=t84j0cd91,006534007,"Hemenway, Hetty,",Hetty,1917,,f,<blank>,Four days
 uc2.ark+=13960=t2v40pd1m,uc2.ark+=13960=t2v40pd1m,006534008,"Hemingway, Richard D'Oyly,",Richard D'Oyly,1915,,m,<blank>,Three gentlemen from New Caledonia
 uc2.ark+=13960=t1wd3tc7n,uc2.ark+=13960=t1wd3tc7n,006534010,"Hendryx, James Beardsley,",James Beardsley,1920,,m,<blank>,The gold girl
@@ -23783,7 +23783,7 @@ uc2.ark+=13960=t7pn92v2w,uc2.ark+=13960=t7pn92v2w,006534012,"Henham, Ernest Geor
 uc2.ark+=13960=t9p26s64k,uc2.ark+=13960=t9p26s64k,006534013,"Henham, Ernest George.",Ernest George,1916,,m,<blank>,A drake by George!
 nyp.33433074850300,nyp.33433074850300,006534014,"Henham, Ernest George.",Ernest George,1914,,m,<blank>,Granite
 nyp.33433076084288,nyp.33433076084288,006534026,"Hile, William H.",William H,1912,,m,<blank>,The ostrich for the defence
-nyp.33433076064439,nyp.33433076064439,006534030,"Hill, Marion,",Marion,1906,,u,<blank>,The Pettison twins
+nyp.33433076064439,nyp.33433076064439,006534030,"Hill, Marion,",Marion,1906,,f,<blank>,The Pettison twins
 uc2.ark+=13960=t05x25t64,uc2.ark+=13960=t05x25t64,006534031,"Hilliers, Ashton.",Ashton,1910,,m,<blank>,The master-girl
 uc2.ark+=13960=t7hq3xx5f,uc2.ark+=13960=t7hq3xx5f,006534034,"Hinckley, Henrietta R.",Henrietta R,1905,,f,<blank>,From out of the West
 uc2.ark+=13960=t0000c64z,uc2.ark+=13960=t0000c64z,006534048,"Holme, Constance.",Constance,1918,,f,<blank>,Beautiful end
@@ -23868,7 +23868,7 @@ uc2.ark+=13960=t92808z2g,uc2.ark+=13960=t92808z2g,006534757,"O'Brien, Georgina."
 nyp.33433076022882,nyp.33433076022882,006534758,"O'Brien, Howard Vincent,",Howard Vincent,1914,,m,<blank>,New men for old
 uc2.ark+=13960=t19k49671,uc2.ark+=13960=t19k49671,006534761,"O'Donovan, Gerald,",Gerald,1920,,m,<blank>,Conquest
 uc2.ark+=13960=t42r3sj79,uc2.ark+=13960=t42r3sj79,006534768,"O'Kelly, Seumas,",Seumas,1917,,u,<blank>,The lady of Deerpark
-uc2.ark+=13960=t94749005,uc2.ark+=13960=t94749005,006534786,"O'Sullivan, Denis,",Denis,1920,,m,<blank>,Mr. Dimock
+uc2.ark+=13960=t94749005,uc2.ark+=13960=t94749005,006534786,"O'Sullivan, Denis,",Denis,1920,,f,<blank>,Mr. Dimock
 uc2.ark+=13960=t55d8s45m,uc2.ark+=13960=t55d8s45m,006534797,"Parker, Frances.",Frances,1904,,f,<blank>,Hope Hathaway
 uc2.ark+=13960=t3028t008,uc2.ark+=13960=t3028t008,006534801,"Parrish, Randall,",Randall,1922,,m,<blank>,Gift of the desert
 nyp.33433076025513,nyp.33433076025513,006534890,"Mackenzie, Jean Kenyon,",Jean Kenyon,1920,,f,<blank>,The story of a fortunate youth;
@@ -23966,7 +23966,7 @@ uc2.ark+=13960=t53f4qr4k,uc2.ark+=13960=t53f4qr4k,006541620,"Titus, Harold,",Har
 uc2.ark+=13960=t3kw5cf80,uc2.ark+=13960=t3kw5cf80,006541622,"Tobenkin, Elias,",Elias,1918,,m,<blank>,The house of Conrad
 uc2.ark+=13960=t1zc7ss01,uc2.ark+=13960=t1zc7ss01,006541623,"Tobenkin, Elias,",Elias,1922,,m,<blank>,The road
 uc2.ark+=13960=t5t728p8x,uc2.ark+=13960=t5t728p8x,006541624,"Tobenkin, Elias,",Elias,1916,,m,<blank>,Witte arrives
-uc2.ark+=13960=t7br8rp8c,uc2.ark+=13960=t7br8rp8c,006541640,"Tremlett, Horace,",Horace,1915,,m,<blank>,Looking for Grace
+uc2.ark+=13960=t7br8rp8c,uc2.ark+=13960=t7br8rp8c,006541640,"Tremlett, Horace,",Horace,1915,,f,<blank>,Looking for Grace
 uc2.ark+=13960=t00z72h2m,uc2.ark+=13960=t00z72h2m,006541642,"Trites, William Budd,",William Budd,1913,,m,<blank>,John Cave
 nyp.33433076080211,nyp.33433076080211,006541643,"Trites, William Budd,",William Budd,1913,,m,<blank>,Barbara Gwynne
 uc2.ark+=13960=t6ww7c320,uc2.ark+=13960=t6ww7c320,006541644,"Tuckerman, Arthur.",Arthur,1922,,m,<blank>,Breath of life
@@ -24065,7 +24065,7 @@ uc2.ark+=13960=t0ft8ff67,uc2.ark+=13960=t0ft8ff67,006554279,"Hunt, Una,",Una,191
 uc2.ark+=13960=t3416vx0x,uc2.ark+=13960=t3416vx0x,006555487,"Holt, Winifred.",Winifred,1922,,f,<blank>,The light which cannot fail;
 uc2.ark+=13960=t5p845w7r,uc2.ark+=13960=t5p845w7r,006556202,"Bailey, Roy Rutherford.",Roy Rutherford,1915,,m,<blank>,Sure Pop and the Safety Scouts
 uc2.ark+=13960=t4dn41w2q,uc2.ark+=13960=t4dn41w2q,006557785,"Sears, Anna Wentworth.",Anna Wentworth,1913,,f,<blank>,Two on a tour in South America
-uc2.ark+=13960=t3vt1jm0q,uc2.ark+=13960=t3vt1jm0q,006558812,"Baillie, W. W.,",W. W,1921,,u,<blank>,Days and nights of shikar
+uc2.ark+=13960=t3vt1jm0q,uc2.ark+=13960=t3vt1jm0q,006558812,"Baillie, W. W.,",W. W,1921,,f,<blank>,Days and nights of shikar
 uc2.ark+=13960=t9j38pr1x,uc2.ark+=13960=t9j38pr1x,006558875,"Murray, Hilda Louisa Janey Woulf Murray, Baroness.",Hilda Louisa Janey Woulf Murray Baroness,1910,,f,<blank>,Echoes of sport
 uc2.ark+=13960=t4jm25x7c,uc2.ark+=13960=t4jm25x7c,006558879,"Wallace, Harold Frank,",Harold Frank,1908,,m,<blank>,"Stalk abroad, being some account of the sport obtained during a two years' tour of the world"
 uc2.ark+=13960=t44q7sw9j,uc2.ark+=13960=t44q7sw9j,006558881,"Beach, Rex,",Rex,1921,,m,<blank>,"Oh, shoot!"
@@ -24100,7 +24100,7 @@ uc2.ark+=13960=t15m6442h,uc2.ark+=13960=t15m6442h,006568389,"Freeman, Lewis R.",
 uc2.ark+=13960=t5n873q5j,uc2.ark+=13960=t5n873q5j,006568451,"Rolt-Wheeler, Francis,",Francis,1921,,m,<blank>,The book of cowboys
 nyp.33433062512656,nyp.33433062512656,006568457,"Towne, Charles Hanson,",Charles Hanson,1921,,m,<blank>,Loafing down Long Island
 nyp.33433071387033,nyp.33433071387033,006568521,"Smith, Frank Berkeley,",Frank Berkeley,1906,,m,<blank>,In London town
-uc2.ark+=13960=t81j99n0g,uc2.ark+=13960=t81j99n0g,006568549,"O'Connor, T. P.,",T. P,1910,,m,<blank>,I myself
+uc2.ark+=13960=t81j99n0g,uc2.ark+=13960=t81j99n0g,006568549,"O'Connor, T. P.,",T. P,1910,,f,<blank>,I myself
 uc2.ark+=13960=t89g5js2d,uc2.ark+=13960=t89g5js2d,006568697,"Mack, Louise,",Louise,1915,,f,<blank>,A woman's experiences in the great war
 uc2.ark+=13960=t55d8sb4t,uc2.ark+=13960=t55d8sb4t,006568698,"Price, Julius M.",Julius M,1919,,m,<blank>,On the path of adventure
 nyp.33433008463915,nyp.33433008463915,006568764,"Freeman, Lewis R.",Lewis R,1919,,m,<blank>,Sea-hounds
@@ -24600,7 +24600,7 @@ njp.32101067887057,njp.32101067887057,007646600,"Benda, Julien.",Julien,1913,,m,
 njp.32101066225648,njp.32101066225648,007646601,"Benedict, Robert D.",Robert D,1911,,m,<blank>,"Stories from the old French chronicles, retold in modern English"
 uc2.ark+=13960=t3jw89b37,uc2.ark+=13960=t3jw89b37,007646695,"Boswell, Ira Matthews,",Ira Matthews,1915,,m,<blank>,Recollections of a red-headed man
 nyp.33433076025984,nyp.33433076025984,007646712,"Boynton, George B.,",George B,1911,,m,<blank>,The war maker;
-uc2.ark+=13960=t2j679360,uc2.ark+=13960=t2j679360,007646777,"Brown, Demetra (Vaka),",Demetra Vaka,1914,,u,<blank>,A child of the Orient
+uc2.ark+=13960=t2j679360,uc2.ark+=13960=t2j679360,007646777,"Brown, Demetra (Vaka),",Demetra Vaka,1914,,f,<blank>,A child of the Orient
 nyp.33433082338231,nyp.33433082338231,007646779,"Brown, Frederic Kenyon,",Frederic Kenyon,1912,,m,<blank>,Through the school;
 nyp.33433074848726,nyp.33433074848726,007646819,"Burr, Amelia Josephine,",Amelia Josephine,1915,,f,<blank>,A dealer in empire;
 nyp.33433074862503,nyp.33433074862503,007646845,"Byrne, Lawrence.",Lawrence,1917,,m,<blank>,The American ambassador
@@ -24831,7 +24831,7 @@ nyp.33433074801212,nyp.33433074801212,007650641,"Bancroft, Griffing.",Griffing,1
 nyp.33433074825328,nyp.33433074825328,007650651,"Bangs, Mary Rogers.",Mary Rogers,1912,,f,<blank>,High Bradford
 uc2.ark+=13960=t95718c2t,uc2.ark+=13960=t95718c2t,007650661,"Banks, Nancy Huston.",Nancy Huston,1902,,f,<blank>,Oldfield;
 uc2.ark+=13960=t9w08zk8f,uc2.ark+=13960=t9w08zk8f,007650662,"Banks, Nancy Huston.",Nancy Huston,1903,,f,<blank>,Round Anvil Rock
-nyp.33433074932405,nyp.33433074932405,007650678,"Barclay, Hubert,",Hubert,1912,,m,<blank>,A dream of blue roses
+nyp.33433074932405,nyp.33433074932405,007650678,"Barclay, Hubert,",Hubert,1912,,f,<blank>,A dream of blue roses
 nyp.33433074800602,nyp.33433074800602,007650686,"Barker, Elsa.",Elsa,1922,,f,<blank>,Fielding Sargent;
 uc2.ark+=13960=t2z31q34d,uc2.ark+=13960=t2z31q34d,007650687,"Barker, Elsa.",Elsa,1909,,f,<blank>,The son of Mary Bethel
 uc2.ark+=13960=t94747f05,uc2.ark+=13960=t94747f05,007650699,"Barnard, Annie E.",Annie E,1909,,f,<blank>,My first cousin or myself
@@ -24909,7 +24909,7 @@ uc2.ark+=13960=t5w66c45b,uc2.ark+=13960=t5w66c45b,007651780,"Baird, Jean K.",Jea
 uc2.ark+=13960=t5fb4zb26,uc2.ark+=13960=t5fb4zb26,007651795,"Baker, Robert Melville,",Robert Melville,1913,,m,<blank>,The conspiracy
 nyp.33433074932462,nyp.33433074932462,007651910,"Bancroft, Francis.",Francis,1913,,m,<blank>,Divided
 uc2.ark+=13960=t8kd1r68f,uc2.ark+=13960=t8kd1r68f,007651920,"Banfield, Agnes Houghton.",Agnes Houghton,1900,,f,<blank>,Under blue skies and other stories
-uc2.ark+=13960=t08w39n8g,uc2.ark+=13960=t08w39n8g,007651956,"Barclay, Hubert,",Hubert,1911,,m,<blank>,Trevor lordship
+uc2.ark+=13960=t08w39n8g,uc2.ark+=13960=t08w39n8g,007651956,"Barclay, Hubert,",Hubert,1911,,f,<blank>,Trevor lordship
 uc2.ark+=13960=t5w66bz65,uc2.ark+=13960=t5w66bz65,007651973,"Barmby, Beatrice.",Beatrice,1919,,f,<blank>,Sunrise from the hill-top
 uc2.ark+=13960=t79s1n70t,uc2.ark+=13960=t79s1n70t,007651994,"Barnett, John.",John,1915,,m,<blank>,The rebel lady
 nyp.33433084129927,nyp.33433084129927,007652013,"Barr, Amelia Edith Huddleston,",Amelia Edith Huddleston,1911,,f,<blank>,A maid of old New York
@@ -25102,7 +25102,7 @@ uc2.ark+=13960=t0bv7cf5z,uc2.ark+=13960=t0bv7cf5z,007654002,"Browne, Porter Emer
 uc2.ark+=13960=t2z31q14h,uc2.ark+=13960=t2z31q14h,007654032,"Brunner, Ethel Houston.",Ethel Houston,1919,,f,<blank>,Celia once again
 uc2.ark+=13960=t0cv4bv8j,uc2.ark+=13960=t0cv4bv8j,007654033,"Bruno, Guido,",Guido,1920,,u,<blank>,Sentimental studies
 uc2.ark+=13960=t75t3hk9v,uc2.ark+=13960=t75t3hk9v,007654039,"Bruun, Laurids,",Laurids,1908,,u,<blank>,Van Zanten's happy days;
-uc2.ark+=13960=t09w0bc8g,uc2.ark+=13960=t09w0bc8g,007654066,"Bryce, Charles,",Charles,1914,,m,<blank>,Mrs. Vanderstein's jewels
+uc2.ark+=13960=t09w0bc8g,uc2.ark+=13960=t09w0bc8g,007654066,"Bryce, Charles,",Charles,1914,,f,<blank>,Mrs. Vanderstein's jewels
 uc2.ark+=13960=t6445jv94,uc2.ark+=13960=t6445jv94,007654076,"Bryden, H. A.",H. A,1900,,u,<blank>,From Veldt camp fires
 nyp.33433074931068,nyp.33433074931068,007654084,"Buchanan, Emily Handasyde,",Emily Handasyde,1907,,f,<blank>,For the week-end
 uc2.ark+=13960=t1cj8834m,uc2.ark+=13960=t1cj8834m,007654094,"Buck, Charles Neville,",Charles Neville,1914,,m,<blank>,The battle cry
@@ -25163,7 +25163,7 @@ uc2.ark+=13960=t6542m792,uc2.ark+=13960=t6542m792,007654838,"Clarke, Isabel Cons
 uc2.ark+=13960=t1vd6s125,uc2.ark+=13960=t1vd6s125,007654874,"Clouston, J. Storer",J. Storer,1902,,m,<blank>,Adventures of M. d'Haricot
 nyp.33433074946876,nyp.33433074946876,007654875,"Clouston, J. Storer",J. Storer,1919,,m,<blank>,Simon
 loc.ark+=13960=t6tx45x8r,loc.ark+=13960=t6tx45x8r,007654892,"Cobb, Percival Bartlett,",Percival Bartlett,1916,,m,<blank>,The Son of man
-uc2.ark+=13960=t6xw49s9p,uc2.ark+=13960=t6xw49s9p,007654905,"Codman, Russell,",Russell,1911,,m,<blank>,An ardent American
+uc2.ark+=13960=t6xw49s9p,uc2.ark+=13960=t6xw49s9p,007654905,"Codman, Russell,",Russell,1911,,f,<blank>,An ardent American
 uc2.ark+=13960=t9t14wt1k,uc2.ark+=13960=t9t14wt1k,007654913,"Cohan, Charles Cleveland.",Charles Cleveland,1919,,m,<blank>,Born of the crucible
 uc2.ark+=13960=t3vt1gz7r,uc2.ark+=13960=t3vt1gz7r,007654964,"Comer, Cornelia A. P.",Cornelia A. P,1912,,f,<blank>,The preliminaries;
 uc2.ark+=13960=t8df6n69c,uc2.ark+=13960=t8df6n69c,007654982,"Comstock, Harriet T.",Harriet T,1922,,f,<blank>,At the crossroads
@@ -25227,7 +25227,7 @@ uc2.ark+=13960=t3222t04j,uc2.ark+=13960=t3222t04j,007655447,"Dawson Scott, C. A.
 uva.x001795871,uva.x001795871,007655454,"Day, Holman,",Holman,1920,,m,<blank>,All-wool Morrison
 nyp.33433074840392,nyp.33433074840392,007655455,"Day, Holman,",Holman,1910,,m,<blank>,The ramrodders;
 nyp.33433074840442,nyp.33433074840442,007655456,"Day, Holman,",Holman,1912,,m,<blank>,The red lane;
-uc2.ark+=13960=t83j3bx19,uc2.ark+=13960=t83j3bx19,007655467,"De La Pasture, Henry,",Henry,1910,,m,<blank>,The tyrant
+uc2.ark+=13960=t83j3bx19,uc2.ark+=13960=t83j3bx19,007655467,"De La Pasture, Henry,",Henry,1910,,f,<blank>,The tyrant
 uc2.ark+=13960=t80k2713d,uc2.ark+=13960=t80k2713d,007655484,"De Waters, Lillian Stephenson,",Lillian Stephenson,1909,,f,<blank>,Glad tidings
 uc2.ark+=13960=t57d2rs90,uc2.ark+=13960=t57d2rs90,007655485,"Deakin, Dorothea.",Dorothea,1906,,f,<blank>,"""Georgie,"""
 uc2.ark+=13960=t0ks6md22,uc2.ark+=13960=t0ks6md22,007655486,"Deamer, Dulcie,",Dulcie,1913,,f,<blank>,The suttee of Safa ;
@@ -25428,7 +25428,7 @@ uc2.ark+=13960=t10p0zd98,uc2.ark+=13960=t10p0zd98,007657925,"Douglas, Amanda M.,
 uc2.ark+=13960=t1zc7td4f,uc2.ark+=13960=t1zc7td4f,007657931,"Douglas, Amanda M.,",Amanda M,1908,,f,<blank>,Lost in a great city
 uc2.ark+=13960=t7cr5q511,uc2.ark+=13960=t7cr5q511,007657937,"Douglas, Amanda M.,",Amanda M,1911,,f,<blank>,Whom Kathie married
 uc2.ark+=13960=t0tq5tn4r,uc2.ark+=13960=t0tq5tn4r,007657953,"Douie, Marjorie.",Marjorie,1917,,f,<blank>,The pointing man
-uc2.ark+=13960=t6n011p3j,uc2.ark+=13960=t6n011p3j,007657955,"Dowdall,",Dowdall,1921,,u,<blank>,Three loving ladies
+uc2.ark+=13960=t6n011p3j,uc2.ark+=13960=t6n011p3j,007657955,"Dowdall,",Dowdall,1921,,f,<blank>,Three loving ladies
 uc2.ark+=13960=t06w97h6j,uc2.ark+=13960=t06w97h6j,007657994,"Doyle, Lynn,",Lynn,1916,,m,<blank>,Mr. Wildridge of the bank
 uc2.ark+=13960=t51g0kt41,uc2.ark+=13960=t51g0kt41,007657995,"Doyle, Ruby M.",Ruby M,1919,,f,<blank>,The mystery of the hills
 uc2.ark+=13960=t53f4nk2j,uc2.ark+=13960=t53f4nk2j,007658011,"Drake, Maurice,",Maurice,1915,,m,<blank>,The coming back of Laurence Averil
@@ -26032,7 +26032,7 @@ uc1.31158010724424,uc1.31158010724424,007665139,"London, Jack,",Jack,1908,,m,<bl
 nyp.33433076024359,nyp.33433076024359,007665142,"Long, Mae Van Norman.",Mae Van Norman,1917,,f,<blank>,The wonder woman
 uc2.ark+=13960=t7vm44b1t,uc2.ark+=13960=t7vm44b1t,007665145,"Long, William J.",William J,1903,,m,<blank>,A little brother to the bear
 uc2.ark+=13960=t9t14w194,uc2.ark+=13960=t9t14w194,007665147,"Long, William J.",William J,1905,,m,<blank>,Northern trails;
-uc2.ark+=13960=t08w38301,uc2.ark+=13960=t08w38301,007665214,"Lowenberg, I.",I,1908,,u,<blank>,The irresistible current
+uc2.ark+=13960=t08w38301,uc2.ark+=13960=t08w38301,007665214,"Lowenberg, I.",I,1908,,f,<blank>,The irresistible current
 uc2.ark+=13960=t6pz53g4n,uc2.ark+=13960=t6pz53g4n,007665218,"Lowndes, Marie Belloc,",Marie Belloc,1910,,f,<blank>,Studies in wives
 nyp.33433075972715,nyp.33433075972715,007665219,"Lowrie, Donald.",Donald,1912,,m,<blank>,My life in prison
 uc2.ark+=13960=t09w0c84m,uc2.ark+=13960=t09w0c84m,007665231,"Lucas, E. V.",E. V,1920,,m,<blank>,Specially selected
@@ -26479,7 +26479,7 @@ uc2.ark+=13960=t1hh6ds9s,uc2.ark+=13960=t1hh6ds9s,007669945,"Parr, Olive Kathari
 uc2.ark+=13960=t59c6vn1c,uc2.ark+=13960=t59c6vn1c,007669947,"Parrish, Randall,",Randall,1914,,m,<blank>,The red mist
 uc2.ark+=13960=t2q52h22d,uc2.ark+=13960=t2q52h22d,007669950,"Parson, Kirk.",Kirk,1910,,m,<blank>,A fast game
 uc2.ark+=13960=t2v40n68w,uc2.ark+=13960=t2v40n68w,007669965,"Partridge, Anthony,",Anthony,1910,,m,<blank>,Passers-by
-uc2.ark+=13960=t10p0zf3t,uc2.ark+=13960=t10p0zf3t,007669974,"Pasture, Henry de la,",Henry de la,1909,,m,<blank>,Catherine's child
+uc2.ark+=13960=t10p0zf3t,uc2.ark+=13960=t10p0zf3t,007669974,"Pasture, Henry de la,",Henry de la,1909,,f,<blank>,Catherine's child
 nyp.33433075749790,nyp.33433075749790,007669978,"Paternoster, G. Sidney",G. Sidney,1907,,m,<blank>,The master criminal
 uc2.ark+=13960=t5t729m2j,uc2.ark+=13960=t5t729m2j,007669983,"Paton, Raymond.",Raymond,1913,,m,<blank>,The drummer of the dawn
 uc2.ark+=13960=t4fn1393k,uc2.ark+=13960=t4fn1393k,007670029,"Peacocke, Isabel Maud.",Isabel Maud,1915,,f,<blank>,My friend Phil
@@ -26541,7 +26541,7 @@ nyp.33433076047673,nyp.33433076047673,007670882,"Reeve, Arthur B.",Arthur B,1916
 uc2.ark+=13960=t2j67b77p,uc2.ark+=13960=t2j67b77p,007670883,"Reeve, Arthur B.",Arthur B,1917,,m,<blank>,The treasure train
 uc2.ark+=13960=t2t43j57j,uc2.ark+=13960=t2t43j57j,007670884,"Reeve, Arthur B.",Arthur B,1915,,m,<blank>,The war terror
 uc2.ark+=13960=t9h41n20f,uc2.ark+=13960=t9h41n20f,007670908,"Reid, Eric.",Eric,1920,,m,<blank>,Spears of deliverance
-uc2.ark+=13960=t1vd6qr18,uc2.ark+=13960=t1vd6qr18,007670960,"Reynolds, Fred,",Fred,1914,,m,<blank>,An absent hero
+uc2.ark+=13960=t1vd6qr18,uc2.ark+=13960=t1vd6qr18,007670960,"Reynolds, Fred,",Fred,1914,,f,<blank>,An absent hero
 nyp.33433076047749,nyp.33433076047749,007670985,"Rice, Edward I.",Edward I,1909,,m,<blank>,Old Jim Case of South Hollow
 uc2.ark+=13960=t23b5z006,uc2.ark+=13960=t23b5z006,007671003,"Richards, Laura Elizabeth Howe,",Laura Elizabeth Howe,1901,,f,<blank>,Melody
 uc2.ark+=13960=t9959ff88,uc2.ark+=13960=t9959ff88,007671004,"Richards, Lela Horn,",Lela Horn,1919,,f,<blank>,Only Henrietta
@@ -26551,7 +26551,7 @@ uc2.ark+=13960=t6nz82p38,uc2.ark+=13960=t6nz82p38,007671016,"Richardson, Frank M
 uc2.ark+=13960=t6ww7b205,uc2.ark+=13960=t6ww7b205,007671017,"Richardson, Henry Handel,",Henry Handel,1908,,m,<blank>,Maurice Guest
 uc2.ark+=13960=t56d5pt41,uc2.ark+=13960=t56d5pt41,007671021,"Richberg, Donald R.",Donald R,1922,,m,<blank>,A man of purpose
 uc2.ark+=13960=t48p5vk9g,uc2.ark+=13960=t48p5vk9g,007671027,"Richmond, Grace S.",Grace S,1910,,f,<blank>,Red Pepper Burns
-uc2.ark+=13960=t4rj4bn1w,uc2.ark+=13960=t4rj4bn1w,007671032,"Rickard, Victor,",Victor,1920,,m,<blank>,Cathy Rossiter
+uc2.ark+=13960=t4rj4bn1w,uc2.ark+=13960=t4rj4bn1w,007671032,"Rickard, Victor,",Victor,1920,,f,<blank>,Cathy Rossiter
 uc2.ark+=13960=t4dn41r5c,uc2.ark+=13960=t4dn41r5c,007671077,"Riley, W.",W,1913,,u,<blank>,Windyridge
 uc2.ark+=13960=t3707xt9q,uc2.ark+=13960=t3707xt9q,007671080,"Rinehart, Mary Roberts,",Mary Roberts,1908,,f,<blank>,The circular staircase
 uc2.ark+=13960=t3vt1jb80,uc2.ark+=13960=t3vt1jb80,007671083,"Rinehart, Mary Roberts,",Mary Roberts,1918,,f,<blank>,Mary Roberts Rinehart's romance book
@@ -26602,7 +26602,7 @@ nyp.33433076044464,nyp.33433076044464,007671478,"Scott, Leroy,",Leroy,1912,,m,<b
 uc1.$b566987,uc1.$b566987,007671505,"Searcy, Alfred.",Alfred,1912,,m,<blank>,By flood and field;
 uc2.ark+=13960=t56d5pw5d,uc2.ark+=13960=t56d5pw5d,007671551,"Seltzer, Charles Alden,",Charles Alden,1918,,m,<blank>,"""Firebrand"" trevison"
 nyp.33433075746739,nyp.33433075746739,007671565,"Seymour, Beatrice Kean.",Beatrice Kean,1922,,f,<blank>,Intrusion
-uc2.ark+=13960=t5p845s8w,uc2.ark+=13960=t5p845s8w,007671570,"Shafer, Sara Andrew,",Sara Andrew,1904,,m,<blank>,The day before yesterday
+uc2.ark+=13960=t5p845s8w,uc2.ark+=13960=t5p845s8w,007671570,"Shafer, Sara Andrew,",Sara Andrew,1904,,f,<blank>,The day before yesterday
 nyp.33433076029655,nyp.33433076029655,007671587,"Sharber, Kate Trimble,",Kate Trimble,1914,,f,<blank>,Amazing Grace
 uc2.ark+=13960=t6057fk57,uc2.ark+=13960=t6057fk57,007671590,"Sharber, Kate Trimble,",Kate Trimble,1911,,f,<blank>,At the age of Eve
 uc2.ark+=13960=t5m903d0g,uc2.ark+=13960=t5m903d0g,007671592,"Sharp, Dallas Lore,",Dallas Lore,1914,,m,<blank>,Beyond the pasture bars
@@ -26669,7 +26669,7 @@ uc2.ark+=13960=t04x57d0h,uc2.ark+=13960=t04x57d0h,007672129,"Russell, Arthur J."
 uc2.ark+=13960=t06w96f48,uc2.ark+=13960=t06w96f48,007672144,"Russell, John,",John,1919,,m,<blank>,Where the pavement ends
 uc2.ark+=13960=t5r787t5h,uc2.ark+=13960=t5r787t5h,007672192,"Sabelberg, William.",William,1907,,m,<blank>,Catherine Horeton
 uc2.ark+=13960=t49p2z999,uc2.ark+=13960=t49p2z999,007672213,"Safroni-Middleton, Arnold.",Arnold,1921,,m,<blank>,Sestrina
-uc2.ark+=13960=t4hm53256,uc2.ark+=13960=t4hm53256,007672254,"Salzscheider,",Salzscheider,1901,,u,<blank>,Pandora;
+uc2.ark+=13960=t4hm53256,uc2.ark+=13960=t4hm53256,007672254,"Salzscheider,",Salzscheider,1901,,f,<blank>,Pandora;
 nyp.33433076053747,nyp.33433076053747,007672260,"Samuel, Maurice,",Maurice,1921,,m,<blank>,The outsider
 uc2.ark+=13960=t12n50r4x,uc2.ark+=13960=t12n50r4x,007672268,"Sanborn, Gertrude.",Gertrude,1918,,f,<blank>,Blithesome jottings
 wu.89005396031,wu.89005396031,007672285,"Sandes, John,",John,1915,,m,<blank>,The call of the Southern Cross
@@ -26874,7 +26874,7 @@ uc2.ark+=13960=t9f47k18p,uc2.ark+=13960=t9f47k18p,007674860,"Thurston, E. Temple
 uc2.ark+=13960=t9c53h72v,uc2.ark+=13960=t9c53h72v,007674861,"Thurston, E. Temple",E. Temple,1911,,f,<blank>,The garden of resurrection;
 uc2.ark+=13960=t2b855v5s,uc2.ark+=13960=t2b855v5s,007674862,"Thurston, E. Temple",E. Temple,1922,,f,<blank>,The miracle
 uc2.ark+=13960=t2z31qb0m,uc2.ark+=13960=t2z31qb0m,007674864,"Thurston, E. Temple",E. Temple,1920,,f,<blank>,Sheepskins & grey russet
-uc2.ark+=13960=t50g3jx1b,uc2.ark+=13960=t50g3jx1b,007674867,"Thurston, I. T.",I. T,1909,,u,<blank>,The big brother of Sabin Street
+uc2.ark+=13960=t50g3jx1b,uc2.ark+=13960=t50g3jx1b,007674867,"Thurston, I. T.",I. T,1909,,f,<blank>,The big brother of Sabin Street
 nyp.33433075762991,nyp.33433075762991,007674868,"Thurston, Katherine Cecil,",Katherine Cecil,1903,,f,<blank>,The circle
 uc2.ark+=13960=t17m0bg1b,uc2.ark+=13960=t17m0bg1b,007674874,"Thynne, Arthur Christopher,",Arthur Christopher,1904,,m,<blank>,Sir Bevill
 uc2.ark+=13960=t1td9nv23,uc2.ark+=13960=t1td9nv23,007674876,"Tibbits, Charles John.",Charles John,1902,,m,<blank>,"English fairy tales, folklore and legends"
@@ -26890,12 +26890,12 @@ uc2.ark+=13960=t39z9256f,uc2.ark+=13960=t39z9256f,007675034,"Travers, John.",Joh
 uc2.ark+=13960=t5m90407w,uc2.ark+=13960=t5m90407w,007675036,"Travers, John,",John,1910,,m,<blank>,Sahib-log
 uc2.ark+=13960=t0ms3mb2b,uc2.ark+=13960=t0ms3mb2b,007675037,"Travers, Libbie Miller.",Libbie Miller,1908,,f,<blank>,The honor of a Lee
 uc2.ark+=13960=t16m3420t,uc2.ark+=13960=t16m3420t,007675046,"Tregarthen, John Coulson,",John Coulson,1912,,m,<blank>,The story of a hare
-uc2.ark+=13960=t7np1zk41,uc2.ark+=13960=t7np1zk41,007675048,"Tremlett, Horace,",Horace,1914,,m,<blank>,Curing Christopher
+uc2.ark+=13960=t7np1zk41,uc2.ark+=13960=t7np1zk41,007675048,"Tremlett, Horace,",Horace,1914,,f,<blank>,Curing Christopher
 uc2.ark+=13960=t52f7mn97,uc2.ark+=13960=t52f7mn97,007675062,"Trent, Paul.",Paul,1911,,m,<blank>,The vow
 uc2.ark+=13960=t6xw49t18,uc2.ark+=13960=t6xw49t18,007675105,"Truscott, L. Parry.",L. Parry,1902,,u,<blank>,The poet and Penelope
 uc2.ark+=13960=t7np1x477,uc2.ark+=13960=t7np1x477,007675128,"Tudor, Anthony.",Anthony,1911,,m,<blank>,The case of Paul Breen
 uc2.ark+=13960=t1td9pj10,uc2.ark+=13960=t1td9pj10,007675139,"Tupper, Edith Sessions.",Edith Sessions,1908,,f,<blank>,The stuff of dreams
-uc2.ark+=13960=t4xg9fs63,uc2.ark+=13960=t4xg9fs63,007675153,"Turnbull, Francese Hubbard Litchfield.",Francese Hubbard Litchfield,1900,,m,<blank>,The golden book of Venice;
+uc2.ark+=13960=t4xg9fs63,uc2.ark+=13960=t4xg9fs63,007675153,"Turnbull, Francese Hubbard Litchfield.",Francese Hubbard Litchfield,1900,,f,<blank>,The golden book of Venice;
 uc2.ark+=13960=t8w952p6r,uc2.ark+=13960=t8w952p6r,007675174,"Turner, G. Frederic.",G. Frederic,1910,,m,<blank>,Gloria
 nyp.33433076058134,nyp.33433076058134,007675176,"Turner, George Kibbe,",George Kibbe,1918,,m,<blank>,The biography of a million dollars
 uc2.ark+=13960=t3222t032,uc2.ark+=13960=t3222t032,007675252,"Underwood, Ruth.",Ruth,1912,,f,<blank>,A living legacy
@@ -26935,7 +26935,7 @@ nyp.33433076061245,nyp.33433076061245,007675510,"Walk, Charles Edmonds.",Charles
 uc2.ark+=13960=t92808c97,uc2.ark+=13960=t92808c97,007675547,"Walpole, Hugh,",Hugh,1914,,m,<blank>,The wooden horse
 uc2.ark+=13960=t9q23sb32,uc2.ark+=13960=t9q23sb32,007675557,"Walton, Mason Augustus,",Mason Augustus,1903,,m,<blank>,A hermit's wild friends;
 nyp.33433076073364,nyp.33433076073364,007675559,"Waltz, Elizabeth Cherry,",Elizabeth Cherry,1905,,f,<blank>,The ancient landmark
-uc2.ark+=13960=t8qb9x81m,uc2.ark+=13960=t8qb9x81m,007675583,"Ward, Wilfrid,",Wilfrid,1913,,u,<blank>,Horace Blake
+uc2.ark+=13960=t8qb9x81m,uc2.ark+=13960=t8qb9x81m,007675583,"Ward, Wilfrid,",Wilfrid,1913,,f,<blank>,Horace Blake
 nyp.33433074827233,nyp.33433074827233,007675592,"Ware, Richard Darwin,",Richard Darwin,1917,,m,<blank>,Nort' shor' verses
 uc2.ark+=13960=t4th8d90j,uc2.ark+=13960=t4th8d90j,007675601,"Warner, Anne,",Anne,1907,,f,<blank>,The rejuvenation of Aunt Mary
 nyp.33433076090277,nyp.33433076090277,007675604,"Warner, Anne,",Anne,1914,,f,<blank>,Sunshine Jane
@@ -26978,8 +26978,8 @@ nyp.33433076062094,nyp.33433076062094,007675901,"Wiggin, Kate Douglas Smith,",Ka
 uc2.ark+=13960=t8mc8sw0k,uc2.ark+=13960=t8mc8sw0k,007675903,"Wiggin, Kate Douglas Smith,",Kate Douglas Smith,1900,,f,<blank>,Penelope's English experiences
 uc2.ark+=13960=t2f76791g,uc2.ark+=13960=t2f76791g,007675912,"Wilcox, Henry S.",Henry S,1906,,m,<blank>,A strange flaw
 uc2.ark+=13960=t80k28t34,uc2.ark+=13960=t80k28t34,007676040,"Vachell, Horace Annesley,",Horace Annesley,1920,,m,<blank>,The fourth dimension
-uc2.ark+=13960=t59c6tm7d,uc2.ark+=13960=t59c6tm7d,007676051,"Vaizey, George de Horne,",George de Horne,1903,,m,<blank>,The daughters of a genius
-nyp.33433075756522,nyp.33433075756522,007676053,"Vaizey, George de Horne,",George de Horne,1915,,m,<blank>,What a man wills
+uc2.ark+=13960=t59c6tm7d,uc2.ark+=13960=t59c6tm7d,007676051,"Vaizey, George de Horne,",George de Horne,1903,,f,<blank>,The daughters of a genius
+nyp.33433075756522,nyp.33433075756522,007676053,"Vaizey, George de Horne,",George de Horne,1915,,f,<blank>,What a man wills
 nyp.33433074815030,nyp.33433074815030,007676054,"Vaka, Demetra,",Demetra,1916,,f,<blank>,The grasp of the sultan
 uc2.ark+=13960=t50g3jz85,uc2.ark+=13960=t50g3jz85,007676067,"Van Brakkel, Marie.",Marie,1922,,f,<blank>,Bill gets a move on
 uc2.ark+=13960=t1fj2bd6s,uc2.ark+=13960=t1fj2bd6s,007676075,"Van Denburgh, Mary Turrill.",Mary Turrill,1907,,f,<blank>,Ye On's ten hundred sorrows and other stories
@@ -27077,8 +27077,8 @@ uc2.ark+=13960=t5z60dh51,uc2.ark+=13960=t5z60dh51,007677053,"Wolff, William Almo
 njp.32101069174371,njp.32101069174371,007677054,"Wolzogen, Ernst von,",Ernst von,1914,,m,<blank>,Florian Mayr <Der kraft-Mayr>
 nyp.33433074795042,nyp.33433074795042,007677056,"Wood, Clement,",Clement,1920,,m,<blank>,Mountain
 uc2.ark+=13960=t79s1mf1k,uc2.ark+=13960=t79s1mf1k,007677065,"Wood, Michael.",Michael,1919,,m,<blank>,The White island
-uc2.ark+=13960=t8ff3mt1b,uc2.ark+=13960=t8ff3mt1b,007677072,"Woodrow, Wilson,",Wilson,1907,,m,<blank>,The bird of time;
-uc2.ark+=13960=t2v40k447,uc2.ark+=13960=t2v40k447,007677074,"Woodrow, Wilson,",Wilson,1922,,m,<blank>,Swallowed up
+uc2.ark+=13960=t8ff3mt1b,uc2.ark+=13960=t8ff3mt1b,007677072,"Woodrow, Wilson,",Wilson,1907,,f,<blank>,The bird of time;
+uc2.ark+=13960=t2v40k447,uc2.ark+=13960=t2v40k447,007677074,"Woodrow, Wilson,",Wilson,1922,,f,<blank>,Swallowed up
 uc2.ark+=13960=t03x8580q,uc2.ark+=13960=t03x8580q,007677075,"Woodruff, Helen Smith.",Helen Smith,1918,,f,<blank>,The imprisoned freeman
 uc2.ark+=13960=t2v40mj7g,uc2.ark+=13960=t2v40mj7g,007677076,"Woodruff, Helen Smith.",Helen Smith,1913,,f,<blank>,The lady of the lighthouse
 nyp.33433074806005,nyp.33433074806005,007677077,"Woodruff, Helen Smith.",Helen Smith,1915,,f,<blank>,Mr. Doctor-Man
@@ -27112,9 +27112,9 @@ uc2.ark+=13960=t4vh5f942,uc2.ark+=13960=t4vh5f942,007677374,"Winter, Alice Ames,
 uc2.ark+=13960=t45q4s11n,uc2.ark+=13960=t45q4s11n,007677380,"Winterburn, Florence Hull,",Florence Hull,1900,,f,<blank>,Southern hearts
 uc2.ark+=13960=t3zs2n452,uc2.ark+=13960=t3zs2n452,007677418,"Witwer, H. C.",H. C,1920,,u,<blank>,Kid Scanlan
 uc2.ark+=13960=t6qz2499d,uc2.ark+=13960=t6qz2499d,007677485,"Woodrow, Wilson,",Wilson,1910,,m,<blank>,The beauty
-uc2.ark+=13960=t1rf5n19x,uc2.ark+=13960=t1rf5n19x,007677486,"Woodrow, Wilson,",Wilson,1917,,m,<blank>,The hornet's nest
-uc2.ark+=13960=t3pv6km2s,uc2.ark+=13960=t3pv6km2s,007677488,"Woodrow, Wilson,",Wilson,1907,,m,<blank>,The new missioner
-uc2.ark+=13960=t9183664k,uc2.ark+=13960=t9183664k,007677489,"Woodrow, Wilson,",Wilson,1912,,m,<blank>,Sally Salt;
+uc2.ark+=13960=t1rf5n19x,uc2.ark+=13960=t1rf5n19x,007677486,"Woodrow, Wilson,",Wilson,1917,,f,<blank>,The hornet's nest
+uc2.ark+=13960=t3pv6km2s,uc2.ark+=13960=t3pv6km2s,007677488,"Woodrow, Wilson,",Wilson,1907,,f,<blank>,The new missioner
+uc2.ark+=13960=t9183664k,uc2.ark+=13960=t9183664k,007677489,"Woodrow, Wilson,",Wilson,1912,,f,<blank>,Sally Salt;
 uc2.ark+=13960=t3dz04r6d,uc2.ark+=13960=t3dz04r6d,007677512,"Woodworth, Herbert G.",Herbert G,1920,,m,<blank>,In the shadow of Lantern Street
 uc2.ark+=13960=t46q1v24j,uc2.ark+=13960=t46q1v24j,007677518,"Woolley, Edward Mott,",Edward Mott,1912,,m,<blank>,The junior partner
 uc2.ark+=13960=t2s46jk87,uc2.ark+=13960=t2s46jk87,007677539,"Workman, Hanson,",Hanson,1908,,m,<blank>,An American singer in Paris
@@ -27247,7 +27247,7 @@ uc2.ark+=13960=t76t0kd1r,uc2.ark+=13960=t76t0kd1r,007683031,"Shorter, Dora Siger
 uc2.ark+=13960=t24b30766,uc2.ark+=13960=t24b30766,007683051,"Sinclair, Francis.",Francis,1905,,m,<blank>,Where the sun sets
 nnc1.1002202824,nnc1.1002202824,007683099,"Smith, Ruel Perley.",Ruel Perley,1907,,m,<blank>,Prisoners of fortune
 uc2.ark+=13960=t1td9q74t,uc2.ark+=13960=t1td9q74t,007683109,"Snaith, John Collis.",John Collis,1911,,m,<blank>,Henry Northcote
-uc2.ark+=13960=t3902253p,uc2.ark+=13960=t3902253p,007683155,"Springer, John M.,",John M,1909,,m,<blank>,Snap shots from sunny Africa
+uc2.ark+=13960=t3902253p,uc2.ark+=13960=t3902253p,007683155,"Springer, John M.,",John M,1909,,f,<blank>,Snap shots from sunny Africa
 uc2.ark+=13960=t6j09zj6g,uc2.ark+=13960=t6j09zj6g,007683180,"Steevens, G. W.",G. W,1902,,m,<blank>,Monologues of the dead
 uc2.ark+=13960=t82j6bz41,uc2.ark+=13960=t82j6bz41,007683188,"Stephens, James,",James,1912,,m,<blank>,"Mary, Mary"
 uc2.ark+=13960=t5q815b0c,uc2.ark+=13960=t5q815b0c,007683189,"Stephens, Robert Neilson,",Robert Neilson,1900,,m,<blank>,An enemy to the king
@@ -27399,7 +27399,7 @@ uc2.ark+=13960=t26974j18,uc2.ark+=13960=t26974j18,007689269,"Hutchinson, Horace 
 uc2.ark+=13960=t3cz3760d,uc2.ark+=13960=t3cz3760d,007689285,"Hyatt, Stanley Portal,",Stanley Portal,1914,,m,<blank>,The black pearl of Peihoo
 uc2.ark+=13960=t7wm1925d,uc2.ark+=13960=t7wm1925d,007689286,"Hyatt, Stanley Portal,",Stanley Portal,1913,,m,<blank>,The way of the Cardines
 uc2.ark+=13960=t1sf2sd86,uc2.ark+=13960=t1sf2sd86,007689396,"Jeffery, Walter,",Walter,1903,,m,<blank>,The King's yard;
-uc2.ark+=13960=t6vx0bm92,uc2.ark+=13960=t6vx0bm92,007689514,"Lane, John,",John,1910,,m,<blank>,According to Maria
+uc2.ark+=13960=t6vx0bm92,uc2.ark+=13960=t6vx0bm92,007689514,"Lane, John,",John,1910,,f,<blank>,According to Maria
 uc2.ark+=13960=t6xw4f320,uc2.ark+=13960=t6xw4f320,007689567,"Jesse, F. Tennyson",F. Tennyson,1921,,f,<blank>,The white riband
 uc2.ark+=13960=t15m65q7z,uc2.ark+=13960=t15m65q7z,007689753,"Knibbs, Henry Herbert,",Henry Herbert,1915,,m,<blank>,Sundown Slim
 uc2.ark+=13960=t5q81c38k,uc2.ark+=13960=t5q81c38k,007689872,"Leacock, Stephen,",Stephen,1913,,m,<blank>,Behind the beyond
@@ -27419,7 +27419,7 @@ uc2.ark+=13960=t6rx9884t,uc2.ark+=13960=t6rx9884t,007690488,"Masefield, John,",J
 uc2.ark+=13960=t56d5w74w,uc2.ark+=13960=t56d5w74w,007690512,"Matheson, Annie,",Annie,1920,,f,<blank>,A plain friend
 uc2.ark+=13960=t9474d27p,uc2.ark+=13960=t9474d27p,007690570,"McCrae, George Gordon,",George Gordon,1918,,m,<blank>,John Rous;
 uc2.ark+=13960=t6930tq32,uc2.ark+=13960=t6930tq32,007690581,"McLaren, Jack,",Jack,1919,,m,<blank>,The white witch
-uc1.31158013276653,uc1.31158013276653,007690587,"McNaught, Rosamond (Livingstone),",Rosamond Livingstone,1906,,u,<blank>,Christmas selections
+uc1.31158013276653,uc1.31158013276653,007690587,"McNaught, Rosamond (Livingstone),",Rosamond Livingstone,1906,,f,<blank>,Christmas selections
 uc2.ark+=13960=t9k35vd44,uc2.ark+=13960=t9k35vd44,007690735,"Mundy, Talbot,",Talbot,1920,,m,<blank>,The eye of Zeitoon
 uc2.ark+=13960=t6nz84g0z,uc2.ark+=13960=t6nz84g0z,007691113,"Norris, Kathleen Thompson,",Kathleen Thompson,1912,,f,<blank>,The rich Mrs. Burgoyne
 uc2.ark+=13960=t75t3kk67,uc2.ark+=13960=t75t3kk67,007691302,"Penfield, Edward,",Edward,1907,,m,<blank>,Holland sketches
@@ -27727,7 +27727,7 @@ uc2.ark+=13960=t3pv6qg0p,uc2.ark+=13960=t3pv6qg0p,007708213,Bartimeus.,Bartimeus
 nyp.33433075763981,nyp.33433075763981,007708219,"Ward, Josephine Mary Hope-Scott,",Josephine Mary Hope-Scott,1903,,f,<blank>,The light behind
 uc2.ark+=13960=t77s7xc31,uc2.ark+=13960=t77s7xc31,007708221,"Lucas, E. V.",E. V,1920,,m,<blank>,Verena in the midst;
 uc2.ark+=13960=t2r49vf9g,uc2.ark+=13960=t2r49vf9g,007708233,"Hall, Evelyn Beatrice,",Evelyn Beatrice,1910,,f,<blank>,Basset
-uc2.ark+=13960=t3vt1w85s,uc2.ark+=13960=t3vt1w85s,007708245,"Antrobus, C. L.",C. L,1902,,u,<blank>,Quality corner
+uc2.ark+=13960=t3vt1w85s,uc2.ark+=13960=t3vt1w85s,007708245,"Antrobus, C. L.",C. L,1902,,f,<blank>,Quality corner
 uc2.ark+=13960=t53f50198,uc2.ark+=13960=t53f50198,007708289,"Ainsworth, Eustace.",Eustace,1918,,u,<blank>,Billie Impett & Doris
 uc2.ark+=13960=t7sn0gj0c,uc2.ark+=13960=t7sn0gj0c,007708295,"Chesterton, G. K.",G. K,1909,,m,<blank>,The ball and the cross
 uc1.b3962031,uc1.b3962031,007887948,"Turgenev, Ivan Sergeevich,",Ivan Sergeevich,1921,,m,<blank>,"Knock, knock, knock, and other stories"
@@ -27736,7 +27736,7 @@ uc2.ark+=13960=t92806j28,uc2.ark+=13960=t92806j28,007914863,"Burnett, Frances Ho
 uc2.ark+=13960=t0xp6vz7m,uc2.ark+=13960=t0xp6vz7m,007914958,"Nicholl, Edith M.",Edith M,1905,,f,<blank>,The human touch
 njp.32101066120963,njp.32101066120963,007914966,"Butt, Archibald Willingham,",Archibald Willingham,1912,,m,<blank>,Both sides of the shield
 uc1.b3321700,uc1.b3321700,007914996,"Ayscough, John,",John,1909,,m,<blank>,A Roman tragedy and others
-uc1.b3322231,uc1.b3322231,007915183,"Anethan, Albert dʼ,",Albert dʼ,1906,,u,<blank>,It happened in Japan
+uc1.b3322231,uc1.b3322231,007915183,"Anethan, Albert dʼ,",Albert dʼ,1906,,f,<blank>,It happened in Japan
 uc1.b3322265,uc1.b3322265,007915195,"Bagot, Richard,",Richard,1902,,m,<blank>,Donna Diana
 uc1.b3322329,uc1.b3322329,007915220,"Hanshew, Thomas W.,",Thomas W,1915,,m,<blank>,The riddle of the night
 uc2.ark+=13960=t14m92b07,uc2.ark+=13960=t14m92b07,007915224,"Hancock, Albert Elmer,",Albert Elmer,1901,,m,<blank>,Henry Bourland
@@ -27793,7 +27793,7 @@ uc1.b3326437,uc1.b3326437,007922940,"Steel, Flora Annie Webster,",Flora Annie We
 uc1.b3326438,uc1.b3326438,007922941,"Steel, Flora Annie Webster,",Flora Annie Webster,1917,,f,<blank>,Mistress of men
 uc2.ark+=13960=t06w9fp68,uc2.ark+=13960=t06w9fp68,007922943,"Steel, Flora Annie Webster,",Flora Annie Webster,1907,,f,<blank>,A sovereign remedy
 uc2.ark+=13960=t9x06697t,uc2.ark+=13960=t9x06697t,007922945,"Steevens, Christina,",Christina,1901,,f,<blank>,A motley crew;
-uc2.ark+=13960=t3mw2hz91,uc2.ark+=13960=t3mw2hz91,007922954,"Speilmann, M. H.,",M. H,1908,,u,<blank>,My son and I
+uc2.ark+=13960=t3mw2hz91,uc2.ark+=13960=t3mw2hz91,007922954,"Speilmann, M. H.,",M. H,1908,,f,<blank>,My son and I
 uc1.b3326458,uc1.b3326458,007922955,"Spearman, Frank H.",Frank H,1912,,m,<blank>,The mountain divide
 uc1.b3326460,uc1.b3326460,007922956,"Spearman, Frank H.",Frank H,1911,,m,<blank>,Robert Kimberly
 uc1.b3327066,uc1.b3327066,007923010,"Kingsley, Charlotte May.",Charlotte May,1902,,f,<blank>,"Shall we forgive her? or, A fatal error"
@@ -27978,7 +27978,7 @@ nnc1.1002167913,nnc1.1002167913,008404695,"Kelly, Wayne Scott.",Wayne Scott,1905
 nnc1.1002170027,nnc1.1002170027,008404705,"Knipe, Emilie Benson,",Emilie Benson,1915,,f,<blank>,A maid of '76
 nnc1.1002170469,nnc1.1002170469,008404709,"Bray, Mary Matthews,",Mary Matthews,1909,,f,<blank>,A romance of Barnstable
 nnc1.1002170523,nnc1.1002170523,008404710,"Brennan, George H.",George H,1909,,m,<blank>,Bill Truetell
-nyp.33433081936324,nyp.33433081936324,008404714,"Broaker, Frank,",Frank,1903,,m,<blank>,The younger Mrs. Courtney;
+nyp.33433081936324,nyp.33433081936324,008404714,"Broaker, Frank,",Frank,1903,,f,<blank>,The younger Mrs. Courtney;
 nnc1.1002171783,nnc1.1002171783,008404715,"Clarke, Albert Gallatin,",Albert Gallatin,1901,,u,<blank>,The Arickaree treasuree
 nnc1.1002173018,nnc1.1002173018,008404718,"Clover, Sam T.,",Sam T,1903,,m,<blank>,On special assignment;
 nnc1.1002173220,nnc1.1002173220,008404719,"Cone, Joe,",Joe,1905,,m,<blank>,The waybackers
@@ -28539,7 +28539,7 @@ nyp.33433074835442,nyp.33433074835442,008657091,"Benedict, Clare.",Clare,1909,,u
 nyp.33433074835459,nyp.33433074835459,008657092,"Benedict, Clare.",Clare,1921,,u,<blank>,XII
 nyp.33433084130495,nyp.33433084130495,008657103,"Bachman, J. Fred.,",J. Fred,1919,,m,<blank>,Adventures of Patsey Burns
 nyp.33433084130362,nyp.33433084130362,008657117,"Backus, Emma Henriette Schermeyer.",Emma Henriette Schermeyer,1913,,f,<blank>,The career of Dr. Weaver
-nyp.33433084130354,nyp.33433084130354,008657129,"Backus, Henry,",Henry,1917,,m,<blank>,A place in the sun
+nyp.33433084130354,nyp.33433084130354,008657129,"Backus, Henry,",Henry,1917,,f,<blank>,A place in the sun
 nyp.33433084130347,nyp.33433084130347,008657131,"Backus, Emma Henriette Schermeyer.",Emma Henriette Schermeyer,1914,,f,<blank>,The rose of roses
 nyp.33433082547336,nyp.33433082547336,008657142,"Gregor, Elmer Russell,",Elmer Russell,1921,,m,<blank>,The White Wolf
 nyp.33433084130313,nyp.33433084130313,008657143,"Bacon, John Harwood,",John Harwood,1904,,m,<blank>,The pursuit of Phyllis
@@ -29140,7 +29140,7 @@ nyp.33433074815618,nyp.33433074815618,008659479,"Buck, Charles Neville,",Charles
 nyp.33433076045735,nyp.33433076045735,008659484,"Mighels, Philip Verrill,",Philip Verrill,1913,,m,<blank>,Hearts of grace
 nyp.33433084130032,nyp.33433084130032,008659485,"Ayr, Landis.",Landis,1900,,u,<blank>,A priest and a woman
 nyp.33433076089055,nyp.33433076089055,008659487,"Kelly, Thomas,",Thomas,1916,,m,<blank>,"The Big Tree treaty, or, The last council on the Genesee"
-nyp.33433074807797,nyp.33433074807797,008659497,"Fedden, Romilly,",Romilly,1912,,u,<blank>,The sign
+nyp.33433074807797,nyp.33433074807797,008659497,"Fedden, Romilly,",Romilly,1912,,f,<blank>,The sign
 nyp.33433074807706,nyp.33433074807706,008659498,"Fedden, Katharine Waldo Douglas,",Katharine Waldo Douglas,1913,,f,<blank>,The spare room
 nyp.33433076082134,nyp.33433076082134,008659500,"McCahan, Belle Travers.",Belle Travers,1908,,f,<blank>,The preshus child
 nyp.33433076090053,nyp.33433076090053,008659501,"Lemon, Mary Dyer.",Mary Dyer,1917,,f,<blank>,The Grimpy letters
@@ -29222,7 +29222,7 @@ nyp.33433076053408,nyp.33433076053408,008659696,"Price, Hannah J.",Hannah J,1913
 nyp.33433076084130,nyp.33433076084130,008659697,"Hudson, Charles B.",Charles B,1917,,m,<blank>,The royal outlaw
 nyp.33433076054075,nyp.33433076054075,008659699,"Overton, Grant Martin,",Grant Martin,1921,,m,<blank>,World without end
 nyp.33433076054059,nyp.33433076054059,008659702,"Owen, Rye.",Rye,1903,,u,<blank>,Red-headed gill
-nyp.33433076043706,nyp.33433076043706,008659703,"Owings, Osmond Young,",Osmond Young,1914,,m,<blank>,David's heritage
+nyp.33433076043706,nyp.33433076043706,008659703,"Owings, Osmond Young,",Osmond Young,1914,,f,<blank>,David's heritage
 nyp.33433076043714,nyp.33433076043714,008659704,"Oyen, Henry,",Henry,1919,,m,<blank>,Big flat
 nyp.33433076043748,nyp.33433076043748,008659706,"Oyen, Henry,",Henry,1919,,m,<blank>,The plunderer
 nyp.33433076043755,nyp.33433076043755,008659707,"Oyen, Henry,",Henry,1922,,m,<blank>,Tarrant of Tin Spout
@@ -29351,7 +29351,7 @@ nyp.33433076043144,nyp.33433076043144,008659967,"Sanborn, Gertrude,",Gertrude,19
 nyp.33433082527452,nyp.33433082527452,008659971,"Morison, R. C. H.,",R. C. H,1901,,u,<blank>,Chambers's new reciter
 nyp.33433076043136,nyp.33433076043136,008659972,"Sangree, Allen.",Allen,1911,,m,<blank>,The jinx;
 nyp.33433074848536,nyp.33433074848536,008659976,"Burrow, Charles Kennett,",Charles Kennett,1904,,m,<blank>,The yeoman
-nyp.33433082529474,nyp.33433082529474,008659981,"Acland, Arthur H. D.,",Arthur H. D,1919,,m,<blank>,The queer beasts;
+nyp.33433082529474,nyp.33433082529474,008659981,"Acland, Arthur H. D.,",Arthur H. D,1919,,f,<blank>,The queer beasts;
 nyp.33433074847728,nyp.33433074847728,008659984,"Burt, Katharine Newlin,",Katharine Newlin,1921,,f,<blank>,Snow-blind
 nyp.33433074847744,nyp.33433074847744,008659988,"Burt, Maxwell Struthers,",Maxwell Struthers,1918,,m,<blank>,John O'May and other stories
 nyp.33433074848312,nyp.33433074848312,008660000,"Busch, Bonnie,",Bonnie,1922,,f,<blank>,Out of the Middle West
@@ -29503,7 +29503,7 @@ nyp.33433074799234,nyp.33433074799234,008660496,"Mapes, Charles Halsted.",Charle
 uc1.31822038207403,uc1.31822038207403,008660509,"Tully, Jim.",Jim,1922,,m,<blank>,Emmett Lawler
 nyp.33433076042229,nyp.33433076042229,008660531,"Tupper, Tristram.",Tristram,1922,,u,<blank>,The house of five swords
 nyp.33433076043029,nyp.33433076043029,008660533,"Roe, Vingie E.",Vingie E,1919,,u,<blank>,Tharon of Lost Valley
-nyp.33433076042120,nyp.33433076042120,008660538,"Turnbull, Francese Hubbard Litchfield,",Francese Hubbard Litchfield,1911,,m,<blank>,The royal pawn of Venice;
+nyp.33433076042120,nyp.33433076042120,008660538,"Turnbull, Francese Hubbard Litchfield,",Francese Hubbard Litchfield,1911,,f,<blank>,The royal pawn of Venice;
 nyp.33433074827878,nyp.33433074827878,008660539,"Thrift, Tim",Tim,1922,,m,<blank>,Tim thoughts
 nyp.33433076042138,nyp.33433076042138,008660541,"Turnbull, Margaret,",Margaret,1916,,f,<blank>,Handle with care
 nyp.33433076036700,nyp.33433076036700,008660554,"Rollins, Montgomery.",Montgomery,1917,,m,<blank>,The village pest
@@ -29536,7 +29536,7 @@ nyp.33433074790803,nyp.33433074790803,008660658,"Hobart, George V.",George V,190
 nyp.33433074795299,nyp.33433074795299,008660680,"Wolff, Perlita.",Perlita,1911,,u,<blank>,Ezra
 nyp.33433082302989,nyp.33433082302989,008660682,"Flower, Jessie Graham.",Jessie Graham,1921,,f,<blank>,Grace Harlowe's overland riders on the great American desert
 nyp.33433074795067,nyp.33433074795067,008660685,"Wonderly, W. Carey",W. Carey,1918,,m,<blank>,The world to live in
-nyp.33433082532098,nyp.33433082532098,008660715,"Doyle, Martha Claire MacGowan,",Martha Claire MacGowan,1901,,u,<blank>,My friend Jim;
+nyp.33433082532098,nyp.33433082532098,008660715,"Doyle, Martha Claire MacGowan,",Martha Claire MacGowan,1901,,f,<blank>,My friend Jim;
 nyp.33433074790944,nyp.33433074790944,008660717,"Ireland, Walter Alleyne,",Walter Alleyne,1917,,m,<blank>,Beating 'em to it;
 nyp.33433076043375,nyp.33433076043375,008660721,"Rowland, Henry C.",Henry C,1913,,m,<blank>,The apple of discord
 nyp.33433076043359,nyp.33433076043359,008660722,"Rowland, Henry C.",Henry C,1908,,m,<blank>,The Countess Diane
@@ -29571,7 +29571,7 @@ nyp.33433076054240,nyp.33433076054240,008660811,"Henry-Ruffin, M. E.",M. E,1914,
 nyp.33433076072705,nyp.33433076072705,008660812,"Wayne, Charles Stokes,",Charles Stokes,1907,,m,<blank>,The marriage of Mrs. Merlin
 nyp.33433076045040,nyp.33433076045040,008660815,"Moore, Idora McClellan,",Idora McClellan,1917,,m,<blank>,Betsy Hamilton
 nyp.33433076044522,nyp.33433076044522,008660817,"Scott, John Reed,",John Reed,1912,,m,<blank>,The last try
-nyp.33433074843602,nyp.33433074843602,008660819,"Clements, M. E.,",M. E,1911,,u,<blank>,The den of the sixteenth section
+nyp.33433074843602,nyp.33433074843602,008660819,"Clements, M. E.,",M. E,1911,,f,<blank>,The den of the sixteenth section
 nyp.33433076044506,nyp.33433076044506,008660820,"Scott, John Reed,",John Reed,1917,,m,<blank>,The man in evening clothes
 nyp.33433076045081,nyp.33433076045081,008660823,"Moore, John Trotwood,",John Trotwood,1911,,m,<blank>,The gift of the grass;
 nyp.33433076045073,nyp.33433076045073,008660824,"Moore, John Trotwood,",John Trotwood,1911,,m,<blank>,Jack Ballington
@@ -29702,7 +29702,7 @@ nyp.33433074806252,nyp.33433074806252,008661337,"Mackall, Lawton,",Lawton,1920,,
 nyp.33433076092893,nyp.33433076092893,008661341,"Thomas, Rowland,",Rowland,1913,,m,<blank>,"Fatima, or, Always pick a fool for your husband"
 nyp.33433076044878,nyp.33433076044878,008661343,"Montague, Margaret Prescott,",Margaret Prescott,1908,,f,<blank>,In Calvert's Valley
 nyp.33433076092729,nyp.33433076092729,008661345,"Thomas, Rowland,",Rowland,1914,,m,<blank>,Felicidad;
-nyp.33433076040736,nyp.33433076040736,008661351,"Van Vorst, John,",John,1906,,m,<blank>,Letters to women in love
+nyp.33433076040736,nyp.33433076040736,008661351,"Van Vorst, John,",John,1906,,f,<blank>,Letters to women in love
 nyp.33433076044944,nyp.33433076044944,008661352,"Montague, Margaret Prescott,",Margaret Prescott,1920,,f,<blank>,Uncle Sam of Freedom Ridge
 nyp.33433076044936,nyp.33433076044936,008661359,"Montanye, C. S.",C. S,1920,,u,<blank>,Some nephew!
 nyp.33433076041411,nyp.33433076041411,008661362,"Van Vorst, Marie.",Marie,1921,,f,<blank>,Tradition
@@ -29918,7 +29918,7 @@ nyp.33433074935309,nyp.33433074935309,008664104,"Calthrop, Dion Clayton,",Dion C
 nyp.33433074927090,nyp.33433074927090,008664106,"Becker, William Templer.",William Templer,1913,,m,<blank>,Larkin of Cotton Run
 nyp.33433074935390,nyp.33433074935390,008664108,"Calthrop, Dion Clayton,",Dion Clayton,1922,,m,<blank>,Tremendous adventures
 nyp.33433074936760,nyp.33433074936760,008664113,"Battersby, H. F. Prevost.",H. F. Prevost,1906,,u,<blank>,The avenging hour
-nyp.33433074929286,nyp.33433074929286,008664117,"Bosworth, Foster,",Foster,1910,,m,<blank>,The Monteiths
+nyp.33433074929286,nyp.33433074929286,008664117,"Bosworth, Foster,",Foster,1910,,f,<blank>,The Monteiths
 nyp.33433074935317,nyp.33433074935317,008664128,"Camden, John.",John,1905,,m,<blank>,The hundredth acre
 nyp.33433074929278,nyp.33433074929278,008664130,"Bottome, Phyllis,",Phyllis,1914,,f,<blank>,"""Broken music,"""
 nyp.33433074929260,nyp.33433074929260,008664134,"Bottome, Phyllis,",Phyllis,1916,,f,<blank>,The dark tower
@@ -30086,17 +30086,17 @@ nyp.33433075728034,nyp.33433075728034,008665107,"Fowler, Edith Henrietta,",Edith
 nyp.33433074954821,nyp.33433074954821,008665109,"Cullum, Ridgwell,",Ridgwell,1918,,m,<blank>,The law of the gun
 nyp.33433074954763,nyp.33433074954763,008665111,"Cullum, Ridgwell,",Ridgwell,1914,,m,<blank>,The law-breakers
 nyp.33433074942420,nyp.33433074942420,008665115,"Casserly, Gordon.",Gordon,1921,,m,<blank>,The elephant god
-nyp.33433075727853,nyp.33433075727853,008665120,"Forbes, Walter R. D. Farwell,",Walter R. D. Farwell,1903,,m,<blank>,Unofficial;
+nyp.33433075727853,nyp.33433075727853,008665120,"Forbes, Walter R. D. Farwell,",Walter R. D. Farwell,1903,,f,<blank>,Unofficial;
 nyp.33433074954615,nyp.33433074954615,008665121,"Cullum, Ridgwell,",Ridgwell,1917,,m,<blank>,The triumph of John Kars;
 nyp.33433074954607,nyp.33433074954607,008665122,"Cumings, Hilda P.",Hilda P,1917,,f,<blank>,No graven image
 nyp.33433074954656,nyp.33433074954656,008665125,"Owen, Harle Oren.",Harle Oren,1902,,u,<blank>,Welsh rarebit tales
 nyp.33433074954565,nyp.33433074954565,008665127,"Cunliffe-Owen, Marguerite,",Marguerite,1907,,f,<blank>,Emerald and ermine;
 nyp.33433075727903,nyp.33433075727903,008665129,"Forbes, George,",George,1920,,m,<blank>,Adventures in southern seas;
-nyp.33433074963855,nyp.33433074963855,008665132,"De La Pasture, Henry,",Henry,1906,,m,<blank>,The lonely lady of Grosvenor square
+nyp.33433074963855,nyp.33433074963855,008665132,"De La Pasture, Henry,",Henry,1906,,f,<blank>,The lonely lady of Grosvenor square
 nyp.33433074944459,nyp.33433074944459,008665138,"Costello, Pierre.",Pierre,1911,,m,<blank>,A sinner in Israel
 nyp.33433074788526,nyp.33433074788526,008665152,"McLaughlin, Mary Washington Smith,",Mary Washington Smith,1912,,f,<blank>,A fantasy of souls
 nyp.33433074858188,nyp.33433074858188,008665159,"Hartley, Percy John,",Percy John,1911,,m,<blank>,The hand of Diana
-njp.32101064788746,njp.32101064788746,008665160,"De La Pasture, Henry,",Henry,1913,,m,<blank>,Michael
+njp.32101064788746,njp.32101064788746,008665160,"De La Pasture, Henry,",Henry,1913,,f,<blank>,Michael
 nyp.33433075728067,nyp.33433075728067,008665161,"Fowler, Ellen Thorneycroft,",Ellen Thorneycroft,1913,,f,<blank>,Her ladyship's conscience
 nyp.33433075727895,nyp.33433075727895,008665166,"Forbes, James,",James,1908,,m,<blank>,The chorus lady
 nyp.33433075741243,nyp.33433075741243,008665174,"Fowler, Ellen Thorneycroft,",Ellen Thorneycroft,1915,,f,<blank>,Ten degrees backward
@@ -30503,7 +30503,7 @@ nyp.33433075767164,nyp.33433075767164,008667455,"Wharton, Anne Hollingsworth,",A
 nyp.33433074901913,nyp.33433074901913,008667458,"De Meyer, Mahrah,",Mahrah,1916,,u,<blank>,Nadine Narska
 nyp.33433074932363,nyp.33433074932363,008667462,"Barclay, Armiger.",Armiger,1907,,u,<blank>,The kingmakers
 nyp.33433075761662,nyp.33433075761662,008667463,"Upward, Allen,",Allen,1900,,m,<blank>,The slaves of society
-nyp.33433074932470,nyp.33433074932470,008667468,"Barclay, Hubert,",Hubert,1913,,m,<blank>,East of the shadows
+nyp.33433074932470,nyp.33433074932470,008667468,"Barclay, Hubert,",Hubert,1913,,f,<blank>,East of the shadows
 nyp.33433074901897,nyp.33433074901897,008667470,"Meynell, Wilfrid,",Wilfrid,1915,,u,<blank>,Aunt Sarah & the war;
 nyp.33433075752836,nyp.33433075752836,008667471,"Vachell, Horace Annesley,",Horace Annesley,1912,,m,<blank>,Blinds down
 nyp.33433074901889,nyp.33433074901889,008667472,"Michael Michaelowitch,",Michael Michaelowitch,1908,,m,<blank>,Never say die
@@ -30516,7 +30516,7 @@ nyp.33433075767495,nyp.33433075767495,008667500,"Wheeler, James Cooper,",James C
 nyp.33433075751960,nyp.33433075751960,008667502,"Stevenson, George,",George,1913,,m,<blank>,Topham's folly
 nyp.33433075757181,nyp.33433075757181,008667506,"Vachell, Horace Annesley,",Horace Annesley,1908,,m,<blank>,The turn of the tide
 nyp.33433075757140,nyp.33433075757140,008667507,"Vachell, Horace Annesley.",Horace Annesley,1908,,m,<blank>,The waters of Jordan
-nyp.33433075762355,nyp.33433075762355,008667516,"Vaizey, George de Horne,",George de Horne,1914,,m,<blank>,Lady Cassandra
+nyp.33433075762355,nyp.33433075762355,008667516,"Vaizey, George de Horne,",George de Horne,1914,,f,<blank>,Lady Cassandra
 nyp.33433075756514,nyp.33433075756514,008667527,"Vallings, Gabrielle.",Gabrielle,1917,,f,<blank>,Bindweed
 nyp.33433075758429,nyp.33433075758429,008667533,"Van Buren, Evelyn.",Evelyn,1921,,f,<blank>,Zizi's career
 nyp.33433075747299,nyp.33433075747299,008667537,"Watson, Frederick,",Frederick,1917,,m,<blank>,Children of passage
@@ -30525,7 +30525,7 @@ nyp.33433075761431,nyp.33433075761431,008667541,"Watson, Gilbert,",Gilbert,1907,
 nyp.33433075767040,nyp.33433075767040,008667551,"Whitaker, Herman,",Herman,1909,,m,<blank>,The planter
 nyp.33433075767032,nyp.33433075767032,008667557,"Whitaker, Herman,",Herman,1906,,m,<blank>,The settler
 nyp.33433074945845,nyp.33433074945845,008667564,"Clegg, Thomas Bailey.",Thomas Bailey,1908,,m,<blank>,The bishop's scapegoat
-nyp.33433075751523,nyp.33433075751523,008667574,"Smith, Chetwood,",Chetwood,1915,,u,<blank>,Cranberry Cove stories
+nyp.33433075751523,nyp.33433075751523,008667574,"Smith, Chetwood,",Chetwood,1915,,f,<blank>,Cranberry Cove stories
 nyp.33433074945837,nyp.33433074945837,008667577,"Clegg, Thomas Bailey.",Thomas Bailey,1906,,m,<blank>,The love child
 nyp.33433075741938,nyp.33433075741938,008667580,"Rhodes, Kathlyn.",Kathlyn,1919,,u,<blank>,Sands of gold
 nyp.33433075741912,nyp.33433075741912,008667588,"Rhys, Grace Little,",Grace Little,1901,,f,<blank>,The wooing of Sheila
@@ -30605,7 +30605,7 @@ nyp.33433074958699,nyp.33433074958699,008667978,"Dearmer, Mabel,",Mabel,1908,,f,
 nyp.33433075770200,nyp.33433075770200,008667991,"Winsor, George McLeod.",George McLeod,1919,,m,<blank>,Station X
 nyp.33433075768220,nyp.33433075768220,008668005,"Marlow, Louis,",Louis,1917,,m,<blank>,A chaste man
 nyp.33433074947858,nyp.33433074947858,008668012,"Annesley, Maude.",Maude,1916,,f,<blank>,Blind understanding
-nyp.33433074963822,nyp.33433074963822,008668016,"De La Pasture, Henry,",Henry,1903,,m,<blank>,Cornelius
+nyp.33433074963822,nyp.33433074963822,008668016,"De La Pasture, Henry,",Henry,1903,,f,<blank>,Cornelius
 nyp.33433074947767,nyp.33433074947767,008668019,"Annesley, Maude.",Maude,1913,,f,<blank>,The sphinx in the labyrinth
 nyp.33433075752406,nyp.33433075752406,008668020,"Stanley, Caroline Abbot,",Caroline Abbot,1913,,f,<blank>,Their Christmas golden wedding
 nyp.33433075768089,nyp.33433075768089,008668024,"Willcocks, M. P.",M. P,1913,,f,<blank>,The will to live
@@ -30720,7 +30720,7 @@ nyp.33433074853080,nyp.33433074853080,008669224,"Heddle, Ethel F.",Ethel F,1902,
 nyp.33433074879705,nyp.33433074879705,008669250,"Lorimer, Norma,",Norma,1915,,f,<blank>,On desert altars
 nyp.33433074879044,nyp.33433074879044,008669251,"Lorraine, Rupert.",Rupert,1909,,m,<blank>,The woman and the sword
 nyp.33433074877477,nyp.33433074877477,008669254,"Lowis, C. C.",C. C,1920,,u,<blank>,Four blind mice
-nyp.33433074879085,nyp.33433074879085,008669258,"Luck, Churchill,",Churchill,1907,,u,<blank>,The first claim
+nyp.33433074879085,nyp.33433074879085,008669258,"Luck, Churchill,",Churchill,1907,,f,<blank>,The first claim
 nyp.33433074862842,nyp.33433074862842,008669328,"Halifax, Robert.",Robert,1913,,m,<blank>,The white thread;
 nyp.33433075768865,nyp.33433075768865,008669340,"Thayer, Lee,",Lee,1922,,m,<blank>,Q.E.D
 nyp.33433075741151,nyp.33433075741151,008669341,"Crawford, Mary Caroline,",Mary Caroline,1911,,f,<blank>,Goethe and his woman friends;
@@ -30766,7 +30766,7 @@ nyp.33433075766463,nyp.33433075766463,008670000,"Perrin, Alice,",Alice,1908,,f,<
 nyp.33433075765796,nyp.33433075765796,008670003,"Pedler, Margaret.",Margaret,1920,,f,<blank>,The hermit of Far End
 nyp.33433075766323,nyp.33433075766323,008670005,"Perry, Montanye.",Montanye,1921,,u,<blank>,Blossomy cottage
 nyp.33433075741896,nyp.33433075741896,008670006,"Reynolds, Eldrid,",Eldrid,1914,,u,<blank>,Whispering dust
-nyp.33433075744072,nyp.33433075744072,008670008,"Shore, Teignmouth,",Teignmouth,1909,,u,<blank>,The pride of the Graftons
+nyp.33433075744072,nyp.33433075744072,008670008,"Shore, Teignmouth,",Teignmouth,1909,,f,<blank>,The pride of the Graftons
 nyp.33433075761837,nyp.33433075761837,008670027,"Sladen, Douglas Brooke Wheelton,",Douglas Brooke Wheelton,1916,,m,<blank>,The Douglas romance
 nyp.33433075754790,nyp.33433075754790,008670031,"Sutcliffe, Halliwell,",Halliwell,1909,,m,<blank>,Priscilla of the Good Intent;
 nyp.33433075754865,nyp.33433075754865,008670037,"Sutherland, Joan,",Joan,1922,,f,<blank>,Beauty for ashes
@@ -30792,8 +30792,8 @@ nyp.33433075751135,nyp.33433075751135,008670227,"Rosegger, Peter,",Peter,1902,,m
 nyp.33433075768949,nyp.33433075768949,008670230,"Teegan, Thomas Henry.",Thomas Henry,1900,,m,<blank>,With the Grand army to Moscow
 nyp.33433075758189,nyp.33433075758189,008670233,"Trafford-Taunton, Winefride.",Winefride,1904,,u,<blank>,The redemption of Damian Gier
 nyp.33433075757082,nyp.33433075757082,008670243,"Vaughan, Thomas Hunter.",Thomas Hunter,1911,,m,<blank>,The gates of the past
-nyp.33433075757108,nyp.33433075757108,008670247,"Vaizey, George de Horne,",George de Horne,1911,,m,<blank>,A question of marriage
-nyp.33433075757090,nyp.33433075757090,008670272,"Vaizey, George de Horne,",George de Horne,1913,,m,<blank>,An unknown lover
+nyp.33433075757108,nyp.33433075757108,008670247,"Vaizey, George de Horne,",George de Horne,1911,,f,<blank>,A question of marriage
+nyp.33433075757090,nyp.33433075757090,008670272,"Vaizey, George de Horne,",George de Horne,1913,,f,<blank>,An unknown lover
 nyp.33433075763411,nyp.33433075763411,008670278,"Thackeray, William Makepeace,",William Makepeace,1906,,m,<blank>,"Catherine, Lovel the widower, etc., etc"
 nyp.33433074861547,nyp.33433074861547,008670309,"Hussey, Eyre.",Eyre,1907,,f,<blank>,That little -----?
 nyp.33433074930979,nyp.33433074930979,008670327,"Buchanan, Robert Williams,",Robert Williams,1901,,m,<blank>,Andromeda
@@ -30812,7 +30812,7 @@ nyp.33433075861348,nyp.33433075861348,008670507,"Young, Florence Ethel Mills,",F
 nyp.33433075757942,nyp.33433075757942,008670556,"Welles, Charles Stuart.",Charles Stuart,1901,,m,<blank>,The Ellwoods
 nyp.33433075767693,nyp.33433075767693,008670600,"Whitelaw, David.",David,1906,,m,<blank>,MacStodger's affinity;
 nyp.33433075860779,nyp.33433075860779,008670611,"Wyllarde, Dolf.",Dolf,1908,,m,<blank>,Rose-white youth
-nyp.33433075762348,nyp.33433075762348,008670613,"Vaizey, George de Horne,",George de Horne,1917,,m,<blank>,Betty Trevor
+nyp.33433075762348,nyp.33433075762348,008670613,"Vaizey, George de Horne,",George de Horne,1917,,f,<blank>,Betty Trevor
 nyp.33433075767420,nyp.33433075767420,008670614,"Wentworth-James, Gertie de S.",Gertie de S,1912,,f,<blank>,The house of chance
 nyp.33433075767123,nyp.33433075767123,008670637,"Westrup, Margaret.",Margaret,1904,,f,<blank>,Helen Alliston
 nyp.33433074865662,nyp.33433074865662,008670641,"Buckrose, J. E.,",J. E,1908,,f,<blank>,Voices
@@ -30897,7 +30897,7 @@ nyp.33433075971998,nyp.33433075971998,008679068,"Monroe, Anne Shannon,",Anne Sha
 nyp.33433076054331,nyp.33433076054331,008679069,"Myers, William Wilshire.",William Wilshire,1905,,m,<blank>,Hotep
 nyp.33433076054315,nyp.33433076054315,008679070,"Nason, Frank Lewis,",Frank Lewis,1902,,m,<blank>,To the end of the trail
 nyp.33433075968796,nyp.33433075968796,008679134,"Roe, Clifford Griffith,",Clifford Griffith,1910,,m,<blank>,Panders and their white slaves
-nyp.33433075929434,nyp.33433075929434,008679169,"Humphry,",Humphry,1901,,u,<blank>,Manners for girls
+nyp.33433075929434,nyp.33433075929434,008679169,"Humphry,",Humphry,1901,,f,<blank>,Manners for girls
 nyp.33433076060049,nyp.33433076060049,008679170,"Palmer, Frederick,",Frederick,1903,,m,<blank>,The vagabond
 nyp.33433076060262,nyp.33433076060262,008679172,"Pangborn, Frederic Werden.",Frederic Werden,1903,,m,<blank>,The silent maid
 nyp.33433076060726,nyp.33433076060726,008679175,"Pattee, Fred Lewis,",Fred Lewis,1905,,m,<blank>,The house of the black ring
@@ -30938,8 +30938,8 @@ nyp.33433076044365,nyp.33433076044365,008679582,"Sears, Baldwin.",Baldwin,1903,,
 nyp.33433076044613,nyp.33433076044613,008679593,"Shackleton, Robert,",Robert,1904,,m,<blank>,The great adventurer
 nyp.33433076058092,nyp.33433076058092,008679618,"Tybout, Ella Middleton.",Ella Middleton,1905,,f,<blank>,The wife of the Secretary of State
 nyp.33433076041379,nyp.33433076041379,008679619,"Tyson, Anne Arrington.",Anne Arrington,1903,,f,<blank>,Dramana
-nyp.33433076050701,nyp.33433076050701,008679703,"Van Vorst, John,",John,1901,,m,<blank>,Bagsby's daughter
-nyp.33433076050735,nyp.33433076050735,008679704,"Van Vorst, John,",John,1904,,m,<blank>,The issues of life
+nyp.33433076050701,nyp.33433076050701,008679703,"Van Vorst, John,",John,1901,,f,<blank>,Bagsby's daughter
+nyp.33433076050735,nyp.33433076050735,008679704,"Van Vorst, John,",John,1904,,f,<blank>,The issues of life
 nyp.33433076050644,nyp.33433076050644,008679712,"Van Vorst, Marie.",Marie,1902,,f,<blank>,Philip Longstreth;
 nyp.33433076041452,nyp.33433076041452,008679728,"Vesey, A. H.",A. H,1905,,u,<blank>,The clock and the key
 nyp.33433076050545,nyp.33433076050545,008679729,"Vielé, Herman Knickerbocker,",Herman Knickerbocker,1902,,m,<blank>,Myra of the pines
@@ -30986,7 +30986,7 @@ nyp.33433074878244,nyp.33433074878244,008682346,"Lee, Margaret,",Margaret,1902,,
 nyp.33433074879713,nyp.33433074879713,008682366,"Lorimer, Norma,",Norma,1915,,f,<blank>,A wife out of Egypt
 nyp.33433074875323,nyp.33433074875323,008682377,"Macfadden, Bernarr,",Bernarr,1901,,u,<blank>,The athlete's conquest
 nyp.33433074902101,nyp.33433074902101,008682393,"Moffat, Jessie Emerson.",Jessie Emerson,1904,,f,<blank>,A friend at court
-nyp.33433074964606,nyp.33433074964606,008682398,"Older, Fremont,",Fremont,1905,,m,<blank>,The giants
+nyp.33433074964606,nyp.33433074964606,008682398,"Older, Fremont,",Fremont,1905,,f,<blank>,The giants
 nyp.33433075744841,nyp.33433075744841,008682399,"Orcutt, Emma Louise.",Emma Louise,1901,,f,<blank>,Esther Mather
 nyp.33433074928791,nyp.33433074928791,008682400,"Howard, Keble,",Keble,1908,,m,<blank>,Miss Charity
 nyp.33433075752190,nyp.33433075752190,008682451,"Stephens, Dan V.",Dan V,1905,,m,<blank>,Phelps and his teachers
@@ -31008,7 +31008,7 @@ nyp.33433079545830,nyp.33433079545830,008682886,"Foucher, Laure Claire,",Laure C
 nyp.33433074914197,nyp.33433074914197,008683577,"Carter, Thomas.",Thomas,1910,,m,<blank>,Stories from Shakespeare
 nyp.33433082490628,nyp.33433082490628,008683818,"Harvey, A. K. P.",A. K. P,1903,,u,<blank>,In the glow of the campfire;
 nyp.33433066634134,nyp.33433066634134,008684043,"Mather, Fred,",Fred,1901,,m,<blank>,My angling friends
-nyp.33433082498886,nyp.33433082498886,008684110,"O'Connor, T. P.,",T. P,1915,,m,<blank>,Dog stars
+nyp.33433082498886,nyp.33433082498886,008684110,"O'Connor, T. P.,",T. P,1915,,f,<blank>,Dog stars
 njp.32101064794470,njp.32101064794470,008684127,"Gardner, Herbert.",Herbert,1917,,m,<blank>,Come duck shooting with me
 nyp.33433082256045,nyp.33433082256045,008684936,"Waterman, Amy Harlow Lane,",Amy Harlow Lane,1920,,f,<blank>,A little preserving book for a little girl
 nyp.33433076067465,nyp.33433076067465,008686530,"Kelly, Florence Finch,",Florence Finch,1909,,f,<blank>,Rhoda of the Underground
@@ -31109,7 +31109,7 @@ njp.32101066122308,njp.32101066122308,008925244,"Hamilton, Cosmo,",Cosmo,1922,,m
 njp.32101066122324,njp.32101066122324,008925246,"Hamilton, Cicely Mary,",Cicely Mary,1908,,f,<blank>,Diana of Dobson's
 njp.32101066122423,njp.32101066122423,008925253,"Grundy, Mabel Sarah Barnes.",Mabel Sarah Barnes,1911,,f,<blank>,The third Miss Wenderby
 njp.32101066122571,njp.32101066122571,008925260,"Harper, Henry Howard,",Henry Howard,1918,,m,<blank>,The tides of fate
-njp.32101066122647,njp.32101066122647,008925267,"Harker, L. Allen",L. Allen,1906,,m,<blank>,Concerning Paul and Fiammetta
+njp.32101066122647,njp.32101066122647,008925267,"Harker, L. Allen",L. Allen,1906,,f,<blank>,Concerning Paul and Fiammetta
 njp.32101066122720,njp.32101066122720,008925273,"Birmingham, George A.,",George A,1909,,m,<blank>,The search party
 njp.32101066122787,njp.32101066122787,008925279,"Birmingham, George A.,",George A,1922,,m,<blank>,The great-grandmother
 njp.32101066122803,njp.32101066122803,008925280,"Herbin, John Frederic,",John Frederic,1907,,m,<blank>,The heir to Grand-Pré
@@ -31331,7 +31331,7 @@ uc2.ark+=13960=t54f1nc8x,uc2.ark+=13960=t54f1nc8x,009259497,"Shute, Henry A.",He
 uc2.ark+=13960=t3kw58b11,uc2.ark+=13960=t3kw58b11,009259600,"White, Stewart Edward,",Stewart Edward,1903,,m,<blank>,The call of the North ;
 uc2.ark+=13960=t22b8w678,uc2.ark+=13960=t22b8w678,009259616,"Gilman, Charlotte Perkins,",Charlotte Perkins,1911,,f,<blank>,The crux
 uc2.ark+=13960=t5z60ct07,uc2.ark+=13960=t5z60ct07,009259621,"Ewing, Juliana Horatia,",Juliana Horatia,1908,,f,<blank>,A great emergency & other tales
-uc2.ark+=13960=t0cv4cc38,uc2.ark+=13960=t0cv4cc38,009259649,"Graham, John Ellsworth,",John Ellsworth,1901,,m,<blank>,The Toltec savior;
+uc2.ark+=13960=t0cv4cc38,uc2.ark+=13960=t0cv4cc38,009259649,"Graham, John Ellsworth,",John Ellsworth,1901,,f,<blank>,The Toltec savior;
 uc2.ark+=13960=t94747z4t,uc2.ark+=13960=t94747z4t,009259666,"Sabin, Edwin L.",Edwin L,1913,,m,<blank>,On the plains with Custer
 uc2.ark+=13960=t58c9zj4j,uc2.ark+=13960=t58c9zj4j,009259691,"Braden, James A.",James A,1907,,m,<blank>,The trail of the Seneca
 uc2.ark+=13960=t3st7fp20,uc2.ark+=13960=t3st7fp20,009259710,"Gerberding, Elizabeth.",Elizabeth,1902,,f,<blank>,The golden chimney;
@@ -31359,7 +31359,7 @@ uc2.ark+=13960=t79s1mn56,uc2.ark+=13960=t79s1mn56,009260408,"Tompkins, Juliet Wi
 uc2.ark+=13960=t0tq5t95r,uc2.ark+=13960=t0tq5t95r,009260445,"Murray, Clara.",Clara,1912,,f,<blank>,The wide awake third reader
 uc2.ark+=13960=t48p5zg8w,uc2.ark+=13960=t48p5zg8w,009260487,"J©đkai, M©đr,",M©đr,1908,,u,<blank>,The baron's sons;
 uc2.ark+=13960=t75t3h44m,uc2.ark+=13960=t75t3h44m,009260580,"Hayes, J. W.",J. W,1913,,u,<blank>,"Portland, Oregon A. D. 1999, and other sketches"
-uc2.ark+=13960=t3ws8k598,uc2.ark+=13960=t3ws8k598,009260693,"Bignell, Effie Molt,",Effie Molt,1901,,u,<blank>,Mr. Chupes and Miss Jenny;
+uc2.ark+=13960=t3ws8k598,uc2.ark+=13960=t3ws8k598,009260693,"Bignell, Effie Molt,",Effie Molt,1901,,f,<blank>,Mr. Chupes and Miss Jenny;
 uc2.ark+=13960=t81j98c6c,uc2.ark+=13960=t81j98c6c,009260725,"Sabin, Edwin L.",Edwin L,1918,,m,<blank>,General Crook and the fighting Apaches
 uc2.ark+=13960=t3cz32x93,uc2.ark+=13960=t3cz32x93,009260780,"Griggs, Sutton E.",Sutton E,1908,,m,<blank>,Pointing the way
 uc2.ark+=13960=t2g737w4q,uc2.ark+=13960=t2g737w4q,009260796,"London, Jack,",Jack,1904,,m,<blank>,The golden poppy
@@ -31753,7 +31753,7 @@ uva.x030797255,uva.x030797255,009774872,"Williams, Blanche Colton,",Blanche Colt
 uva.x030803931,uva.x030803931,009774932,"Bruce, George H.",George H,1912,,m,<blank>,"Lawyers, doctors and preachers; a satirical survey of the three learned professions"
 uva.x004507096,uva.x004507096,009775561,"Blackwood, Algernon,",Algernon,1909,,m,<blank>,The education of Uncle Paul
 uva.x030751450,uva.x030751450,009775562,"Blackwood, Algernon,",Algernon,1913,,m,<blank>,A prisoner in fairyland (the book that 'Uncle Paul' wrote)
-uva.x030809665,uva.x030809665,009775581,"Woods, James Chapman,",James Chapman,1901,,m,<blank>,Tangled trinities
+uva.x030809665,uva.x030809665,009775581,"Woods, James Chapman,",James Chapman,1901,,f,<blank>,Tangled trinities
 uva.x030742634,uva.x030742634,009775595,"Deeping, Warwick,",Warwick,1911,,m,<blank>,Joan of the tower
 uva.x000425261,uva.x000425261,009775596,"Delafield, E. M.,",E. M,1917,,f,<blank>,Zella sees herself
 uva.x002267152,uva.x002267152,009775597,"De La Pasture, Eliz. B.",Eliz. B,1911,,u,<blank>,Master Christopher
@@ -31818,7 +31818,7 @@ uva.x000885269,uva.x000885269,009776229,"Montague, Margaret Prescott,",Margaret 
 uva.x030787747,uva.x030787747,009776231,"Packard, Frank Lucius,",Frank Lucius,1922,,m,<blank>,Jimmie Dale and the phantom clue
 uva.x030803650,uva.x030803650,009776236,"Roche, Arthur Somers,",Arthur Somers,1921,,m,<blank>,Find the woman
 uva.x030800982,uva.x030800982,009776237,"Newton, Alma.",Alma,1921,,f,<blank>,Dreaming true
-uva.x030787828,uva.x030787828,009776238,"Schneider, Martha Lemon,",Martha Lemon,1905,,u,<blank>,A government countess;
+uva.x030787828,uva.x030787828,009776238,"Schneider, Martha Lemon,",Martha Lemon,1905,,f,<blank>,A government countess;
 uva.x030800726,uva.x030800726,009776239,"Scott, Leroy,",Leroy,1907,,m,<blank>,To him that hath
 uva.x030800724,uva.x030800724,009776240,"Scott, Martin J.",Martin J,1922,,m,<blank>,Mother Machree;
 uva.x030803673,uva.x030803673,009776241,"Scudder, Sam.",Sam,1908,,m,<blank>,A counterfeit citizen
@@ -31844,7 +31844,7 @@ uva.x004198576,uva.x004198576,009776524,"Blasco Ibáñez, Vicente,",Vicente,1919
 uva.x030826064,uva.x030826064,009776563,"Reid, Jane Brewster.",Jane Brewster,1910,,f,<blank>,The Owls of St. Ursula's;
 uva.x001850551,uva.x001850551,009776574,"Strother, Emily Vielé,",Emily Vielé,1915,,f,<blank>,Eve Dorre;
 uva.x000335016,uva.x000335016,009776576,"Brentwood, Evelyn.",Evelyn,1912,,f,<blank>,Hector Graeme
-uva.x030797377,uva.x030797377,009776580,"Coxon, Murien Hine,",Murien Hine,1916,,u,<blank>,The individual
+uva.x030797377,uva.x030797377,009776580,"Coxon, Murien Hine,",Murien Hine,1916,,f,<blank>,The individual
 uva.x030797381,uva.x030797381,009776581,"Demarest, Virginia.",Virginia,1910,,f,<blank>,The fruit of desire;
 uva.x030788126,uva.x030788126,009776583,"Ellison, Edith Nicholl Bradley.",Edith Nicholl Bradley,1908,,f,<blank>,The burnt-offering
 uva.x030788129,uva.x030788129,009776585,"Fariss, Amy Cameron.",Amy Cameron,1905,,u,<blank>,The sin of Saint Desmond
@@ -31870,7 +31870,7 @@ uva.x000335908,uva.x000335908,009779806,"Turgenev, Ivan Sergeevich,",Ivan Sergee
 uva.x000682973,uva.x000682973,009780456,"Lippmann, Julie Mathilde,",Julie Mathilde,1904,,f,<blank>,Every-day girls
 uva.x000327534,uva.x000327534,009781071,"Ewell, Alice Maude,",Alice Maude,1907,,f,<blank>,A long time ago;
 uva.x000429691,uva.x000429691,009781843,"Leblanc, Maurice,",Maurice,1913,,m,<blank>,The confessions of Arsène Lupin;
-uva.x004256256,uva.x004256256,009782220,"Grosvenor,",Grosvenor,1906,,u,<blank>,The bands of Orion
+uva.x004256256,uva.x004256256,009782220,"Grosvenor,",Grosvenor,1906,,f,<blank>,The bands of Orion
 uva.x000987078,uva.x000987078,009782280,"Cohen, Octavus Roy,",Octavus Roy,1922,,m,<blank>,Come seven
 uva.x002262997,uva.x002262997,009782281,"Collins, Frederick L.",Frederick L,1916,,m,<blank>,The strange case of Mary Page
 uva.x030825983,uva.x030825983,009782565,"Kay, Ross.",Ross,1916,,m,<blank>,The go ahead boys and the mysterious old house
@@ -31963,7 +31963,7 @@ uva.x002008591,uva.x002008591,009794541,"Cable, George Washington,",George Washi
 uva.x001752097,uva.x001752097,009794563,"Leroux, Gaston,",Gaston,1910,,m,<blank>,The mystery of the yellow room
 uva.x002263924,uva.x002263924,009794669,"Wood, Charles S.",Charles S,1902,,m,<blank>,On the frontier with St. Clair
 uva.x001274607,uva.x001274607,009794680,"Meyer-Förster, Wilhelm,",Wilhelm,1903,,u,<blank>,Old Heidelberg =
-uva.x002015019,uva.x002015019,009794702,"Oppenheim, Ansel,",Ansel,1904,,u,<blank>,Evelyn
+uva.x002015019,uva.x002015019,009794702,"Oppenheim, Ansel,",Ansel,1904,,f,<blank>,Evelyn
 uva.x030826050,uva.x030826050,009794717,"Smith, Mabell S. C.",Mabell S. C,1915,,f,<blank>,Ethel Morton's holidays
 uva.x004507296,uva.x004507296,009794812,"Cox, Stephen Angus.",Stephen Angus,1910,,m,<blank>,The Dare boys with General Greene
 uva.x002178875,uva.x002178875,009794940,"Baldwin, James,",James,1900,,m,<blank>,The story of Roland
@@ -32014,7 +32014,7 @@ mdp.39076005041269,mdp.39076005041269,009927635,"Darrow, Clarence,",Clarence,192
 mdp.39076005068254,mdp.39076005068254,009927851,"Imhaus, Elizabeth Vigoureux.",Elizabeth Vigoureux,1915,,f,<blank>,"""Golden poppy"""
 mdp.39076005078733,mdp.39076005078733,009927957,"McClure, S. S.",S. S,1914,,u,<blank>,My autobiography
 mdp.39076005079566,mdp.39076005079566,009927986,"Shelley, Mary Wollstonecraft,",Mary Wollstonecraft,1910,,f,<blank>,"Frankenstein, or, The modern Prometheus"
-mdp.39076005080234,mdp.39076005080234,009928012,"O'Connor, T. P.,",T. P,1913,,m,<blank>,Little Thank You
+mdp.39076005080234,mdp.39076005080234,009928012,"O'Connor, T. P.,",T. P,1913,,f,<blank>,Little Thank You
 mdp.39076005081893,mdp.39076005081893,009928052,"Howe, Will David,",Will David,1909,,m,<blank>,A fifth reader
 mdp.39076002605058,mdp.39076002605058,009930402,"Winnington, Laura.",Laura,1903,,f,<blank>,The Outlook fairy book for little people
 mdp.39076005085068,mdp.39076005085068,009930613,"Marshall, Edward,",Edward,1910,,m,<blank>,The old flute-player
@@ -32054,7 +32054,7 @@ uc1.$b686385,uc1.$b686385,009978499,"Sheehan, Patrick Augustine,",Patrick August
 uc1.$b676060,uc1.$b676060,009979455,"Des Écherolles, Alexandrine Etiennette Marie Charlotte,",Alexandrine Etiennette Marie Charlotte,1900,,f,<blank>,Side lights on the Reign of Terror;
 uc1.$b674031,uc1.$b674031,009980054,"Home, Gordon,",Gordon,1922,,m,<blank>,York;
 uc1.$b675277,uc1.$b675277,009980815,"Hill, Constance,",Constance,1904,,u,<blank>,Juniper Hall
-uc1.$b675791,uc1.$b675791,009981143,"Menzies, Stuart,",Stuart,1922,,m,<blank>,Recollections and reflections by a woman of no importance
+uc1.$b675791,uc1.$b675791,009981143,"Menzies, Stuart,",Stuart,1922,,f,<blank>,Recollections and reflections by a woman of no importance
 uc1.$b668590,uc1.$b668590,009983741,"Votaw, Clarence E.",Clarence E,1907,,m,<blank>,Jasper Hunnicutt of Jimpsonhurst
 uc1.$b663416,uc1.$b663416,009984356,"Ó Conaire, Pádraic,",Pádraic,1921,,u,<blank>,Land of wonders
 uc1.$b662762,uc1.$b662762,009987349,"Smith, Henry Justin,",Henry Justin,1922,,m,<blank>,Deadlines
@@ -32412,7 +32412,7 @@ umn.31951002015901s,umn.31951002015901s,011256118,"McArthur, Peter,",Peter,1919,
 uc1.b4691106,uc1.b4691106,011256304,"Lucas, E. V.",E. V,1911,,m,<blank>,Mr. Ingleside
 uc1.b4692438,uc1.b4692438,011256329,"Vince, Charles.",Charles,1922,,m,<blank>,"Barrie Marvell, his dreams and adventures"
 uc1.b4692515,uc1.b4692515,011256334,"Welsh, James C.,",James C,1920,,m,<blank>,The underworld;
-uc1.b4692525,uc1.b4692525,011256335,"White, Woollaston,",Woollaston,1908,,u,<blank>,Marama
+uc1.b4692525,uc1.b4692525,011256335,"White, Woollaston,",Woollaston,1908,,f,<blank>,Marama
 uc1.b4694860,uc1.b4694860,011256351,"Henry, O.,",O,1904,,m,<blank>,Heart of the west
 uc1.b4701451,uc1.b4701451,011256428,"Brown, Walter Scott.",Walter Scott,1900,,m,<blank>,Andrew Bentley
 uc1.b4717767,uc1.b4717767,011256686,"Warden, Gertrude.",Gertrude,1901,,f,<blank>,"A poor girl's passion; or, The crime of Monte Carlo"
