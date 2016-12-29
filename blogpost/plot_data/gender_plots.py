@@ -1,4 +1,4 @@
-import sys,csv,re
+import sys,csv,re,math
 import numpy as np
 
 B=10000
@@ -151,8 +151,10 @@ def resampleYearDouble(year, samplingMethod):
 	m_means=[]
 	for b in range(B):
 		(w_mean, m_mean)=samplingMethod(year)
-		w_means.append(w_mean)
-		m_means.append(m_mean)
+		if not math.isnan(w_mean):
+			w_means.append(w_mean)
+		if not math.isnan(m_mean):
+			m_means.append(m_mean)
 		
 	print "%s\t%s\t%s" % (year, '\t'.join("%.3f" % x for x in np.percentile(w_means, [2.5, 50, 97.5])), '\t'.join("%.3f" % x for x in np.percentile(m_means, [2.5, 50, 97.5])))
 
