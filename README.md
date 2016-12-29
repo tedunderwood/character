@@ -5,7 +5,7 @@ Repo containing code and data for research on characterization (Ted Underwood an
 
 The original texts of many volumes are under copyright, and couldn't be shared even if the size limits of this repository permitted. So we are sharing derived data, plus metadata which would allow a researcher to retrieve those original texts from HathiTrust Research Center.
 
-Right now all the data provided in this repo is aggregated by year; we have not yet made available word counts broken out by volume or by character name,
+Right now all the data provided in this repo is aggregated by year; we have not yet made available word counts broken out by volume or by character name; that will come out with our article, as will a more tightly integrated and replicable codebase. At the moment, the metadata is in /metadata and data is in /yearlysummaries.
 
 blogpost
 --------
