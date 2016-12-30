@@ -1,25 +1,30 @@
-# aggregate_by_authgender.py
+# aggregate_authgender.py
+
+# This script fuses volume-level metadata with volume-level
+# summaries of BookNLP output in order to produce yearly summaries
+# by character and author gender.
 
 import json, csv, os, sys
 
 from collections import Counter
 
-# import utils
-currentdir = os.path.dirname(__file__)
-libpath = os.path.join(currentdir, '../../lib')
-sys.path.append(libpath)
-
-import SonicScrewdriver as utils
-
 volgender = dict()
 voldate = dict()
 volbirth = dict()
+
+mindate = 3000
+maxdate = 0
 
 with open('post22_corrected_metadata.csv', encoding = 'utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         volgender[row['docid']] = row['authgender']
-        voldate[row['docid']] = int(row['inferreddate'])
+        date = int(row['inferreddate'])
+        voldate[row['docid']] = date
+        if date < mindate:
+            mindate = date
+        if date > maxdate:
+            maxdate = date
         volbirth[row['docid']] = int(row['birthdate'])
 
 # Aggregate novels by year.
@@ -106,7 +111,7 @@ with open('corrected_post22_summary.csv', mode = 'w', encoding = 'utf-8') as f:
 
     for chargender in allgenders:
         for authgender in allgenders:
-            for date in range(1922, 2015):
+            for date in range(mindate, (maxdate + 1)):
                 outrow = dict()
                 outrow['chargender'] = chargender
                 outrow['authgender'] = authgender
