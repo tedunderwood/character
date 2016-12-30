@@ -7,12 +7,19 @@ from collections import Counter
 volgender = dict()
 voldate = dict()
 volbirth = dict()
+mindate = 3000
+maxdate = 0
 
 with open('pre23_corrected_metadata.csv', encoding = 'utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         volgender[row['docid']] = row['authgender']
-        voldate[row['docid']] = int(row['inferreddate'])
+        date = int(row['inferreddate'])
+        voldate[row['docid']] = date
+        if date < mindate:
+            mindate = date
+        if date > maxdate:
+            maxdate = date
 
 # Aggregate novels by year.
 
@@ -88,7 +95,7 @@ with open('corrected_pre23_hathi_summary.csv', mode = 'w', encoding = 'utf-8') a
 
     for chargender in allgenders:
         for authgender in allgenders:
-            for date in range(1800, 1924):
+            for date in range(mindate, (maxdate + 1)):
                 outrow = dict()
                 outrow['chargender'] = chargender
                 outrow['authgender'] = authgender
