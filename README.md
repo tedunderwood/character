@@ -9,7 +9,7 @@ Right now all the data provided in this repo is aggregated by year; we have not 
 
 blogpost
 --------
-Scripts used to calculate confidence intervals and plot visualizations in the blog post "The Gender Balance of Fiction, 1800-2007."
+Scripts used to calculate confidence intervals and plot visualizations in the blog post ["The Gender Balance of Fiction, 1800-2007."](https://tedunderwood.com/2016/12/28/the-gender-balance-of-fiction-1800-2007/)
 
 error
 -----
