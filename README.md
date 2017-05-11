@@ -23,6 +23,10 @@ metadata
 --------
 Contains metadata for volumes used in this project, along with a discussion of metadata error.
 
+pubweekly
+---------
+Data from spot checking Publisher's Weekly to see how far academic libraries diverge from other ways of sampling the past.
+
 yearlysummaries
 ---------------
 Aggregated yearly word counts, broken out by author gender and character gender, and by the grammatical role of the word. They are not broken out *by the word itself*. For more detailed lexical information, right now, you would need to consult the vizdata folder.
