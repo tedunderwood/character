@@ -1,7 +1,15 @@
 publishers weekly
 =================
 
-Data gathered from Publisher's Weekly Digital Archive. (There are several resources associated with Publisher's Weekly; getting this one requires a little fishing around; in my library search engine, capitalization and the location of the apostrophe actually mattered!)
+Data gathered from Publisher's Weekly Digital Archive. 
+
+The codebook originally used to gather data is below. At this point, the thing that matters most is **masterpubweeklydata.csv***.
+
+The code in **munge_raw_data.py** goes through the other data files and makes little format adjustments needed to fuse them into **masterpubweeklydata***, which then gets used elsewhere in the repo.
+
+codebook
+--------
+There are several resources associated with Publisher's Weekly; getting this one requires a little fishing around; in my library search engine, capitalization and the location of the apostrophe actually mattered!)
 
 In particular, we're sampling titles from the *Record*, a section of the magazine that comes relatively early in the issue in the early portion of the print run, and near the back of the magazine later in the print run.
 
