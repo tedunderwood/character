@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-# unbootstrapped_gender_plots.py
+# pubweekly_gender_plots.py
 
-# Python code to generate some new plots that don't (I think)
-# require bootstrap resampling. But I'm trying as far as possible to
+# Python code to generate a new plot that integrates
+# HathiTrust data with the PubWeekly sample. But I'm trying as far as possible to
 # reuse David's code and work from the same source files so
 # that we are guaranteed to be consistent.
 
@@ -101,7 +101,7 @@ def writeauthorratios():
 
         authgenderratios[year] = (counts[0]/np.sum(counts))
 
-    with open('../../dataforR/authorratios.csv', mode = 'w', encoding = 'utf-8') as f:
+    with open('../dataforR/authorratios.csv', mode = 'w', encoding = 'utf-8') as f:
         f.write('year,authratio\n')
         for year in range(1800, 2008):
             f.write(str(year) + ',' + str(authgenderratios[year]) + '\n')
@@ -111,7 +111,7 @@ def writeauthorratios():
 
 def writePWerrorbars():
     dates = [1890, 1955, 1985]
-    pubweekly = pd.read_csv('../../pubweekly/masterpubweeklydata.csv')
+    pubweekly = pd.read_csv('../pubweekly/masterpubweeklydata.csv')
     rows = []
     for d in dates:
         recordsforyear = pubweekly[pubweekly.date == d]
@@ -143,7 +143,7 @@ def writePWerrorbars():
         row['high'] = lowmiddlehigh[2]
         rows.append(row)
 
-    with open('../../dataforR/pubweeklyerrorbars.csv', mode = 'w', encoding = 'utf-8') as f:
+    with open('../dataforR/pubweeklyerrorbars.csv', mode = 'w', encoding = 'utf-8') as f:
         scribe = csv.DictWriter(f, fieldnames = ['year', 'low', 'mean', 'high'])
         scribe.writeheader()
         for row in rows:
@@ -151,12 +151,12 @@ def writePWerrorbars():
 
 
 chart=sys.argv[1]
-readmeta('../../metadata/filtered_fiction_metadata.csv')
+readmeta('../metadata/filtered_fiction_metadata.csv')
 
 # this is in the repo file structure, so should/could be in the same position
 # relative to this script on each of our computers
 
-read(['../../post22hathi/post22_character_data.csv', '../../pre23hathi/pre23_character_data.csv'])
+read(['../post22hathi/post22_character_data.csv', '../../pre23hathi/pre23_character_data.csv'])
 
 if chart == 'authorratios':
     writeauthorratios()
