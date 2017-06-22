@@ -3,9 +3,9 @@ publishers weekly
 
 Data gathered from Publisher's Weekly Digital Archive. 
 
-The codebook originally used to gather data is below. At this point, the thing that matters most is **masterpubweeklydata.csv***.
+The codebook originally used to gather data is below. At this point, the thing that matters most is **masterpubweeklydata.csv**.
 
-The code in **munge_raw_data.py** goes through the other data files and makes little format adjustments needed to fuse them into **masterpubweeklydata***, which then gets used elsewhere in the repo.
+The code in **munge_raw_data.py** goes through the other data files and makes little format adjustments needed to fuse them into **masterpubweeklydata**, which then gets used elsewhere in the repo.
 
 codebook
 --------
