@@ -1,7 +1,7 @@
 Research on characterization
 ============================
 
-Repo containing code and data for research on characterization (Ted Underwood and David Bamman, 2015-17).
+Repo containing code and data for research on characterization (Ted Underwood, David Bamman, and Sabrina Lee, 2015-17).
 
 The original texts of many volumes are under copyright, and couldn't be shared even if the size limits of this repository permitted. So we are sharing derived data, plus metadata which would allow a researcher to retrieve those original texts from HathiTrust Research Center.
 
@@ -10,6 +10,10 @@ Right now all the data provided in this repo is aggregated by year; we have not 
 blogpost
 --------
 Scripts used to calculate confidence intervals and plot visualizations in the blog post ["The Gender Balance of Fiction, 1800-2007."](https://tedunderwood.com/2016/12/28/the-gender-balance-of-fiction-1800-2007/)
+
+plot_scripts
+------------
+Code used to generate visualizations in the final article.
 
 error
 -----
