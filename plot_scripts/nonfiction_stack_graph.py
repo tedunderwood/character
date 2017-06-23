@@ -3,7 +3,9 @@
 # nonfiction_stack_graph.py
 
 # Our goal here is to calculate what percentage of the books in each year
-# that have known genders are either
+# that have known genders are either fiction by women, or other genres
+# by women. Books by men are not going to be represented in the final
+# stacked area graph, except as negative space.
 
 import sys, csv, math
 import numpy as np
@@ -57,6 +59,11 @@ with open('../nonfiction/nonfiction_genders.tsv', encoding = 'utf-8') as f:
             # note that gender 'u' is not counted
             pass
 
+# there are two nested loops here because we need
+# to put the data in "long" format for ggplot
+# visualization; the two genres will be represented
+# successively instead of in two columns
+
 with open('../dataforR/nonfiction_stack_graph.csv', mode = 'w', encoding = 'utf-8') as f:
     scribe = csv.DictWriter(f, fieldnames = ['year', 'genre', 'fraction'])
     scribe.writeheader()
@@ -71,3 +78,4 @@ with open('../dataforR/nonfiction_stack_graph.csv', mode = 'w', encoding = 'utf-
             scribe.writerow(row)
 
 print('There were ' + str(dateerrors) + ' noninteger dates.')
+# there are 0 errors in practice
