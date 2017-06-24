@@ -30,6 +30,11 @@ with open('tedcondensedpubweekly.csv', encoding = 'utf-8') as f:
     subsetofpw3 = pw3.loc[ :, ['date', 'firstpub', 'author', 'title', 'htid', 'inhathi', 'gender']]
     separatedataframes.append(subsetofpw3)
 
+with open('pubweekly1920.csv', encoding = 'utf-8') as f:
+    pw4 = pd.read_csv(f)
+    subsetofpw4 = pw4.loc[ :, ['date', 'firstpub', 'author', 'title', 'htid', 'inhathi', 'gender']]
+    separatedataframes.append(subsetofpw4)
+
 masterframe = pd.concat(separatedataframes)
 masterframe.to_csv('masterpubweeklydata.csv', index = False)
 
