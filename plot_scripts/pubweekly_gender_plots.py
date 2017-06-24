@@ -110,7 +110,7 @@ def writeauthorratios():
     # plotting in R.
 
 def writePWerrorbars():
-    dates = [1890, 1955, 1985]
+    dates = [1890, 1920, 1955, 1985]
     pubweekly = pd.read_csv('../pubweekly/masterpubweeklydata.csv')
     rows = []
     for d in dates:
@@ -156,7 +156,7 @@ readmeta('../metadata/filtered_fiction_metadata.csv')
 # this is in the repo file structure, so should/could be in the same position
 # relative to this script on each of our computers
 
-read(['../post22hathi/post22_character_data.csv', '../../pre23hathi/pre23_character_data.csv'])
+read(['../post22hathi/post22_character_data.csv', '../pre23hathi/pre23_character_data.csv'])
 
 if chart == 'authorratios':
     writeauthorratios()
