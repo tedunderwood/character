@@ -52,7 +52,7 @@ usedalready = set()
 # Python doesn't make us declare globals, but I wish it did.
 
 unknowndate = 0     # GLOBAL counter for number of characters without dates
-
+thingsunknown = set()
 
 id2date = dict()    # GLOBAL dict translating docids to dates
 
@@ -60,8 +60,8 @@ id2date = dict()    # GLOBAL dict translating docids to dates
 # character with a publication date. That will allow us to easily
 # select subsets of characters
 
-with open('../metadata/filtered_fiction_metadata.csv', encoding = 'utf-8') as f:
-    reader = csv.DictReader(f)
+with open('../metadata/filtered_fiction_plus_18c.tsv', encoding = 'utf-8') as f:
+    reader = csv.DictReader(f, delimiter = '\t')
     for row in reader:
         # there are two different forms of id volumes can have,
         # because 19c stories are often multi-volume
@@ -104,7 +104,7 @@ def append_characters(jsonstring, outfile, expectedid):
     expectedid: a docid implied by the filename where we got jsonstring
     '''
 
-    global id2date, unknowndate, stopwords
+    global id2date, unknowndate, stopwords, thingsunknown
 
     jsonobject = ujson.loads(jsonstring)
 
@@ -118,6 +118,7 @@ def append_characters(jsonstring, outfile, expectedid):
         docid = expectedid
     else:
         unknowndate += 1
+        thingsunknown.add(expectedid)
         date = -1
         return 0
 
