@@ -157,6 +157,57 @@ def crossvalidate_one_model(metadatapath, sourcefolder, c_range, ftstart, ftend,
 
     return rawaccuracy
 
+def crossvalidate_across_L2_range(metadatapath, sourcefolder, c_range, ftstart, ftend, ftstep, positive_tags = ['f'], negative_tags = ['m']):
+    '''
+    For a given set of characters, crossvalidates a model at multiple
+    L2 settings, and returns all the accuracies.
+    '''
+
+    modelname = metadatapath.replace('.//models/', '').replace('_meta.csv', '')
+    extension = '.tsv'
+    vocabpath = metadatapath.replace('_meta', '_vocab')
+    if os.path.exists(vocabpath):
+        os.unlink(vocabpath)
+        # we rebuild vocab each time
+    outputpath = metadatapath.replace('_meta', '')
+
+    ## EXCLUSIONS. # not used in this project
+
+    excludeif = dict()
+    excludeifnot = dict()
+    excludeabove = dict()
+    excludebelow = dict()
+
+    sizecap = 1000
+
+    # CLASSIFY CONDITIONS # not used in this project
+
+    testconditions = set()
+
+    datetype = "firstpub"
+    numfeatures = ftend
+    regularization = .000075
+    # linting the code would get rid of regularization, which is at this
+    # point an unused dummy parameter
+
+    paths = (sourcefolder, extension, metadatapath, outputpath, vocabpath)
+    exclusions = (excludeif, excludeifnot, excludebelow, excludeabove, sizecap)
+    classifyconditions = (positive_tags, negative_tags, datetype, numfeatures, regularization, testconditions)
+
+    accuracydict = dict()
+    for c_setting in c_range:
+
+        cparam = [c_setting]
+
+        modelparams = 'logistic', 10, ftstart, ftend, ftstep, cparam
+
+        rawaccuracy, allvolumes, coefficientuples = train.crossvalidate_single_model(paths, exclusions, classifyconditions, modelparams)
+
+        accuracydict[c_setting] = rawaccuracy
+
+    return accuracydict
+
+
 def applymodel():
     modelpath = input('Path to model? ')
     sourcefolder = '/Users/tunder/Dropbox/GenreProject/python/reception/fiction/fromEF'
@@ -205,14 +256,14 @@ if __name__ == '__main__':
 
     command = args[1]
 
-    metapath = '../metadata/balanced_speechless_subset.csv'
-    sourcefolder = '/Users/tunder/data/speechless_characters/'
+    metapath = '../metadata/balanced_character_subset.csv'
+    sourcefolder = '/Users/tunder/data/character_subset/'
 
     if command == 'optimize_general_model':
 
-        c_range = [.00004, .00009, .0002, .0004, .0008, .0012, .002, .004, .008, .012, 0.3, 0.8, 2]
-        featurestart = 1800
-        featureend = 3000
+        c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008]
+        featurestart = 1000
+        featureend = 3200
         featurestep = 100
 
         generalmetapath, general_docids = select_subset_to_model('wholetimeline', metapath,
@@ -245,6 +296,75 @@ if __name__ == '__main__':
                         startdate = floor, enddate = ceiling)
                     accuracy = crossvalidate_one_model(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
                     f.write(str(dec) + '\t' + str(accuracy) + '\n')
+
+    elif command == 'optimize_20c':
+        c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008]
+        featurestart = 1100
+        featureend = 3000
+        featurestep = 100
+
+        generalmetapath, general_docids = select_subset_to_model('wholetwentieth', metapath,
+            numexamples = 800, startdate = 1900, enddate = 2000)
+
+        gridsearch_a_model(generalmetapath, sourcefolder, c_range,
+            featurestart, featureend, featurestep)
+
+    elif command == 'optimize_19c':
+        c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008]
+        featurestart = 1100
+        featureend = 3000
+        featurestep = 100
+
+        generalmetapath, general_docids = select_subset_to_model('wholenineteenth', metapath,
+            numexamples = 800, startdate = 1800, enddate = 1900)
+
+        gridsearch_a_model(generalmetapath, sourcefolder, c_range,
+            featurestart, featureend, featurestep)
+
+    elif command == 'optimize_decade':
+        decade = int(args[2])
+        c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008]
+        featurestart = 1100
+        featureend = 3100
+        featurestep = 100
+        modelname = 'optimal' + str(decade)
+        generalmetapath, general_docids = select_subset_to_model(modelname, metapath,
+            numexamples = 800, startdate = decade, enddate = decade+10)
+
+        gridsearch_a_model(generalmetapath, sourcefolder, c_range,
+            featurestart, featureend, featurestep)
+
+    elif command == 'decade_grid':
+
+        # This is the function I finally used. Keeps the number of features
+        # fixed at 2200, but generates a new lexicon for each decade (and each
+        # sample of 800 characters within the decade). Tests each decade at
+        # multiple L2 settings, and records them all, so we can take the
+        # optimal setting but also figure out how much of a difference that's
+        # making.
+
+        c_range = [.00003, .0001, .0003, .001]
+        featurestart = 2200
+        featureend = 2200
+        featurestep = 100
+
+        with open('../dataforR/decadegrid.tsv', mode = 'w', encoding = 'utf-8') as f:
+            f.write('decade\tL2\taccuracy\titer\n')
+            for dec in range (1790, 2010, 10):
+                if dec == 1790:
+                    floor = 1780
+                    ceiling = 1800
+                else:
+                    floor = dec
+                    ceiling = dec + 10
+
+                modelname = 'decade' + str(dec)
+                for i in range(15):
+                    decademetapath, docids = select_subset_to_model(modelname, metapath, numexamples = 800,
+                        startdate = floor, enddate = ceiling)
+                    accuracydict = crossvalidate_across_L2_range(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
+                    for L2setting, accuracy in accuracydict.items():
+                        f.write(str(dec) + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
 
     else:
         print("I don't know that command.")
