@@ -22,13 +22,13 @@ from collections import Counter
 csv.field_size_limit(sys.maxsize)
 # cause some of those fields are long
 
-mediantarget = 64
+mediantarget = 54
 # target median num of words for characters
 
 TARGET = 2000
 # target number of characters per gender per decade
 
-forbidden = {'he~m', 'she~m', 'her~m', 'him~m', 'manhood~n', 'womanhood~n', 'boyhood~n', 'girlhood~n', 'husband~n', 'wife~n', 'lordship~n', 'ladyship~n', 'man~m', 'woman~m', 'mistress~m', 'daughter~m', 'son~m', 'wife~m', 'husband~m'}
+forbidden = {'he', 'she', 'her', 'him', 'manhood', 'womanhood', 'boyhood', 'girlhood', 'husband', 'wife', 'lordship', 'ladyship', 'man', 'woman', 'mistress', 'daughter', 'son', 'girl', 'boy', 'bride', 'fiancé', 'fiancée', 'brother', 'sister', 'lady', 'gentleman'}
 
 allmeta = dict()
 
@@ -55,7 +55,7 @@ def addgroup(groupofchars, allmeta, allrows, genderflag):
         this['authgender'] = metarow['authgender']
         this['nationality'] = ''
         this['gender'] = genderflag
-        this['genretags'] = genderflag
+        this['tags'] = genderflag
         this['birthdate'] = 0
         this['author'] = metarow['author']
         if this['author'] == '<blank>':
@@ -85,15 +85,18 @@ def select_from_source(sourcepath, startdate, enddate):
             date = int(row['pubdate'])
             words = row['words'].split(' ')
             docsize = len(words)
-            if docsize < 15:
+            if docsize < 16:
                 continue
             # we're ignoring minor characters
             else:
                 # let's only count words that can be used
                 docsize = 0
                 for word in words:
-                    if word not in forbidden:
+                    if word not in forbidden and not word.startswith('said-'):
                         docsize += 1
+
+            if docsize < 16:
+                continue
 
             charname = row['charname']
 
@@ -114,9 +117,9 @@ def select_from_source(sourcepath, startdate, enddate):
     allrows = []
 
     for floor in range(startdate, enddate, 10):
-        ceiling = floor + 9
+        ceiling = floor + 10
         if floor == 1780:
-            ceiling = floor + 19
+            ceiling = floor + 20
         elif floor == 1790:
             continue
 
@@ -235,7 +238,7 @@ def select_from_source(sourcepath, startdate, enddate):
         addgroup(malechars, allmeta, allrows, 'm')
         addgroup(femalechars, allmeta, allrows, 'f')
 
-    fields = ['docid', 'storyid', 'date', 'gender', 'author', 'title', 'authgender', 'nationality', 'firstpub', 'genretags', 'birthdate']
+    fields = ['docid', 'storyid', 'date', 'gender', 'author', 'title', 'authgender', 'nationality', 'firstpub', 'tags', 'birthdate']
 
     selectedchars = set()
 
@@ -255,7 +258,7 @@ def select_from_source(sourcepath, startdate, enddate):
             writer.writerow(row)
             selectedchars.add(row['docid'])
 
-    targetdir = '/Users/tunder/data/newcharacters/'
+    targetdir = '/Users/tunder/data/character_subset/'
 
     outdata = dict()
     wordtotals = Counter()
@@ -273,14 +276,14 @@ def select_from_source(sourcepath, startdate, enddate):
 
             words = row['words'].split(' ')
 
-            if len(words) < 15:
+            if len(words) < 16:
                 print('error 2')
                 continue
             # we're ignoring minor characters
 
             outdata[thischar] = Counter()
             for word in words:
-                if word not in forbidden:
+                if word not in forbidden and not word.startswith('said-'):
                     outdata[thischar][word] += 1
                     wordtotals[thischar] += 1
 
