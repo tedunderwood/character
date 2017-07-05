@@ -50,11 +50,8 @@ def select_subset_to_model(modelname, metadatapath, numexamples, startdate, endd
 
 def authgender_subset_to_model(modelname, agender, metadatapath, numexamples, startdate, enddate):
     '''
-    Creates metadata for a model of gender trained on a balanced
-    sample of the whole timeline.
-
-    In keeping with Python practice, the date range is inclusive at the bottom,
-    but not the top.
+    Creates metadata for a subset of characters drawn only from books
+    written by authors of a specified gender (agender).
 
     It returns a path to the metadata created.
     '''
@@ -67,6 +64,31 @@ def authgender_subset_to_model(modelname, agender, metadatapath, numexamples, st
     fsample = f.sample(n = numexamples)
     general_sample = pd.concat([msample, fsample])
     outpath = '../models/' + modelname + '_meta.csv'
+    general_sample.to_csv(outpath)
+
+    return outpath, general_sample.docid
+
+def subset_to_predict_authgender(modelname, metadatapath, num, startdate, enddate):
+    '''
+    Creates metadata that can be used to actually predict authgender.
+
+    It returns a path to the metadata created.
+    '''
+
+    allmeta = pd.read_csv(metadatapath)
+    timeslice = allmeta[(allmeta.firstpub >= startdate) & (allmeta.firstpub < enddate)]
+    mbym = timeslice[(timeslice.authgender == 'm') & (timeslice.gender == 'm')]
+    fbym = timeslice[(timeslice.authgender == 'm') & (timeslice.gender == 'f')]
+    mbyf = timeslice[(timeslice.authgender == 'f') & (timeslice.gender == 'm')]
+    fbyf = timeslice[(timeslice.authgender == 'f') & (timeslice.gender == 'f')]
+    general_sample = pd.concat([mbym.sample(n = num), fbym.sample(n = num),
+        mbyf.sample(n = num), fbyf.sample(n = num)])
+    outpath = '../models/' + modelname + '_meta.csv'
+
+    general_sample['tags'] = general_sample.authgender
+    # that's the line that actually ensures we are predicting
+    # author gender rather than character gender
+
     general_sample.to_csv(outpath)
 
     return outpath, general_sample.docid
@@ -425,6 +447,45 @@ if __name__ == '__main__':
                         accuracydict = crossvalidate_across_L2_range(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
                         for L2setting, accuracy in accuracydict.items():
                             f.write(str(dec) + '\t' + agender + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
+
+    elif command == 'predict_authgender':
+
+        # This is the function I finally used. Keeps the number of features
+        # fixed at 2200, but generates a new lexicon for each decade (and each
+        # sample of 800 characters within the decade). Tests each decade at
+        # multiple L2 settings, and records them all, so we can take the
+        # optimal setting but also figure out how much of a difference that's
+        # making.
+
+        c_range = [.00003, .0001, .0003, .001]
+        featurestart = 2200
+        featureend = 2200
+        featurestep = 100
+
+        metapath = '../metadata/balanced_authgender_subset.csv'
+        sourcefolder = '/Users/tunder/data/authgender_subset/'
+
+        with open('../dataforR/authgender_predictions.tsv', mode = 'w', encoding = 'utf-8') as f:
+            f.write('decade\tL2\taccuracy\titer\n')
+            for dec in range (1800, 2000, 20):
+                if dec == 1790:
+                    floor = 1780
+                    ceiling = 1800
+                else:
+                    floor = dec
+                    ceiling = dec + 20
+
+                modelname = 'predict_authgender' + '_' + str(dec)
+                for i in range(7):
+                    decademetapath, docids = subset_to_predict_authgender(modelname, metapath, num = 400,
+                        startdate = floor, enddate = ceiling)
+                    # note that in this case num is not the total number of male or female examples,
+                    # but the number for each cell of a 2x2 contingency matrix of author gender
+                    # versus character gender so 400 produces 1600 total instances
+
+                    accuracydict = crossvalidate_across_L2_range(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
+                    for L2setting, accuracy in accuracydict.items():
+                        f.write(str(dec) + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
 
     else:
         print("I don't know that command.")
