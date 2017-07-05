@@ -48,6 +48,29 @@ def select_subset_to_model(modelname, metadatapath, numexamples, startdate, endd
 
     return outpath, general_sample.docid
 
+def authgender_subset_to_model(modelname, agender, metadatapath, numexamples, startdate, enddate):
+    '''
+    Creates metadata for a model of gender trained on a balanced
+    sample of the whole timeline.
+
+    In keeping with Python practice, the date range is inclusive at the bottom,
+    but not the top.
+
+    It returns a path to the metadata created.
+    '''
+
+    allmeta = pd.read_csv(metadatapath)
+    timeslice = allmeta[(allmeta.authgender == agender) & (allmeta.firstpub >= startdate) & (allmeta.firstpub < enddate)]
+    m = timeslice[timeslice.gender == 'm']
+    f = timeslice[timeslice.gender == 'f']
+    msample = m.sample(n = numexamples)
+    fsample = f.sample(n = numexamples)
+    general_sample = pd.concat([msample, fsample])
+    outpath = '../models/' + modelname + '_meta.csv'
+    general_sample.to_csv(outpath)
+
+    return outpath, general_sample.docid
+
 def refresh_temp(list_of_docids):
     '''
     Empties the temporary folder and restocks it, using a list
@@ -365,6 +388,43 @@ if __name__ == '__main__':
                     accuracydict = crossvalidate_across_L2_range(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
                     for L2setting, accuracy in accuracydict.items():
                         f.write(str(dec) + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
+
+    elif command == 'auth_specific_charpredict_grid':
+
+        # This is the function I finally used. Keeps the number of features
+        # fixed at 2200, but generates a new lexicon for each decade (and each
+        # sample of 800 characters within the decade). Tests each decade at
+        # multiple L2 settings, and records them all, so we can take the
+        # optimal setting but also figure out how much of a difference that's
+        # making.
+
+        c_range = [.00003, .0001, .0003, .001]
+        featurestart = 2200
+        featureend = 2200
+        featurestep = 100
+
+        metapath = '../metadata/balanced_authgender_subset.csv'
+        sourcefolder = '/Users/tunder/data/authgender_subset/'
+
+        with open('../dataforR/auth_specific_charpredict.tsv', mode = 'w', encoding = 'utf-8') as f:
+            f.write('decade\tauthgender\tL2\taccuracy\titer\n')
+            for dec in range (1800, 2000, 20):
+                if dec == 1790:
+                    floor = 1780
+                    ceiling = 1800
+                else:
+                    floor = dec
+                    ceiling = dec + 20
+
+                
+                for agender in ['m', 'f']:
+                    modelname = agender + 'author' + '_' + str(dec)
+                    for i in range(5):
+                        decademetapath, docids = authgender_subset_to_model(modelname, agender, metapath, numexamples = 800,
+                            startdate = floor, enddate = ceiling)
+                        accuracydict = crossvalidate_across_L2_range(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
+                        for L2setting, accuracy in accuracydict.items():
+                            f.write(str(dec) + '\t' + agender + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
 
     else:
         print("I don't know that command.")
