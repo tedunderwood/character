@@ -1,7 +1,7 @@
 Research on characterization
 ============================
 
-Repo containing code and data for research on characterization published as "The Transformation of Gender in English-Language Fiction, 1780-2007," Ted Underwood, David Bamman, and Sabrina Lee, 2017. 
+Repo containing code and data for research on characterization to be published as "The Transformation of Gender in English-Language Fiction, 1780-2007," Ted Underwood, David Bamman, and Sabrina Lee, 2017. 
 
 The original texts of many volumes are under copyright, and couldn't be shared even if the size limits of this repository permitted. So we are sharing derived data, plus metadata which would allow a researcher to retrieve those original texts from HathiTrust Research Center.
 
@@ -9,11 +9,15 @@ The most complete derived data (that we can legally share) are tabular represent
 
 Much of the analysis of publishing trends in the first part of the article can be reproduced using **filtered_fiction_metadata.csv** in the **metadata** subdirectory.
 
-To reproduce models is a bit more involved. Most of the modeling was run on a subset of 84,000 characters balanced to have (where possible) 2000 characters with masculine names and 2000 characters with feminine names for each decade. (It's not possible in the late 18c; note also that 1780-1799 have been aggregated and treated as a single decade.) Characters were selected so that the median description length for a character was as close as possible to 54 words for both genders, in each decade. If you want to replicate the selection process itself, you would need to run **select_balanced_subset.py** in the **tranform_data** directory.
+To reproduce predictive models is a bit more involved. Most of the modeling was run on a subset of 84,000 characters balanced to have (where possible) 2000 characters with masculine names and 2000 characters with feminine names for each decade. (Total numbers are slightly lower in the late 18c; note also that 1780-1799 have been aggregated and treated as a single decade.) Characters were selected so that the median description length for a character was as close as possible to 54 words for both genders, in each decade.
 
-Alternatively, you could work with the **character_subset.tar.gz** provided here, unpack that, and run **reproduce_character_models.py** in the **train_models** subdirectory. See that script for usage instructions.
+If you want to replicate the selection process itself, you would need to run **select_balanced_subset.py** in the **tranform_data** directory. Alternatively, you could work with the **character_subset.tar.gz** provided here (which is the subset of 84,000 we actually used). Unpack that, and run **reproduce_character_models.py** in the **train_models** subdirectory. See that script for usage instructions.
+
+If you want to explore the gendering of specific words, as we do in figures 10-14, you have two options. An [interactive visualization constructed by Nikolaus Parulian](http://ec2-35-165-215-214.us-west-2.compute.amazonaws.com/dataviz/genderviz) allows you to explore online. Alternatively, you can edit the code in the scripts for figures 10-14 available under **/plotscripts/rplots** or simply write your own code to visualize the data in **dataforR/diff_matrix.csv**, which reports the yearly difference between normalized frequencies for men and women.
 
 Right now all the data provided in this repo is aggregated by year; we have not yet made available word counts broken out by volume or by character name; that will come out with our article, as will a more tightly integrated and replicable codebase. At the moment, the metadata is in /metadata and data is in /yearlysummaries.
+
+Brief descriptions of subdirectories:
 
 blogpost
 --------
