@@ -7,7 +7,7 @@ The original texts of many volumes are under copyright, and couldn't be shared e
 
 The most complete derived data (that we can legally share) are tabular representations of the words associated with individual characters: chartable18c19c.tsv and chartablepost1900.tsv. At 4GB total, these are too big for this repository and will be made available elsewhere. (Dataverse and/or institutional repo.) They include words from dialogue as well as words grammatically associated with character names, but the dialogue is not used in most of the subsequent analysis here. (In these tables, words used in dialogue are distinguished by the prefix "said-.")
 
-Much of the analysis of publishing trends in the first part of the article can be reproduced using **filtered_fiction_metadata.csv** in the **metadata** subdirectory.
+Much of the analysis of publishing trends in the first part of the article can be reproduced using **filtered_fiction_metadata.csv** in the **metadata** subdirectory. The scripts to reproduce that analysis are under **/plot_scripts**; the most important is **gender_plots.py**.
 
 To reproduce predictive models is a bit more involved. Most of the modeling was run on a subset of 84,000 characters balanced to have (where possible) 2000 characters with masculine names and 2000 characters with feminine names for each decade. (Total numbers are slightly lower in the late 18c; note also that 1780-1799 have been aggregated and treated as a single decade.) Characters were selected so that the median description length for a character was as close as possible to 54 words for both genders, in each decade.
 
