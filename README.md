@@ -15,8 +15,6 @@ If you want to replicate the selection process itself, you would need to run **s
 
 If you want to explore the gendering of specific words, as we do in figures 10-14, you have two options. An [interactive visualization constructed by Nikolaus Parulian](http://ec2-35-165-215-214.us-west-2.compute.amazonaws.com/dataviz/genderviz) allows you to explore online. Alternatively, you can edit the code in the scripts for figures 10-14 available under **/plotscripts/rplots** or simply write your own code to visualize the data in **dataforR/diff_matrix.csv**, which reports the yearly difference between normalized frequencies for men and women.
 
-Right now all the data provided in this repo is aggregated by year; we have not yet made available word counts broken out by volume or by character name; that will come out with our article, as will a more tightly integrated and replicable codebase. At the moment, the metadata is in /metadata and data is in /yearlysummaries.
-
 Brief descriptions of subdirectories:
 
 blogpost
