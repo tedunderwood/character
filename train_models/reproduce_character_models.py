@@ -24,6 +24,7 @@
 import csv, os, sys, pickle, math, tarfile
 import versatiletrainer as train
 import pandas as pd
+import numpy as np
 
 def select_subset_to_model(modelname, metadatapath, numexamples, startdate, enddate):
     '''
@@ -91,7 +92,7 @@ def subset_to_predict_authgender(modelname, metadatapath, num, startdate, enddat
 
     general_sample.to_csv(outpath)
 
-    return outpath, general_sample.docid
+    return outpath, np.mean(general_sample.firstpub)
 
 def refresh_temp(list_of_docids):
     '''
@@ -457,27 +458,27 @@ if __name__ == '__main__':
         # optimal setting but also figure out how much of a difference that's
         # making.
 
-        c_range = [.00003, .0001, .0003, .001]
-        featurestart = 2200
-        featureend = 2200
+        c_range = [.0001, .0003, .001, .003]
+        featurestart = 2500
+        featureend = 2500
         featurestep = 100
 
         metapath = '../metadata/balanced_authgender_subset.csv'
         sourcefolder = '/Users/tunder/data/authgender_subset/'
 
         with open('../dataforR/authgender_predictions.tsv', mode = 'w', encoding = 'utf-8') as f:
-            f.write('decade\tL2\taccuracy\titer\n')
-            for dec in range (1800, 2000, 20):
+            f.write('meandate\tL2\taccuracy\titer\n')
+            for dec in range (1795, 2010, 17):
                 if dec == 1790:
                     floor = 1780
                     ceiling = 1800
                 else:
                     floor = dec
-                    ceiling = dec + 20
+                    ceiling = dec + 17
 
                 modelname = 'predict_authgender' + '_' + str(dec)
-                for i in range(7):
-                    decademetapath, docids = subset_to_predict_authgender(modelname, metapath, num = 400,
+                for i in range(9):
+                    decademetapath, meandate = subset_to_predict_authgender(modelname, metapath, num = 400,
                         startdate = floor, enddate = ceiling)
                     # note that in this case num is not the total number of male or female examples,
                     # but the number for each cell of a 2x2 contingency matrix of author gender
@@ -485,7 +486,23 @@ if __name__ == '__main__':
 
                     accuracydict = crossvalidate_across_L2_range(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
                     for L2setting, accuracy in accuracydict.items():
-                        f.write(str(dec) + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
+                        f.write(str(meandate) + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
+
+    if command == 'optimize_authgender':
+
+        c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008, .03, 1]
+        featurestart = 800
+        featureend = 3600
+        featurestep = 100
+
+        metapath = '../metadata/balanced_authgender_subset.csv'
+        sourcefolder = '/Users/tunder/data/authgender_subset/'
+
+        generalmetapath, general_docids = subset_to_predict_authgender('general_authgender', metapath,
+            num = 400, startdate = 1780, enddate = 2010)
+
+        gridsearch_a_model(generalmetapath, sourcefolder, c_range,
+            featurestart, featureend, featurestep)
 
     else:
         print("I don't know that command.")
