@@ -1,6 +1,8 @@
 Yearly summaries
 ================
 
+**Note:** this data was several months old at the time the article was written; I don't think it is used in the final workflow.
+
 The texts we are working with come from three different sources:
 
 Public-domain HathiTrust texts (mostly before 1923).
