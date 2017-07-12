@@ -30,6 +30,8 @@ There is a separate line for each volume, and the column **volid** always contai
 
 The number of volumes tagged "u" does steadily increase across time, because academic libraries bought a growing number of works translated from other languages, and our gender-inference software often confesses uncertainty about those names.
 
+In producing **filtered_fiction** we removed 18c books. For running models, we added back 1780-1799; this metadata is in **filtered_fiction_plus_18c.tsv**.
+
 character-level metadata
 ------------------------
 
