@@ -3,7 +3,11 @@ train_models
 
 To reproduce the predictive modeling in the article, you'll need all these Python scripts. The one you'll probably need to edit is **reproduce_character_models.py**. Right now it has paths specific to one machine; you'll need to edit those paths so they point to the place where you have actually stored character files on your machine.
 
-Once you've done that, you should be able to reproduce particular modeling runs in the article by giving command-line arguments
+Once you've done that, you should be able to reproduce particular modeling runs in the article by giving command-line arguments.
+
+The usage model is, for instance
+
+    python3 reproduce_character_models.py decade_grid
 
 **decade_grid** reproduces Fig 7
 
