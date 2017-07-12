@@ -1,6 +1,11 @@
 metadata for character research
 ===============================
 
+There are several kinds of metadata here. Broadly, volume-level metadata, used in calculating publication statistics, and character-level metadata, used in predictive modeling.
+
+volume-level metadata
+---------------------
+
 The metadata we're actively using is **filtered_fiction_metadata.csv**, which lists 93,708 volumes, stretching from 1800 to 2007. It focuses on fiction, but will include works in translation. It's also not restricted to "the novel"; short stories and even folktales are included. But we have tried to exclude fiction aimed explicitly at a juvenile audience across the whole timeline.
 
 **merged_fiction_metadata** is an older version, containing more error.
@@ -25,3 +30,9 @@ There is a separate line for each volume, and the column **volid** always contai
 
 The number of volumes tagged "u" does steadily increase across time, because academic libraries bought a growing number of works translated from other languages, and our gender-inference software often confesses uncertainty about those names.
 
+character-level metadata
+------------------------
+
+**balanced_character_subset.csv** lists 83,920 characters used in the main modeling process that produced figure 7.
+
+**balanced_authgender_subset.csv** list 42,928 characters used in the modeling processes that produced figures 9 and 10.
