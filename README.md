@@ -23,7 +23,7 @@ If you want to reproduce predictive modeling,
 ---------------------------------------------
 Most of the modeling was run on a subset of 84,000 characters balanced to have (where possible) 2000 characters with masculine names and 2000 characters with feminine names for each decade. (Total numbers are slightly lower in the late 18c; note also that 1780-1799 have been aggregated and treated as a single decade.) Characters were selected so that the median description length for a character was as close as possible to 54 words for both genders, in each decade. The data we used is in this repo as **balanced_character_subset.tar.gz.**
 
-If you want to reproduce the selection process itself, you would need to run **select_balanced_subset.py** in the **tranform_data** directory. Alternatively, you could work with the **character_subset.tar.gz** provided here (which is the subset of 84,000 we actually used). Unpack that, and run **reproduce_character_models.py** in the **train_models** subdirectory. See that script for usage instructions.
+If you want to reproduce the selection process itself, you would need to run **select_balanced_subset.py** in the **tranform_data** directory. Alternatively, you could work with the **balanced_character_subset.tar.gz** provided here (which is the subset of 84,000 we actually used). Unpack that, and run **reproduce_character_models.py** in the **train_models** subdirectory. See that script for usage instructions.
 
 If you want to explore the gendering of specific words,
 -------------------------------------------------------
