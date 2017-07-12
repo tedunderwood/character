@@ -5,19 +5,33 @@ Repo containing code and data for research on characterization to be published a
 
 The original texts of many volumes are under copyright, and couldn't be shared even if the size limits of this repository permitted. So we are sharing derived data, plus metadata which would allow a researcher to retrieve those original texts from HathiTrust Research Center.
 
-The most complete derived data (that we can legally share) are tabular representations of the words associated with individual characters: character_table_18c19c.tsv and character_table_post1900.tsv. At 4GB total, these are too big for this repository and will be made available elsewhere. (Dataverse and/or institutional repo.) They include words from dialogue as well as words grammatically associated with character names, but the dialogue is not used in most of the subsequent analysis here. (In these tables, words used in dialogue are distinguished by the prefix "said-.")
-
 In a perfect world, a single script would take the analysis all the way from raw data to finished visualization. This is, however, a sprawling project that developed over the course of two years. The underlying data expanded and changed several times while we were working. The analysis is mostly done in Python, and the final stage of visualization in R. So there are admittedly some rough edges to reproducibility here: readers who want to reproduce images will usually have to retrace several steps.
+
+If you want to reproduce a specific figure,
+------------------------------------------
+or understand how it was produced, it may be simplest to start with the **images** folder--which contains the images used as figures, with links to the scripts that produced each one.
+
+If you want to understand the underlying data,
+----------------------------------------------
+The most complete derived data (that we can legally share) are tabular representations of the words associated with individual characters: character_table_18c19c.tsv and character_table_post1900.tsv. At 4GB total, these are too big for this repository and will be made available elsewhere. (Dataverse and/or institutional repo.) They include words from dialogue as well as words grammatically associated with character names, but the dialogue is not used in most of the subsequent analysis here. (In these tables, words used in dialogue are distinguished by the prefix "said-.")
 
 Much of the analysis of publishing trends in the first part of the article can be reproduced using **filtered_fiction_metadata.csv** in the **metadata** subdirectory. The scripts to reproduce that analysis are under **/plot_scripts**; the most important is **gender_plots.py**.
 
-To reproduce predictive models is a bit more involved. Most of the modeling was run on a subset of 84,000 characters balanced to have (where possible) 2000 characters with masculine names and 2000 characters with feminine names for each decade. (Total numbers are slightly lower in the late 18c; note also that 1780-1799 have been aggregated and treated as a single decade.) Characters were selected so that the median description length for a character was as close as possible to 54 words for both genders, in each decade. The data we used is in this repo as **balanced_character_subset.tar.gz.**
+We also used data from the Chicago Text Lab as a contrastive touchstone in several places, but we have only provided a very high-level (yearly) summary of that data here. Contact Hoyt Long or Richard So for more information.
+
+If you want to reproduce predictive modeling,
+---------------------------------------------
+Most of the modeling was run on a subset of 84,000 characters balanced to have (where possible) 2000 characters with masculine names and 2000 characters with feminine names for each decade. (Total numbers are slightly lower in the late 18c; note also that 1780-1799 have been aggregated and treated as a single decade.) Characters were selected so that the median description length for a character was as close as possible to 54 words for both genders, in each decade. The data we used is in this repo as **balanced_character_subset.tar.gz.**
 
 If you want to reproduce the selection process itself, you would need to run **select_balanced_subset.py** in the **tranform_data** directory. Alternatively, you could work with the **character_subset.tar.gz** provided here (which is the subset of 84,000 we actually used). Unpack that, and run **reproduce_character_models.py** in the **train_models** subdirectory. See that script for usage instructions.
 
-If you want to explore the gendering of specific words, as we do in figures 11-15, you have two options. An [interactive visualization constructed by Nikolaus Parulian](http://ec2-35-165-215-214.us-west-2.compute.amazonaws.com/dataviz/genderviz) allows you to explore online. Alternatively, you can edit the code in the scripts for figures 10-14 available under **/plotscripts/rplots** or simply write your own code to visualize the data in **dataforR/diff_matrix.csv**, which reports the yearly difference between normalized frequencies for men and women.
+If you want to explore the gendering of specific words,
+-------------------------------------------------------
+as we do in figures 11-15, you have two options. An [interactive visualization constructed by Nikolaus Parulian](http://ec2-35-165-215-214.us-west-2.compute.amazonaws.com/dataviz/genderviz) allows you to explore online. Alternatively, you can edit the code in the scripts for figures 10-14 available under **/plotscripts/rplots** or simply write your own code to visualize the data in **dataforR/diff_matrix.csv**, which reports the yearly difference between normalized frequencies for men and women.
 
-Brief descriptions of subdirectories. The five most important subdirectories first, then alphabetically.
+Brief descriptions of subdirectories.
+======================================
+The five most important subdirectories are listed first, then alphabetically.
 
 plot_scripts
 ------------
@@ -50,6 +64,10 @@ blogpost
 --------
 Scripts used to calculate confidence intervals and plot visualizations in the blog post ["The Gender Balance of Fiction, 1800-2007,"](https://tedunderwood.com/2016/12/28/the-gender-balance-of-fiction-1800-2007/) 2016. Mostly deprecated now.
 
+chicago
+-------
+A terse, high-level summary of character data from the Chicago Novel Corpus. Note that the  Chicago dataset has expanded and changed since we used it in 2015.
+
 error
 -----
 A brief discussion of sources of error in the project.
@@ -57,6 +75,10 @@ A brief discussion of sources of error in the project.
 genre_experiment
 ----------------
 Checking to see whether the rise of genre fiction might explain changes in the gender balance of the larger dataset. Not directly used in the article version; was displaced by pubweekly, which answered a similar question.
+
+images
+------
+Images used in the article, with notes on sourcing.
 
 lexicons
 --------
