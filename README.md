@@ -72,6 +72,10 @@ error
 -----
 A brief discussion of sources of error in the project.
 
+future_work
+------------
+Further analysis of the data, not included in the published article, or fully documented yet.
+
 genre_experiment
 ----------------
 Checking to see whether the rise of genre fiction might explain changes in the gender balance of the larger dataset. Not directly used in the article version; was displaced by pubweekly, which answered a similar question.
