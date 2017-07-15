@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
 
-# apply_model_to_all_characters.py
+# apply_model_to_characters.py
 
 # There was already an apply_pickled_model function in
 # versatile_trainer, but it was designed to work with
 # folders of files, and this will be easier if we use
-# the tabular data
+# the tabular data.
+
+# USAGE:
+
+# python3 apply_model_to_characters.py model.pkl datadir outpath
+
+# where
+# model.pkl      is the model to be applied
+# datafolder     is where character_table_18c19c.tsv
+#                and character_table_post1900.tsv are living
+# outpath        is the name of the file to be written; for me,
+#                character_probabilities.tsv
 
 import numpy as np
 import pandas as pd
@@ -13,9 +24,6 @@ import csv, os, random, sys, datetime, pickle
 from collections import Counter
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
-import modelingprocess
-import metafilter
-import metautils
 
 csv.field_size_limit(sys.maxsize)
 
@@ -123,17 +131,21 @@ def cycle_through(inpath, modeldict, outpath, no_header_yet):
 
 # MAIN
 
+args = sys.argv
+
+modelpath = args[1]
+datafolder = args[2]
+outpath = args[3]
+
 no_header_yet = True
 
-modeldict = get_model('/Users/tunder/Dropbox/python/character/models/wholetimeline.pkl')
+modeldict = get_model(modelpath)
 
-inpath = '/Users/tunder/Dropbox/python/character/data/character_table_18c19c.tsv'
-outpath = '/Users/tunder/Dropbox/python/character/data/character_probabilities.tsv'
-
+# process first character table
+inpath = os.path.join(datafolder, 'character_table_18c19c.tsv')
 no_header_yet = cycle_through(inpath, modeldict, outpath, no_header_yet)
 
-inpath = '/Users/tunder/Dropbox/python/character/data/character_table_post1900.tsv'
-
+inpath = os.path.join(datafolder, 'character_table_post1900.tsv')
 no_header_yet = cycle_through(inpath, modeldict, outpath, no_header_yet)
 
 
