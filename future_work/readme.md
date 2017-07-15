@@ -1,0 +1,14 @@
+character/future_work
+=====================
+
+The article "Transformation of Gender" calls for various kinds of further research. Some of that is already underway, though it won't be completed in time to be incorporated in the article. It's gathered in this directory.
+
+The main strategy here is to take a model of gender, developed using characters from a broad period (say 1850-1950), and then apply it to all books from that period, in order to make some inferences about the books. For instance, how strongly gendered are characters in a given book? Training a model on a single book could lead to problems of incommensurability. (Books of different sizes, etc.) But if we use a general model to make predictions about all the books, we can pose questions like,
+
+* what's the difference between the average prediction for male characters and the average prediction for female characters?
+
+* how does that difference (for a given book or author) correlate with other social variables?
+
+The script **get_authors_representation_of_gender.py** is the workhorse here.
+
+**aliasfile.tsv** is used for matching author names; it addresses pseudonyms, but also differences of spelling, spacing, initials, etc. Is not designed to be universal; it's produced specifically to capture variations for authors included in Underwood's model of prestige in fiction.
