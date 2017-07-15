@@ -136,7 +136,7 @@ def gridsearch_a_model(metadatapath, sourcefolder, c_range, ftstart, ftend, ftst
     excludeabove = dict()
     excludebelow = dict()
 
-    sizecap = 1000
+    sizecap = 2000
 
     # CLASSIFY CONDITIONS # not used in this project
 
@@ -224,7 +224,7 @@ def crossvalidate_across_L2_range(metadatapath, sourcefolder, c_range, ftstart, 
     excludeabove = dict()
     excludebelow = dict()
 
-    sizecap = 1000
+    sizecap = 2000
 
     # CLASSIFY CONDITIONS # not used in this project
 
@@ -318,6 +318,24 @@ if __name__ == '__main__':
         gridsearch_a_model(generalmetapath, sourcefolder, c_range,
             featurestart, featureend, featurestep)
 
+    if command == 'optimize_model_1850_1950':
+
+        # this option creates a model that can be used for comparison to
+        # the model of fictional prestige, which spans only 1850-1950
+
+        c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008, 0.1]
+        featurestart = 1000
+        featureend = 3200
+        featurestep = 100
+
+        generalmetapath, general_docids = select_subset_to_model('compare_to_prestige_1850_to_1950', metapath, numexamples = 1500, startdate = 1850, enddate = 1951)
+
+        # The number of examples is higher here, because we want this model to be maximally
+        # accurate, and we're not trying to use this as a guide for other 800-character
+        # models.
+
+        gridsearch_a_model(generalmetapath, sourcefolder, c_range,
+            featurestart, featureend, featurestep)
 
     elif command == 'test_decades':
 
@@ -439,7 +457,7 @@ if __name__ == '__main__':
                     floor = dec
                     ceiling = dec + 20
 
-                
+
                 for agender in ['m', 'f']:
                     modelname = agender + 'author' + '_' + str(dec)
                     for i in range(5):
@@ -488,7 +506,7 @@ if __name__ == '__main__':
                     for L2setting, accuracy in accuracydict.items():
                         f.write(str(meandate) + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
 
-    if command == 'optimize_authgender':
+    elif command == 'optimize_authgender':
 
         c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008, .03, 1]
         featurestart = 800

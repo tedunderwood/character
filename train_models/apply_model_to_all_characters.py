@@ -57,6 +57,8 @@ def write_a_chunk(chunk, metarows, modeldict, outpath, no_header_yet):
             row['probability'] = prob
             writer.writerow(row)
 
+    return no_header_yet
+
 def cycle_through(inpath, modeldict, outpath, no_header_yet):
 
     global forbidden
@@ -107,7 +109,7 @@ def cycle_through(inpath, modeldict, outpath, no_header_yet):
             metarows.append(newrow)
 
             if len(chunk) > 1000:
-                write_a_chunk(chunk, metarows, modeldict, outpath, no_header_yet)
+                no_header_yet = write_a_chunk(chunk, metarows, modeldict, outpath, no_header_yet)
                 chunk = []
                 metarows = []
                 print('writing ' + str(ctr))
