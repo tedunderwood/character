@@ -65,6 +65,11 @@ with open('aliasfile.tsv', encoding = 'utf-8') as f:
     for row in reader:
         aliases[row['alias']] = row['ourname']
 
+with open('aliases_in_filteredfic.tsv', encoding = 'utf-8') as f:
+    reader = csv.DictReader(f, delimiter = '\t')
+    for row in reader:
+        aliases[row['alias']] = row['ourname']
+
 # Let's start by identifying all stories in our metadata by
 # authors in the prestige dataset.
 
@@ -77,8 +82,13 @@ with open('aliasfile.tsv', encoding = 'utf-8') as f:
 
 def translate_aliases(aname):
     global aliases
+    if type(aname) != str:
+        return 'Anonymous'
+
     if aname in aliases:
         return aliases[aname]
+    elif aname.strip(',.) ]') in aliases:
+        return aliases[aname.strip(',.) ]')]
     else:
         return aname
 
@@ -86,8 +96,7 @@ def trim_to_24(aname):
     if type(aname) != str:
         return 'Anonymous'
 
-    aname = aname.strip('(),. .[0123456789]').lower()
-    aname = aname.replace('.', '')
+    aname = aname.strip('(),. .[0123456789]')
     if len (aname) > 24:
         return aname[0:24]
     else:
@@ -103,6 +112,7 @@ all_matches = set(metadata.trimmedauth)
 auth2story = dict()
 auth2gender = dict()
 auth_prestige_means = dict()
+auth_sales_means = dict()
 
 for a in known_authors:
     if a in all_matches:
@@ -113,19 +123,22 @@ for a in known_authors:
             authgender = authgender.iloc[0]
             auth2gender[a] = authgender
 
-    vol_predictions = prestige.loc[prestige.trimmedauth == a, 'logistic']
-    auth_prestige_means[a] = np.mean(vol_predictions)
+    auth_prestige_means[a] = np.mean(prestige.loc[prestige.trimmedauth == a, 'prestige'])
+    auth_sales_means[a] = np.mean(prestige.loc[prestige.trimmedauth == a, 'percentile'])
 
 
 # now let's get all the characters for each story
+print('Authors found:')
+print(len(auth2story))
 
-data = pd.read_csv(gender_prob_path, sep = '\t')
+data = pd.read_csv(gender_prob_path, sep = '\t', dtype = {'docid': 'object'})
 #loads characters
 
 storydates = dict()
 authorout = []
 storyout = []
 
+ctr = 0
 for a in known_authors:
     auth_prob_means = []
     auth_prob_diffs = []
@@ -137,6 +150,8 @@ for a in known_authors:
     auth_dates = []
 
     if a in auth2story:
+        ctr += 1
+        print(ctr)
         stories = auth2story[a]
 
         for s in stories:
@@ -231,10 +246,11 @@ for a in known_authors:
         authmeta['authgender'] = auth2gender[a]
         authmeta['mean_prestige'] = auth_prestige_means[a]
         authmeta['num_stories'] = len(auth_dates)
+        authmeta['mean_sales'] = auth_sales_means[a]
 
         authorout.append(authmeta)
 
-authorcolumns = ['author', 'num_stories', 'authgender', 'meandate', 'mean_prestige', 'numchars', 'charsize', 'pct_women', 'wordratio', 'prob_diff', 'prob_stdev', 'prob_mean']
+authorcolumns = ['author', 'num_stories', 'authgender', 'meandate', 'mean_prestige', 'mean_sales', 'numchars', 'charsize', 'pct_women', 'wordratio', 'prob_diff', 'prob_stdev', 'prob_mean']
 
 storycolumns = ['docid', 'author', 'authgender', 'pubdate', 'numchars', 'charsize', 'pct_women', 'wordratio','prob_diff', 'prob_stdev', 'prob_mean']
 
