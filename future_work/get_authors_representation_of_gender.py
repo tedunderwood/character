@@ -20,8 +20,8 @@
 #                  will be created
 
 # DEPENDENCIES:
-# it expects SonicScrewdriver.py and aliasfile.tsv to be in the
-# same directory.
+# it expects SonicScrewdriver.py, aliasfile.tsv, and aliases_in_filteredfic.tsv
+# to be in the same directory.
 
 # it also expects an enlarged version of filtered_fiction_metadata
 # (one that includes vols 1780-1799) to be in a sibling "metadata"
@@ -113,12 +113,18 @@ auth2story = dict()
 auth2gender = dict()
 auth_prestige_means = dict()
 auth_sales_means = dict()
+auth_reviewed = dict()
 
 for a in known_authors:
     if a in all_matches:
         stories = metadata.loc[metadata.trimmedauth == a, 'docid']
         auth2story[a] = list(set(stories))
         authgender = metadata.loc[metadata.trimmedauth == a, 'authgender']
+        num_reviews = prestige.loc[prestige.trimmedauth == a, 'reviews'].iloc[0]
+        if num_reviews > 0:
+            auth_reviewed[a] = 1
+        else:
+            auth_reviewed[a] = 0
         if len(authgender) > 0:
             authgender = authgender.iloc[0]
             auth2gender[a] = authgender
@@ -240,15 +246,16 @@ for a in known_authors:
         authmeta['charsize'] = np.nanmean(auth_charsize_means)
         authmeta['numchars'] = np.nanmean(auth_num_chars)
         authmeta['meandate'] = np.mean(auth_dates)
-        authmeta['author'] = a
+        authmeta['author'] = prestige.loc[prestige.trimmedauth == a, 'author'].iloc[0]
         authmeta['authgender'] = auth2gender[a]
         authmeta['mean_prestige'] = auth_prestige_means[a]
         authmeta['num_stories'] = len(auth_dates)
         authmeta['mean_sales'] = auth_sales_means[a]
+        authmeta['reviewed'] = auth_reviewed[a]
 
         authorout.append(authmeta)
 
-authorcolumns = ['author', 'num_stories', 'authgender', 'meandate', 'mean_prestige', 'mean_sales', 'numchars', 'charsize', 'pct_women', 'wordratio', 'prob_diff', 'weighted_diff', 'prob_stdev', 'prob_mean']
+authorcolumns = ['author', 'num_stories', 'reviewed', 'authgender', 'meandate', 'mean_prestige', 'mean_sales', 'numchars', 'charsize', 'pct_women', 'wordratio', 'prob_diff', 'weighted_diff', 'prob_stdev', 'prob_mean']
 
 storycolumns = ['docid', 'author', 'title', 'authgender', 'pubdate', 'numchars', 'charsize', 'pct_women', 'wordratio','prob_diff', 'weighted_diff', 'prob_stdev', 'prob_mean']
 
