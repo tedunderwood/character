@@ -106,7 +106,7 @@ for key, docid in fallbackdocids.items():
 
 # now let's get all the characters for each story
 
-data = pd.read_csv('prestige_character_probabilities.tsv', sep = '\t', dtype = {'docid': 'object'})
+data = pd.read_csv('gender_probabilities.tsv', sep = '\t', dtype = {'docid': 'object'})
 #loads characters
 
 storyout = []

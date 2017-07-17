@@ -16,4 +16,10 @@ code
 
 Then **get_authors_representation_of_gender.py** aggregates those predictions for particular novels and authors.
 
+data
+----
+**pairedwithprestige.csv** is author-level data derived from the inquiry into reviewing and sales in chapter three.
+
 **aliasfile.tsv** is used for matching author names; it addresses pseudonyms, but also differences of spelling, spacing, initials, etc. Is not designed to be universal; it's produced specifically to capture variations for authors included in Underwood's model of prestige in fiction.
+
+**aliases_in_filteredfic.tsv** is the same kind of thing, produced specifically by **namematcher.py**, which tries to match authors in **fiction_prestige_results.csv** to **../metadata/filtered_fiction_plus_18c.tsv**
