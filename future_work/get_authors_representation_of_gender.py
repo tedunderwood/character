@@ -117,7 +117,7 @@ auth_sales_means = dict()
 for a in known_authors:
     if a in all_matches:
         stories = metadata.loc[metadata.trimmedauth == a, 'docid']
-        auth2story[a] = list(stories)
+        auth2story[a] = list(set(stories))
         authgender = metadata.loc[metadata.trimmedauth == a, 'authgender']
         if len(authgender) > 0:
             authgender = authgender.iloc[0]
@@ -148,6 +148,7 @@ for a in known_authors:
     auth_charsize_means = []
     auth_num_chars = []
     auth_dates = []
+    auth_weighted_diffs = []
 
     if a in auth2story:
         ctr += 1
@@ -156,44 +157,37 @@ for a in known_authors:
 
         for s in stories:
             story_probs = dict()
-            undifferentiated_probs = []
             story_genders = Counter()
             story_words = Counter()
-            charsizes = []
             storymeta = dict()    # initialize the output record
+            thistitle = metadata.loc[metadata.docid == s, 'title'].iloc[0]
 
-            chars = data.loc[data.docid == s, : ]
-            for i in chars.index:
-                num_words = int(chars.loc[i, 'numwords'])
-                if num_words < 15:
-                    continue
-                else:
-                    charsizes.append(num_words)
+            chars = data.loc[(data.docid == s) & (data.numwords > 10), : ]
+            if len(chars.pubdate) > 0:
 
-                prob_feminine = chars.loc[i, 'probability']
-                actual_gender = chars.loc[i, 'gender']
-                storymeta['pubdate'] = chars.loc[i, 'pubdate']
-                # that will happen redundantly, but wth
+                charsizes = chars.numwords
+                undifferentiated_probs = chars.probability
+                storymeta['pubdate'] = chars.pubdate.iloc[0]
+                femininechars = chars.loc[chars.gender == 'f', : ]
+                masculinechars = chars.loc[chars.gender == 'm', : ]
+                story_genders['f'] = len(femininechars.index)
+                story_genders['m'] = len(masculinechars.index)
+                story_words['f'] = np.sum(femininechars.numwords)
+                story_words['m'] = np.sum(masculinechars.numwords)
+                story_probs['f'] = femininechars.probability
+                story_probs['m'] = masculinechars.probability
 
-                story_words[actual_gender] += num_words
-                story_genders[actual_gender] += 1
-                if actual_gender not in story_probs:
-                    story_probs[actual_gender] = []
-                story_probs[actual_gender].append(prob_feminine)
-                undifferentiated_probs.append(prob_feminine)
-
-            # now compute summary statistics for all characters
-            # unless there were none!
-
-            if len(chars.index) < 1 or 'pubdate' not in storymeta:
+            else:
                 continue
 
             prob_mean = np.mean(undifferentiated_probs)
 
             if story_genders['f'] > 0 and story_genders['m'] > 0:
                 prob_diff = np.mean(story_probs['f']) - np.mean(story_probs['m'])
+                weighted_diff = np.average(femininechars.probability, weights = femininechars.numwords) - np.average(masculinechars.probability, weights = masculinechars.numwords)
             else:
                 prob_diff = float('nan')
+                weighted_diff = float('nan')
 
             prob_stdev = np.std(undifferentiated_probs)
 
@@ -213,6 +207,8 @@ for a in known_authors:
             auth_prob_stdev.append(prob_stdev)
             storymeta['prob_diff'] = prob_diff
             auth_prob_diffs.append(prob_diff)
+            storymeta['weighted_diff'] = weighted_diff
+            auth_weighted_diffs.append(weighted_diff)
             storymeta['wordratio'] = wordratio
             auth_wordratios.append(wordratio)
             storymeta['pct_women'] = charratio
@@ -222,6 +218,7 @@ for a in known_authors:
             storymeta['numchars'] = len(charsizes)
             auth_num_chars.append(len(charsizes))
             storymeta['author'] = a
+            storymeta['title'] = thistitle
             storymeta['authgender'] = auth2gender[a]
             storymeta['docid'] = s
             auth_dates.append(storymeta['pubdate'])
@@ -237,6 +234,7 @@ for a in known_authors:
         authmeta['prob_mean'] = np.nanmean(auth_prob_means)  # we drop nans
         authmeta['prob_stdev'] = np.nanmean(auth_prob_stdev)  # for all these
         authmeta['prob_diff'] = np.nanmean(auth_prob_diffs)
+        authmeta['weighted_diff'] = np.nanmean(auth_weighted_diffs)
         authmeta['wordratio'] = np.nanmean(auth_wordratios)
         authmeta['pct_women'] = np.nanmean(auth_charratios)
         authmeta['charsize'] = np.nanmean(auth_charsize_means)
@@ -250,9 +248,9 @@ for a in known_authors:
 
         authorout.append(authmeta)
 
-authorcolumns = ['author', 'num_stories', 'authgender', 'meandate', 'mean_prestige', 'mean_sales', 'numchars', 'charsize', 'pct_women', 'wordratio', 'prob_diff', 'prob_stdev', 'prob_mean']
+authorcolumns = ['author', 'num_stories', 'authgender', 'meandate', 'mean_prestige', 'mean_sales', 'numchars', 'charsize', 'pct_women', 'wordratio', 'prob_diff', 'weighted_diff', 'prob_stdev', 'prob_mean']
 
-storycolumns = ['docid', 'author', 'authgender', 'pubdate', 'numchars', 'charsize', 'pct_women', 'wordratio','prob_diff', 'prob_stdev', 'prob_mean']
+storycolumns = ['docid', 'author', 'title', 'authgender', 'pubdate', 'numchars', 'charsize', 'pct_women', 'wordratio','prob_diff', 'weighted_diff', 'prob_stdev', 'prob_mean']
 
 outpath = os.path.join(outdir, 'storymeta.tsv')
 with open(outpath, mode = 'w', encoding = 'utf-8') as f:

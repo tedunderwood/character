@@ -97,9 +97,9 @@ for a in goodset:
 
         elif asegment in b:
             unmatch = checkmatch(a, b)
-            if unmatch < 2:
+            if unmatch < 3:
                 allmatches.append((b, a))
-            elif unmatch == 2:
+            elif unmatch == 3:
                 allfails.append((b, a))
 
 with open('genres_in_filteredfic.tsv', mode = 'w', encoding = 'utf-8') as f:

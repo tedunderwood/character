@@ -13,10 +13,16 @@
 
 # where
 # model.pkl      is the model to be applied
-# datafolder     is where character_table_18c19c.tsv
-#                and character_table_post1900.tsv are living
+# datafile       the character_table to be processed
 # outpath        is the name of the file to be written; for me,
-#                character_probabilities.tsv
+#                gender_probabilities.tsv
+
+# what I actually did (pairing models with appropriate tables)
+
+# 1) python apply_model_to_characters.py modelsused/fifty1780-1850.pkl /Users/tunder/data/character_table_pre1850.tsv gender_probabilities.tsv
+# 2) python apply_model_to_characters.py modelsused/fifty1850-1899.pkl /Users/tunder/data/character_table_1850to99.tsv gender_probabilities.tsv
+# 3) python apply_model_to_characters.py modelsused/fifty1900-1949.pkl /Users/tunder/data/character_table_1900to1949.tsv gender_probabilities.tsv
+# 4) python apply_model_to_characters.py modelsused/fiftypost1950.pkl /Users/tunder/data/character_table_post1950.tsv gender_probabilities.tsv
 
 import numpy as np
 import pandas as pd
@@ -116,7 +122,7 @@ def cycle_through(inpath, modeldict, outpath, no_header_yet):
             chunk.append(wordvec)
             metarows.append(newrow)
 
-            if len(chunk) > 1000:
+            if len(chunk) > 10000:
                 no_header_yet = write_a_chunk(chunk, metarows, modeldict, outpath, no_header_yet)
                 chunk = []
                 metarows = []
@@ -134,18 +140,17 @@ def cycle_through(inpath, modeldict, outpath, no_header_yet):
 args = sys.argv
 
 modelpath = args[1]
-datafolder = args[2]
+sourcedata = args[2]
 outpath = args[3]
 
-no_header_yet = True
+if os.path.exists(outpath):
+    no_header_yet = False
+else:
+    no_header_yet = True
 
 modeldict = get_model(modelpath)
 
-# process first character table
-inpath = os.path.join(datafolder, 'character_table_18c19c.tsv')
-no_header_yet = cycle_through(inpath, modeldict, outpath, no_header_yet)
-
-inpath = os.path.join(datafolder, 'character_table_post1900.tsv')
-no_header_yet = cycle_through(inpath, modeldict, outpath, no_header_yet)
+# process character table
+no_header_yet = cycle_through(sourcedata, modeldict, outpath, no_header_yet)
 
 
