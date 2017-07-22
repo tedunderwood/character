@@ -25,6 +25,7 @@ import csv, os, sys, pickle, math, tarfile
 import versatiletrainer as train
 import pandas as pd
 import numpy as np
+from scipy.stats import pearsonr
 
 def select_subset_to_model(modelname, metadatapath, numexamples, startdate, enddate):
     '''
@@ -179,7 +180,7 @@ def crossvalidate_one_model(metadatapath, sourcefolder, c_range, ftstart, ftend,
     excludeabove = dict()
     excludebelow = dict()
 
-    sizecap = 1000
+    sizecap = 2000
 
     # CLASSIFY CONDITIONS # not used in this project
 
@@ -254,15 +255,25 @@ def crossvalidate_across_L2_range(metadatapath, sourcefolder, c_range, ftstart, 
     return accuracydict
 
 
-def applymodel():
-    modelpath = input('Path to model? ')
-    sourcefolder = '/Users/tunder/Dropbox/GenreProject/python/reception/fiction/fromEF'
+def applymodel(modelpath, metapath, outpath):
+    ''' This function applies a specified model (modelpath) to a specified
+    metadata set (metapath), and sends the results to outpath.
+    '''
+
+    sourcefolder = '/Users/tunder/data/character_subset/'
     extension = '.tsv'
-    metadatapath = '/Users/tunder/Dropbox/GenreProject/python/reception/fiction/prestigeficmeta.csv'
+    metadatapath = metapath = '../metadata/balanced_character_subset.csv'
     newmetadict = train.apply_pickled_model(modelpath, sourcefolder, extension, metadatapath)
     print('Got predictions for that model.')
-    outpath = '/Users/tunder/Dropbox/GenreProject/python/reception/poetryEF/mergedmeta.csv'
     newmetadict.to_csv(outpath)
+
+def correlate_models(firstpath, secondpath):
+    one = pd.read_csv(firstpath, index_col = 'docid')
+    two = pd.read_csv(secondpath, index_col = 'docid')
+    justpredictions = pd.concat([one['logistic'], two['logistic']], axis=1, keys=['one', 'two'])
+    justpredictions.dropna(inplace = True)
+    r, p = pearsonr(justpredictions.one, justpredictions.two)
+    return r
 
 def comparison(selfmodel, othermodel, modelname):
 
@@ -318,17 +329,17 @@ if __name__ == '__main__':
         gridsearch_a_model(generalmetapath, sourcefolder, c_range,
             featurestart, featureend, featurestep)
 
-    if command == 'optimize_model_1850_1950':
+    if command == 'optimize_fifty_years':
 
         # this option creates a model that can be used for comparison to
         # the model of fictional prestige, which spans only 1850-1950
 
-        c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008, 0.1]
-        featurestart = 1000
-        featureend = 3200
-        featurestep = 100
+        c_range = [.0001]
+        featurestart = 2450
+        featureend = 2700
+        featurestep = 50
 
-        generalmetapath, general_docids = select_subset_to_model('compare_to_prestige_1850_to_1950', metapath, numexamples = 1500, startdate = 1850, enddate = 1951)
+        generalmetapath, general_docids = select_subset_to_model('fiftypost1950', metapath, numexamples = 1500, startdate = 1950, enddate = 2050)
 
         # The number of examples is higher here, because we want this model to be maximally
         # accurate, and we're not trying to use this as a guide for other 800-character
@@ -385,15 +396,15 @@ if __name__ == '__main__':
         gridsearch_a_model(generalmetapath, sourcefolder, c_range,
             featurestart, featureend, featurestep)
 
-    elif command == 'optimize_decade':
+    elif command == 'optimize_thirty':
         decade = int(args[2])
         c_range = [.000003, .00001, .00003, .00009, .0003, .0009, .002, .004, .008]
-        featurestart = 1100
-        featureend = 3100
+        featurestart = 1900
+        featureend = 3000
         featurestep = 100
-        modelname = 'optimal' + str(decade)
+        modelname = 'optimalthirty' + str(decade)
         generalmetapath, general_docids = select_subset_to_model(modelname, metapath,
-            numexamples = 800, startdate = decade, enddate = decade+10)
+            numexamples = 1500, startdate = decade - 10, enddate = decade + 20)
 
         gridsearch_a_model(generalmetapath, sourcefolder, c_range,
             featurestart, featureend, featurestep)
@@ -429,6 +440,31 @@ if __name__ == '__main__':
                     accuracydict = crossvalidate_across_L2_range(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
                     for L2setting, accuracy in accuracydict.items():
                         f.write(str(dec) + '\t' + str(L2setting) + '\t' + str(accuracy) + '\t' + str(i) + '\n')
+
+    elif command == 'decade_grid_for_differentiation_plot':
+
+        # This is the function I finally used. Keeps the number of features
+        # fixed at 2200, but generates a new lexicon for each decade (and each
+        # sample of 800 characters within the decade). Tests each decade at
+        # multiple L2 settings, and records them all, so we can take the
+        # optimal setting but also figure out how much of a difference that's
+        # making.
+
+        c_range = [.0001]
+        featurestart = 2300
+        featureend = 2300
+        featurestep = 100
+
+
+        for dec in range (1790, 2010, 10):
+            floor = dec - 10
+            ceiling = dec + 20
+
+            modelname = 'thirty' + str(dec)
+            decademetapath, docids = select_subset_to_model(modelname, metapath, numexamples = 1500,
+                startdate = floor, enddate = ceiling)
+            accuracy = crossvalidate_one_model(decademetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
+            print(str(dec) + '\t' + str(accuracy) + '\n')
 
     elif command == 'auth_specific_charpredict_grid':
 
@@ -521,6 +557,70 @@ if __name__ == '__main__':
 
         gridsearch_a_model(generalmetapath, sourcefolder, c_range,
             featurestart, featureend, featurestep)
+
+    elif command == 'onlywomenwriters':
+
+        c_range = [.0003]
+        featurestart = 2500
+        featureend = 2600
+        featurestep = 100
+
+        womensmetapath, docids = authgender_subset_to_model('onlywomenwritersC', 'f', metapath, numexamples = 1500, startdate = 1800, enddate = 2000)
+
+        gridsearch_a_model(womensmetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
+
+    elif command == 'onlymalewriters':
+
+        c_range = [.0003]
+        featurestart = 2500
+        featureend = 2600
+        featurestep = 100
+
+        womensmetapath, docids = authgender_subset_to_model('onlymalewritersC', 'm', metapath, numexamples = 1500, startdate = 1800, enddate = 2000)
+
+        gridsearch_a_model(womensmetapath, sourcefolder, c_range, featurestart, featureend, featurestep)
+
+    elif command == 'compare_models':
+        men = ['onlymalewriters', 'onlymalewritersB', 'onlymalewritersC']
+        women = ['onlywomenwriters', 'onlywomenwritersB', 'onlywomenwritersC']
+        # test_subset_path, test_docids = select_subset_to_model('test_metadata', metapath, numexamples = 1000, startdate = 1800, enddate = 2000)
+        test_subset_path = '../models/test_metadata_meta.csv'
+        generaloutpath = '/Users/tunder/Dropbox/python/character/future_work/appliedmodels/'
+        masculineperspective = []
+        feminineperspective = []
+        for m in men:
+            modelpath = '../models/' + m + '.pkl'
+            outpath = generaloutpath + m + '.results'
+            if not os.path.exists(outpath):
+                applymodel(modelpath, test_subset_path, outpath)
+            masculineperspective.append(outpath)
+        for w in women:
+            modelpath = '../models/' + w + '.pkl'
+            outpath = generaloutpath + w + '.results'
+            if not os.path.exists(outpath):
+                applymodel(modelpath, test_subset_path, outpath)
+            feminineperspective.append(outpath)
+        print('among men:')
+        r = []
+        r.append(correlate_models(masculineperspective[0], masculineperspective[1]))
+        r.append(correlate_models(masculineperspective[1], masculineperspective[2]))
+        r.append(correlate_models(masculineperspective[0], masculineperspective[2]))
+        print(sum(r) / len(r))
+        print('among women:')
+        r = []
+        r.append(correlate_models(feminineperspective[0], feminineperspective[1]))
+        r.append(correlate_models(feminineperspective[1], feminineperspective[2]))
+        r.append(correlate_models(feminineperspective[0], feminineperspective[2]))
+        print(sum(r) / len(r))
+        print('between genders:')
+        r = []
+        r.append(correlate_models(masculineperspective[0], feminineperspective[0]))
+        r.append(correlate_models(masculineperspective[1], feminineperspective[0]))
+        r.append(correlate_models(masculineperspective[1], feminineperspective[1]))
+        r.append(correlate_models(masculineperspective[1], feminineperspective[2]))
+        r.append(correlate_models(masculineperspective[0], feminineperspective[2]))
+        r.append(correlate_models(masculineperspective[2], feminineperspective[2]))
+        print(sum(r) / len(r))
 
     else:
         print("I don't know that command.")

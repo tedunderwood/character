@@ -985,7 +985,7 @@ def apply_pickled_model(amodelpath, folder, extension, metapath):
     probabilities = pd.Series(probabilities, index = resultindex)
     # we index the results using the volumes we actually found
 
-    metadata[modelname] = probabilities
+    metadata['logistic'] = probabilities
     # indexes will automatically align, putting NaN for any vols
     # not found
 
