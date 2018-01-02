@@ -1,7 +1,7 @@
 Research on characterization
 ============================
 
-Repo containing code and data for research on characterization to be published as "The Transformation of Gender in English-Language Fiction, 1780-2007," Ted Underwood, David Bamman, and Sabrina Lee, 2017. 
+Repo containing code and data for research on characterization to be published as "The Transformation of Gender in English-Language Fiction," Ted Underwood, David Bamman, and Sabrina Lee, 2018. 
 
 The original texts of many volumes are under copyright, and couldn't be shared even if the size limits of this repository permitted. So we are sharing derived data, plus metadata which would allow a researcher to retrieve those original texts from HathiTrust Research Center.
 
@@ -13,7 +13,7 @@ or understand how it was produced, it may be simplest to start with the **images
 
 If you want to understand the underlying data,
 ----------------------------------------------
-The most complete derived data (that we can legally share) are tabular representations of the words associated with individual characters: character_table_18c19c.tsv and character_table_post1900.tsv. At 4GB total, these are too big for this repository and will be made available elsewhere. (Dataverse and/or institutional repo.) They include words from dialogue as well as words grammatically associated with character names, but the dialogue is not used in most of the subsequent analysis here. (In these tables, words used in dialogue are distinguished by the prefix "said-.")
+The most complete derived data (that we can legally share) are tabular representations of the words associated with individual characters: character_table_18c19c.tsv and character_table_post1900.tsv. At 4GB total, these are too big for this repository and will be made available separately in the Cultural Analytics Dataverse. They include words from dialogue as well as words grammatically associated with character names, but the dialogue is not used in most of the subsequent analysis here. (In these tables, words used in dialogue are distinguished by the prefix "said-.")
 
 Much of the analysis of publishing trends in the first part of the article can be reproduced using **filtered_fiction_metadata.csv** in the **metadata** subdirectory. The scripts to reproduce that analysis are under **/plot_scripts**; the most important is **gender_plots.py**.
 
