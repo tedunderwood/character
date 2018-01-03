@@ -6,7 +6,7 @@ A guide to a couple of key data files.
 the character tables
 --------------------
 
-The raw character tables in the Dataverse repository are tab-separated files with one character per line.
+The raw character tables in the Dataverse repository (character_table_18c19c.tsv and character_table_post1900.tsv) are tab-separated files with one "character" per line.
 
 **docid** is keyed to **docid** in filtered_fiction_metadata (in the code repository). Note that this will not be a HathiTrust volume ID before 1900. Because multivolume novels were so common in the 19c, I grouped multiple HT volids per docid.
 
