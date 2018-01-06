@@ -13,7 +13,7 @@ This is, however, a sprawling project that developed over the course of two year
 
 If you want to reproduce a specific figure,
 ------------------------------------------
-or understand how it was produced, it may be simplest to start with the **images** folder--which contains the images used as figures, with links to the scripts that produced each one.
+or understand how it was produced, it may be simplest to start with the [**images**](https://github.com/tedunderwood/character/tree/master/images) folder--which contains the images used as figures, with links to the scripts that produced each one.
 
 If you want to understand the underlying data,
 ----------------------------------------------
