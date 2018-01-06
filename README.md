@@ -3,7 +3,7 @@ Research on characterization
 
 Repo containing code and data for research on characterization to be published as 
 
-    Ted Underwood, David Bamman, and Sabrina Lee, "The Transformation of Gender in English-Language Fiction," *Cultural Analytics*,  2018. 
+Ted Underwood, David Bamman, and Sabrina Lee, "The Transformation of Gender in English-Language Fiction," *Cultural Analytics*,  2018. 
 
 The original texts of many volumes are under copyright, and couldn't be shared even if the size limits of this repository permitted. So we are sharing derived data, plus metadata which would allow a researcher to retrieve those original texts from HathiTrust Research Center.
 
