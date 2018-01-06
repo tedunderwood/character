@@ -1,11 +1,15 @@
 Research on characterization
 ============================
 
-Repo containing code and data for research on characterization to be published as "The Transformation of Gender in English-Language Fiction," Ted Underwood, David Bamman, and Sabrina Lee, 2018. 
+Repo containing code and data for research on characterization to be published as 
+
+    Ted Underwood, David Bamman, and Sabrina Lee, "The Transformation of Gender in English-Language Fiction," *Cultural Analytics*,  2018. 
 
 The original texts of many volumes are under copyright, and couldn't be shared even if the size limits of this repository permitted. So we are sharing derived data, plus metadata which would allow a researcher to retrieve those original texts from HathiTrust Research Center.
 
-In a perfect world, a single script would take the analysis all the way from raw data to finished visualization. This is, however, a sprawling project that developed over the course of two years. The underlying data expanded and changed several times while we were working. The analysis is mostly done in Python, and the final stage of visualization in R. So there are admittedly some rough edges to reproducibility here: readers who want to reproduce images will usually have to retrace several steps.
+In a perfect world, a single script would take the analysis all the way from raw data to finished visualization with the push of a button. 
+
+This is, however, a sprawling project that developed over the course of two years. The underlying data expanded and changed several times while we were working. The analysis is mostly done in Python, and the final stage of visualization in R. So there are admittedly some rough edges to reproducibility here: readers who want to reproduce images will usually have to retrace several steps.
 
 If you want to reproduce a specific figure,
 ------------------------------------------
@@ -13,7 +17,9 @@ or understand how it was produced, it may be simplest to start with the **images
 
 If you want to understand the underlying data,
 ----------------------------------------------
-The most complete derived data (that we can legally share) are tabular representations of the words associated with individual characters: character_table_18c19c.tsv and character_table_post1900.tsv. At 4GB total, these are too big for this repository and will be made available separately in the Cultural Analytics Dataverse. They include words from dialogue as well as words grammatically associated with character names, but the dialogue is not used in most of the subsequent analysis here. (In these tables, words used in dialogue are distinguished by the prefix "said-.")
+A good initial starting place is the [**error**](https://github.com/tedunderwood/character/tree/master/error) folder in this repository, which describes and documents some likely sources of error.
+
+If you actually want to get at the raw data for your own purposes, the most complete derived data (that we can legally share) are tabular representations of the words associated with individual characters: character_table_18c19c.tsv and character_table_post1900.tsv. At 4GB total, these are too big for this repository and will be made available separately in the Cultural Analytics Dataverse. The tables include words from dialogue as well as words grammatically associated with character names, but the dialogue is not used in most of the subsequent analysis here. (In the tables, words used in dialogue are distinguished by the prefix "said-.")
 
 Much of the analysis of publishing trends in the first part of the article can be reproduced using **filtered_fiction_metadata.csv** in the **metadata** subdirectory. The scripts to reproduce that analysis are under **/plot_scripts**; the most important is **gender_plots.py**.
 
@@ -21,7 +27,7 @@ We also used data from the Chicago Text Lab as a contrastive touchstone in sever
 
 If you want to reproduce predictive modeling,
 ---------------------------------------------
-Most of the modeling was run on a subset of 84,000 characters balanced to have (where possible) 2000 characters with masculine names and 2000 characters with feminine names for each decade. (Total numbers are slightly lower in the late 18c; note also that 1780-1799 have been aggregated and treated as a single decade.) Characters were selected so that the median description length for a character was as close as possible to 54 words for both genders, in each decade. The data we used is in this repo as **balanced_character_subset.tar.gz.**
+Most of the modeling was run on a subset of 84,000 characters balanced to have (where possible) 2000 characters with masculine names and 2000 characters with feminine names for each decade. (Total numbers are slightly lower in the late 18c; note also that 1780-1799 have been aggregated and treated as a single decade.) Characters were selected so that the median description length for a character was as close as possible to 54 words for both genders, in each decade. The data we used is in the top level of this repo repo as **balanced_character_subset.tar.gz.**
 
 If you want to reproduce the selection process itself, you would need to run **select_balanced_subset.py** in the **tranform_data** directory. Alternatively, you could work with the **balanced_character_subset.tar.gz** provided here (which is the subset of 84,000 we actually used). Unpack that, and run **reproduce_character_models.py** in the **train_models** subdirectory. See that script for usage instructions.
 
